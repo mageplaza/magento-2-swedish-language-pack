@@ -309,7 +309,7 @@ Error,Error,module,Magento_AsynchronousOperations
 "Order saving error: %1","Fel i sparandet av ordern %1",module,Magento_Authorizenet
 "Please choose a payment method.","Välj en betalningsmetod.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Vi kan inte behandla din beställning just nu. Försök igen senare.",module,Magento_Authorizenet
-"An error occurred on the server. Please try to place the order again.","An error occurred on the server. Please try to place the order again.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","Ett fel uppstod på servern. Försök att lägga beställningen igen.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Kreditkort: xxxx-%1",module,Magento_Authorizenet
 "amount %1","belopp %1",module,Magento_Authorizenet
 failed.,misslyckades.,module,Magento_Authorizenet
@@ -339,7 +339,7 @@ void,void,module,Magento_Authorizenet
 "Authorize and Capture","auktorisera och fånga",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Det går inte att få information om transaktionen. Försök igen senare.",module,Magento_Authorizenet
 "Credit Card Type",Kreditkortstyp,module,Magento_Authorizenet
-"Please Select","Please Select",module,Magento_Authorizenet
+"Please Select","Vänligen välj",module,Magento_Authorizenet
 "Credit Card Number",Kreditkortsnummer,module,Magento_Authorizenet
 "Expiration Date",Utgångsdatum,module,Magento_Authorizenet
 "Card Verification Number","Verifikationsnummer för kort",module,Magento_Authorizenet
@@ -350,7 +350,7 @@ void,void,module,Magento_Authorizenet
 "CAVV Response","CAVV svar",module,Magento_Authorizenet
 "Fraud Filters","Bedrägeri filter",module,Magento_Authorizenet
 "Place Order",Beställ,module,Magento_Authorizenet
-"Sorry, but something went wrong. Please contact the seller.","Sorry, but something went wrong. Please contact the seller.",module,Magento_Authorizenet
+"Sorry, but something went wrong. Please contact the seller.","Tyvärr, något gick fel. Kontakta affären.",module,Magento_Authorizenet
 "Authorize.net Direct Post","Authorize.net direkt Post",module,Magento_Authorizenet
 Enabled,På,module,Magento_Authorizenet
 "Payment Action","Betalning åtgärd",module,Magento_Authorizenet
@@ -1529,7 +1529,7 @@ Catalog,Katalog,module,Magento_Catalog
 "You saved the product attribute.","Du sparade produktens attribut.",module,Magento_Catalog
 "An attribute with this code already exists.","Ett attribut med denna kod existerar redan.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Ett attribut med samma kod (%1) existerar redan.",module,Magento_Catalog
-"The value of Admin must be unique.","The value of Admin must be unique.",module,Magento_Catalog
+"The value of Admin must be unique.","Värdet för Admin måste vara unikt.",module,Magento_Catalog
 "You duplicated the product.","Du duplicerade produkten",module,Magento_Catalog
 "This product doesn't exist.","Denna produkt existerar inte.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Ogiltigt produkt-id. Bör vara ett numeriskt värde större än 0",module,Magento_Catalog
@@ -1688,24 +1688,24 @@ px.,px.,module,Magento_Catalog
 "Some of the selected item options are not currently available.","Några av de markerade objektalternativ är ej tillgängliga.",module,Magento_Catalog
 "The text is too long.","Texten är för lång.",module,Magento_Catalog
 "Invalid attribute %fieldName = %fieldValue.","Ogiltigt attribut %fieldName = %fieldValue.",module,Magento_Catalog
-"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.","Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.",module,Magento_Catalog
-"Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.",module,Magento_Catalog
+"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.","Önskade butik finns inte. Rad-ID: SKU = %SKU, Store-ID: %storeId.",module,Magento_Catalog
+"Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Ogiltigt attribut kostnad = %cost. Rad-ID: SKU = %SKU, Store-ID: %storeId.",module,Magento_Catalog
 "Could not save Prices.","Kunde inte spara priser.",module,Magento_Catalog
 "Could not delete Prices","Kunde inte ta bort priser",module,Magento_Catalog
-"Requested product doesn't exist. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Requested product doesn't exist. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.",module,Magento_Catalog
-"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.",module,Magento_Catalog
-"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.",module,Magento_Catalog
-"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.",module,Magento_Catalog
-"Could not save Tier Prices","Could not save Tier Prices",module,Magento_Catalog
-"Could not replace Tier Prices","Could not replace Tier Prices",module,Magento_Catalog
-"Could not delete Tier Prices","Could not delete Tier Prices",module,Magento_Catalog
-"Invalid attribute SKU = %SKU. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Invalid attribute SKU = %SKU. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
-"Invalid attribute Price = %price. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Invalid attribute Price = %price. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
-"Invalid attribute Price Type = %priceType. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Invalid attribute Price Type = %priceType. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
-"Invalid attribute Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Invalid attribute Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
-"Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
-"We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
-"No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.",module,Magento_Catalog
+"Requested product doesn't exist. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Begärd produkt existerar inte. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo.",module,Magento_Catalog
+"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Begärd produkt existerar inte. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo.",module,Magento_Catalog
+"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ogiltigt attribut %label = %priceTo. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo.",module,Magento_Catalog
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ogiltigt attribut Pris = %price. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo.",module,Magento_Catalog
+"Could not save Tier Prices","Kunde inte spara Gruppris",module,Magento_Catalog
+"Could not replace Tier Prices","Kunde inte ersätta Gruppris",module,Magento_Catalog
+"Could not delete Tier Prices","Kunde inte ta bort Gruppriser",module,Magento_Catalog
+"Invalid attribute SKU = %SKU. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ogiltigt attribut SKU = %SKU. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ogiltigt attribut Pris = %price. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
+"Invalid attribute Price Type = %priceType. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ogiltigt attribut Pristyp = %priceType. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
+"Invalid attribute Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ogiltigt attribut Kvantitet = %qty. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
+"Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ogiltigt attribut Webbplats-ID = % websiteId. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Vi hittade en dubblett webbplats, tier pris, kundgrupp och kvantitet: kundgrupp = %customerGroup, webbplats-ID = % websiteId, kvantitet = %qty. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
+"No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ingen sådan enhet med Gundgrupp = %customerGroup. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty.",module,Magento_Catalog
 "This product doesn't have tier price","This product doesn't have tier price",module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3",module,Magento_Catalog
 "Invalid data provided for tier_price","Ogiltiga data för tier_price",module,Magento_Catalog
@@ -1736,8 +1736,8 @@ Search,Sök,module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","Produkt med artikelnummer ""%1"" existerar inte",module,Magento_Catalog
 "Invalid product data: %1","Ogiltig produktdata: %1",module,Magento_Catalog
 "Database connection error",Databasanslutningsfel,module,Magento_Catalog
-"Database deadlock found when trying to get lock","Database deadlock found when trying to get lock",module,Magento_Catalog
-"Database lock wait timeout exceeded","Database lock wait timeout exceeded",module,Magento_Catalog
+"Database deadlock found when trying to get lock","Databas dödläge hittades när man försöker erhålla lås",module,Magento_Catalog
+"Database lock wait timeout exceeded","Väntan för att erhålla lås för databasen överskreds",module,Magento_Catalog
 "Unable to remove product %1","Det gick inte att ta bort produkt %1",module,Magento_Catalog
 "There are not websites for assign to product","Det finns inte webbplatser för att tilldela produkten",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Kunde inte tilldela produkten ""%1"" till webbplatser ""%2""",module,Magento_Catalog
@@ -1745,7 +1745,7 @@ Search,Sök,module,Magento_Catalog
 "We cannot determine the field name.","Vi kan inte avgöra fältnamnet.",module,Magento_Catalog
 "Attribute '%1' is locked. %2","Attribute '%1' is locked. %2",module,Magento_Catalog
 "Do not change the scope. %1","Ändra inte omfattningen. %1",module,Magento_Catalog
-"Processor %1 doesn't implement BaseSelectProcessorInterface","Processor %1 doesn't implement BaseSelectProcessorInterface",module,Magento_Catalog
+"Processor %1 doesn't implement BaseSelectProcessorInterface","Processor %1 implementerar inte BaseSelectProcessorInterface",module,Magento_Catalog
 "A product type is not defined for the indexer.","Produkttypen är inte definierad för indexeraren.",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Produkt med artikelnummer '%1' är inte kopplad till produkten med artikelnummer '%2'",module,Magento_Catalog
@@ -1754,11 +1754,11 @@ Dropdown,Dropdown,module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 doesn't extend \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Så lågt som",module,Magento_Catalog
 test,test,module,Magento_Catalog
-"Could not get extension attributes","Could not get extension attributes",module,Magento_Catalog
+"Could not get extension attributes","Kunde inte få extension attribut",module,Magento_Catalog
 message,meddelande,module,Magento_Catalog
 "Some exception","Något undantag",module,Magento_Catalog
 fl,fl,module,Magento_Catalog
-"Lock wait timeout","Lock wait timeout",module,Magento_Catalog
+"Lock wait timeout","Väntan för lås överskreds",module,Magento_Catalog
 123,123,module,Magento_Catalog
 Images,Bilder,module,Magento_Catalog
 Select...,Välj...,module,Magento_Catalog
@@ -1805,7 +1805,7 @@ Thumbnail,Tumnagel,module,Magento_Catalog
 Actions,Åtgärder,module,Magento_Catalog
 "Schedule Update From","Schemalägg uppdatering från",module,Magento_Catalog
 "Product in Websites","Produkt i webbplatser",module,Magento_Catalog
-"If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.",module,Magento_Catalog
+"If your Magento installation has multiple websites, you can edit the scope to use the product on specific sites.","Om din Magento-installation har flera webbplatser, kan du redigera tillämpningsområdet till att använda produkten på specifika platser.",module,Magento_Catalog
 name,namn,module,Magento_Catalog
 "Copy Data from","Kopiera data från",module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Om det inte finns några anpassade föräldrakategorier, använd standard förälder-katalogen. Du kan redigera kategorins tillhörighet närsomhelst i <a href=""%1"" target=""_blank"">Produkter &gt; Kategorier</a>.",module,Magento_Catalog
@@ -1825,7 +1825,7 @@ Groups,Grupper,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","Denna grupp innehåller systemattribut. Vänligen flytta systemattribut till en annan grupp och försök igen.",module,Magento_Catalog
 "Please select a node.","Välj en nod.",module,Magento_Catalog
 "Please enter a new group name.","Ange ett nytt gruppnamn.",module,Magento_Catalog
-"An attribute group named ""/name/"" already exists.","An attribute group named ""/name/"" already exists.",module,Magento_Catalog
+"An attribute group named ""/name/"" already exists.","En attributgrupp som heter ""/ namn /"" redan finns.",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Sorry, we're unable to complete this request.",module,Magento_Catalog
 "You can't remove attributes from this attribute set.","You can't remove attributes from this attribute set.",module,Magento_Catalog
 "Custom Options","Anpassade alternativ",module,Magento_Catalog
@@ -1909,7 +1909,7 @@ Compare,Jämför,module,Magento_Catalog
 "Clear All","Rensa alla",module,Magento_Catalog
 Prev,Föregående,module,Magento_Catalog
 Next,Nästa,module,Magento_Catalog
-"We can't find products matching the selection.","We can't find products matching the selection.",module,Magento_Catalog
+"We can't find products matching the selection.","Vi kan inte hitta produkter som matchade urvalet.",module,Magento_Catalog
 "Learn More","Läs Mer",module,Magento_Catalog
 "Add to Compare","Lägg till i jämför",module,Magento_Catalog
 "We found other products you might like!","Vi hittade andra produkter du kanske gillar!",module,Magento_Catalog
@@ -1934,7 +1934,7 @@ Submit,Skicka,module,Magento_Catalog
 "We don't recognize or support this file extension type.","We don't recognize or support this file extension type.",module,Magento_Catalog
 "Configure Product","Konfigurera produkt",module,Magento_Catalog
 OK,OK,module,Magento_Catalog
-"This value does not follow the specified format (for example, 200X300).","This value does not follow the specified format (for example, 200X300).",module,Magento_Catalog
+"This value does not follow the specified format (for example, 200X300).","Detta värde följer inte det angivna formatet (till exempel 200 X 300).",module,Magento_Catalog
 "Select type of option.","Välj typ av val.",module,Magento_Catalog
 "Please add rows to option.","Lägg till rader till valet.",module,Magento_Catalog
 "Please select items.","Vänligen markera objekt.",module,Magento_Catalog
@@ -2638,7 +2638,7 @@ Loading...,Laddar...,module,Magento_Checkout
 "Incl. Tax","Inkl. Moms",module,Magento_Checkout
 "Your order number is: %1.","Ditt ordernummer är: %1.",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","Din beställningsnummer är: <span>%1</span>.",module,Magento_Checkout
-"We'll email you an order confirmation with details and tracking info.","We'll email you an order confirmation with details and tracking info.",module,Magento_Checkout
+"We'll email you an order confirmation with details and tracking info.","Vi skickar en orderbekräftelse med detaljer och spårningsinformation.",module,Magento_Checkout
 "Payment Transaction Failed Reminder","Misslyckad Påminnelse för Betalningstransaktion",module,Magento_Checkout
 "Payment Transaction Failed","Betalningstransaktionen Misslyckades",module,Magento_Checkout
 Reason,Anledning,module,Magento_Checkout
@@ -2684,7 +2684,7 @@ edit,ändra,module,Magento_Checkout
 "Carrier Title","Transportföretagets Titel",module,Magento_Checkout
 Next,Nästa,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Tyvärr finns ingen offert för denna order tillgänglig just nu",module,Magento_Checkout
-"Order Summary",Ordersammandrag,module,Magento_Checkout
+"Order Summary",Beställningsöversikt,module,Magento_Checkout
 "View and Edit Cart","Visa och Ändra Varukorgen",module,Magento_Checkout
 "View Details","Visa detaljer",module,Magento_Checkout
 "Provided Zip/Postal Code seems to be invalid.","Det valda postnumret verkar felaktigt.",module,Magento_Checkout
@@ -2728,7 +2728,7 @@ Payment,Betalning,module,Magento_Checkout
 "Go to Checkout","Gå till kassan",module,Magento_Checkout
 "View and edit cart","Visa och ändra varukorgen",module,Magento_Checkout
 "Item in Cart","Artiklar i Kundvagn",module,Magento_Checkout
-"Items in Cart","Artiklar i kundvagnen",module,Magento_Checkout
+"Items in Cart","Artiklar i Kundvagn",module,Magento_Checkout
 "Terms and Conditions","Regler och Villkor",module,Magento_CheckoutAgreements
 "Add New Condition","Lägga till nytt villkor",module,Magento_CheckoutAgreements
 "Save Condition","Spara Regelvillkor",module,Magento_CheckoutAgreements
@@ -3374,7 +3374,7 @@ Email,Email,module,Magento_CustomAttributeManagement
 "Sign Out","Logga ut",module,Magento_Customer
 "Sign In","Logga in",module,Magento_Customer
 "You subscribe to our newsletter.","Du prenumererar på vårt nyhetsbrev.",module,Magento_Customer
-"You don't subscribe to our newsletter.","You don't subscribe to our newsletter.",module,Magento_Customer
+"You don't subscribe to our newsletter.","Du prenumerera inte på vårt nyhetsbrev.",module,Magento_Customer
 "You have not set a default shipping address.","Du måste fylla i en leveransadress.",module,Magento_Customer
 "You have not set a default billing address.","Du måste fylla i en fakturaadress.",module,Magento_Customer
 "Address Book",Adressbok,module,Magento_Customer
@@ -3686,7 +3686,7 @@ or,eller,module,Magento_Customer
 "You have no default billing address in your address book.","Du har ingen förvald faktureringsadress i din adressbok.",module,Magento_Customer
 "Change Shipping Address","Ändra leveransadress",module,Magento_Customer
 "You have no default shipping address in your address book.","You have no default shipping address in your address book.",module,Magento_Customer
-"Additional Address Entries","Additional Address Entries",module,Magento_Customer
+"Additional Address Entries","Ytterligare adressfält",module,Magento_Customer
 "Delete Address","Ta bort adress",module,Magento_Customer
 "You have no other address entries in your address book.","You have no other address entries in your address book.",module,Magento_Customer
 "* Required Fields","* Obligatoriska fält",module,Magento_Customer
@@ -3726,7 +3726,7 @@ Save,Save,module,Magento_Customer
 "If you have an account, sign in with your email address.","Om du har ett konto, logga in med din e-postadress.",module,Magento_Customer
 Password,Password,module,Magento_Customer
 "Forgot Your Password?","Glömt ditt lösenord?",module,Magento_Customer
-"Subscription option","Subscription option",module,Magento_Customer
+"Subscription option",Prenumerationsval,module,Magento_Customer
 "General Subscription","General Subscription",module,Magento_Customer
 "Sign Up for Newsletter","Sign Up for Newsletter",module,Magento_Customer
 "Address Information",Adressinformation,module,Magento_Customer
@@ -3734,7 +3734,7 @@ Password,Password,module,Magento_Customer
 "Confirm Password","Bekräfta lösenord",module,Magento_Customer
 "Create an Account","Skapa ett konto",module,Magento_Customer
 "Set a New Password","Set a New Password",module,Magento_Customer
-"You have signed out and will go to our homepage in 5 seconds.","You have signed out and will go to our homepage in 5 seconds.",module,Magento_Customer
+"You have signed out and will go to our homepage in 5 seconds.","Du har loggats ut och kommer att omdirigeras till vår startsida om 5 sekunder.",module,Magento_Customer
 "New Customers","Nya kunder",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Att skapa ett konto har många fördelar: Slutför köp snabbare, spara flera adresser, spåra beställningar med mera.",module,Magento_Customer
 Gender,Gender,module,Magento_Customer
@@ -3743,7 +3743,7 @@ Name,Namn,module,Magento_Customer
 "Welcome to %store_name","Welcome to %store_name",module,Magento_Customer
 "%name,","%name,",module,Magento_Customer
 "Welcome to %store_name.","Welcome to %store_name.",module,Magento_Customer
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:",module,Magento_Customer
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","För att logga in på vår webbsida, använd dessa uppgifter under utcheckningen på sidan <a href=""%customer_url"">Mitt konto </a>:",module,Magento_Customer
 Email:,Email:,module,Magento_Customer
 Password:,Password:,module,Magento_Customer
 "Password you set when creating account","Password you set when creating account",module,Magento_Customer
@@ -3772,12 +3772,12 @@ Password:,Password:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","If you did not make this request, you can ignore this email and your password will remain the same.",module,Magento_Customer
 "Your %store_name password has been changed","Your %store_name password has been changed",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","We have received a request to change the following information associated with your account at %store_name: password.",module,Magento_Customer
-"Checkout out as a new customer","Checkout out as a new customer",module,Magento_Customer
-"Creating an account has many benefits:","Creating an account has many benefits:",module,Magento_Customer
-"See order and shipping status","See order and shipping status",module,Magento_Customer
-"Track order history","Track order history",module,Magento_Customer
-"Check out faster","Check out faster",module,Magento_Customer
-"Checkout out using your account","Checkout out using your account",module,Magento_Customer
+"Checkout out as a new customer","Gå till Kassan som en ny kund",module,Magento_Customer
+"Creating an account has many benefits:","Att skapa ett konto har många fördelar:",module,Magento_Customer
+"See order and shipping status","Se beställning- och leveransstatus",module,Magento_Customer
+"Track order history","Följ orderhistoriken",module,Magento_Customer
+"Check out faster","Gå genom kassan snabbare",module,Magento_Customer
+"Checkout out using your account","Gå till Kassan med ditt konto",module,Magento_Customer
 "Email Address",E-postadress,module,Magento_Customer
 "Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_Customer
 "Are you sure you want to delete this address?","Are you sure you want to delete this address?",module,Magento_Customer
@@ -3890,7 +3890,7 @@ Addresses,Adresser,module,Magento_Customer
 "Edit Account Information","Edit Account Information",module,Magento_Customer
 "Password forgotten","Password forgotten",module,Magento_Customer
 "My Dashboard","Min Översikt",module,Magento_Customer
-"You are signed out","You are signed out",module,Magento_Customer
+"You are signed out","Du är utloggad",module,Magento_Customer
 "Store Credit","Store Credit",module,Magento_CustomerBalance
 "Delete Orphan Balances","Ta bort överblivna saldon",module,Magento_CustomerBalance
 Date,Datum,module,Magento_CustomerBalance
@@ -3960,7 +3960,7 @@ Remove,Remove,module,Magento_CustomerBalance
 "Save Attribute","Save Attribute",module,Magento_CustomerCustomAttributes
 "Delete Attribute","Ta bort attribut",module,Magento_CustomerCustomAttributes
 "Edit Customer Address Attribute ""%1""","Edit Customer Address Attribute ""%1""",module,Magento_CustomerCustomAttributes
-"New Customer Address Attribute","New Customer Address Attribute",module,Magento_CustomerCustomAttributes
+"New Customer Address Attribute","Ny kund adress",module,Magento_CustomerCustomAttributes
 "Input Type","Input Type",module,Magento_CustomerCustomAttributes
 "Lines Count","Lines Count",module,Magento_CustomerCustomAttributes
 "Valid range 2-20","Valid range 2-20",module,Magento_CustomerCustomAttributes
@@ -4121,72 +4121,72 @@ CSV,CSV,module,Magento_CustomerImportExport
 "Excel XML","Excel XML",module,Magento_CustomerImportExport
 Segments,Segment,module,Magento_CustomerSegment
 "Add Segment","Lägg till Segment",module,Magento_CustomerSegment
-"Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_CustomerSegment
+"Are you sure you want to do this?","Är du säker på att du vill göra detta?",module,Magento_CustomerSegment
 "Refresh Segment Data","Uppdatera Segmentdata",module,Magento_CustomerSegment
-"Save and Continue Edit","Save and Continue Edit",module,Magento_CustomerSegment
-"Edit Segment '%1'","Edit Segment '%1'",module,Magento_CustomerSegment
-"New Segment","New Segment",module,Magento_CustomerSegment
-"Segment Information","Segment Information",module,Magento_CustomerSegment
+"Save and Continue Edit","Spara och Fortsätt Redigera",module,Magento_CustomerSegment
+"Edit Segment '%1'","Redigera segment '%1'",module,Magento_CustomerSegment
+"New Segment","Nytt Segment",module,Magento_CustomerSegment
+"Segment Information","Information om segment",module,Magento_CustomerSegment
 Conditions,Villkor,module,Magento_CustomerSegment
-"* applicable to visitors and registered customers","* applicable to visitors and registered customers",module,Magento_CustomerSegment
-"General Properties","General Properties",module,Magento_CustomerSegment
-"Segment Name","Segment Name",module,Magento_CustomerSegment
+"* applicable to visitors and registered customers","* gäller för besökare och registrerade kunder",module,Magento_CustomerSegment
+"General Properties","Allmänna egenskaper",module,Magento_CustomerSegment
+"Segment Name",Segmentnamn,module,Magento_CustomerSegment
 Description,Beskrivning,module,Magento_CustomerSegment
-"Assigned to Website","Assigned to Website",module,Magento_CustomerSegment
+"Assigned to Website","Tilldelats hemsida",module,Magento_CustomerSegment
 Status,Status,module,Magento_CustomerSegment
-Active,Active,module,Magento_CustomerSegment
+Active,Aktiv,module,Magento_CustomerSegment
 Inactive,Inaktiv,module,Magento_CustomerSegment
-"Apply To","Apply To",module,Magento_CustomerSegment
-"Visitors and Registered Customers","Visitors and Registered Customers",module,Magento_CustomerSegment
+"Apply To",Gäller,module,Magento_CustomerSegment
+"Visitors and Registered Customers","Besökare och registrerade kunder",module,Magento_CustomerSegment
 "Registered Customers","Registrerade kunder",module,Magento_CustomerSegment
-Visitors,Visitors,module,Magento_CustomerSegment
-"Please save this information to specify segmentation conditions.","Please save this information to specify segmentation conditions.",module,Magento_CustomerSegment
-"Matched Customers (%1)","Matched Customers (%1)",module,Magento_CustomerSegment
+Visitors,Besökare,module,Magento_CustomerSegment
+"Please save this information to specify segmentation conditions.","Spara denna information om du vill ange segmenteringsvillkor.",module,Magento_CustomerSegment
+"Matched Customers (%1)","Matchade kunder (%1)",module,Magento_CustomerSegment
 ID,ID,module,Magento_CustomerSegment
-Segment,Segment,module,Magento_CustomerSegment
-Website,Website,module,Magento_CustomerSegment
-"Customer Segment Report","Customer Segment Report",module,Magento_CustomerSegment
+Segment,Segmentet,module,Magento_CustomerSegment
+Website,Webbsida,module,Magento_CustomerSegment
+"Customer Segment Report","Rapport för kundsegment",module,Magento_CustomerSegment
 "Customer Segment Report '%1'","Customer Segment Report '%1'",module,Magento_CustomerSegment
-"Customer Segments Report","Customer Segments Report",module,Magento_CustomerSegment
-Back,Back,module,Magento_CustomerSegment
+"Customer Segments Report","Rapport för kundsegment",module,Magento_CustomerSegment
+Back,Tillbaka,module,Magento_CustomerSegment
 From,Från,module,Magento_CustomerSegment
 To,Till,module,Magento_CustomerSegment
-"Please request the correct customer segment.","Please request the correct customer segment.",module,Magento_CustomerSegment
-"You deleted the segment.","You deleted the segment.",module,Magento_CustomerSegment
-"Unable to delete the segment.","Unable to delete the segment.",module,Magento_CustomerSegment
-"Customer Segments","Customer Segments",module,Magento_CustomerSegment
-"Edit Segment","Edit Segment",module,Magento_CustomerSegment
-"Segment Customers matching error","Segment Customers matching error",module,Magento_CustomerSegment
-"You saved the segment.","You saved the segment.",module,Magento_CustomerSegment
+"Please request the correct customer segment.","Vänligen begär det rätta kundsegmentet.",module,Magento_CustomerSegment
+"You deleted the segment.","Du bort segmentet.",module,Magento_CustomerSegment
+"Unable to delete the segment.","Det går inte att ta bort segmentet.",module,Magento_CustomerSegment
+"Customer Segments",Kundsegment,module,Magento_CustomerSegment
+"Edit Segment","Redigera Segment",module,Magento_CustomerSegment
+"Segment Customers matching error","Fel i matchande av segmentets kunder",module,Magento_CustomerSegment
+"You saved the segment.","Du har sparat ett segment.",module,Magento_CustomerSegment
 "We can't save the segment right now.","We can't save the segment right now.",module,Magento_CustomerSegment
-Reports,Reports,module,Magento_CustomerSegment
+Reports,Rapporter,module,Magento_CustomerSegment
 Customers,Kunder,module,Magento_CustomerSegment
-"Viewing combined ""%1"" report from segments: %2.","Viewing combined ""%1"" report from segments: %2.",module,Magento_CustomerSegment
-Details,Details,module,Magento_CustomerSegment
-"The Customer Segment data has been refreshed.","The Customer Segment data has been refreshed.",module,Magento_CustomerSegment
+"Viewing combined ""%1"" report from segments: %2.","Visar kombinerade ""%1"" rapport från segment: %2.",module,Magento_CustomerSegment
+Details,Detaljer,module,Magento_CustomerSegment
+"The Customer Segment data has been refreshed.","Kundsegementets data har uppdaterats.",module,Magento_CustomerSegment
 Union,Union,module,Magento_CustomerSegment
-Intersection,Intersection,module,Magento_CustomerSegment
-All,All,module,Magento_CustomerSegment
-Specified,Specified,module,Magento_CustomerSegment
-"Applies to All of the Specified Customer Segments","Applies to All of the Specified Customer Segments",module,Magento_CustomerSegment
-"Apply to the Selected Customer Segments","Apply to the Selected Customer Segments",module,Magento_CustomerSegment
+Intersection,Korsning,module,Magento_CustomerSegment
+All,Alla,module,Magento_CustomerSegment
+Specified,Angivna,module,Magento_CustomerSegment
+"Applies to All of the Specified Customer Segments","Gäller alla de angivna kundsegmenten",module,Magento_CustomerSegment
+"Apply to the Selected Customer Segments","Gälla de valda kundsegmenten",module,Magento_CustomerSegment
 contains,innehåller,module,Magento_CustomerSegment
-"does not contains","does not contains",module,Magento_CustomerSegment
-"Matched %1 Customers of Segment %2","Matched %1 Customers of Segment %2",module,Magento_CustomerSegment
-"Unknown operator specified.","Unknown operator specified.",module,Magento_CustomerSegment
+"does not contains","innehåller inte",module,Magento_CustomerSegment
+"Matched %1 Customers of Segment %2","Matchade %1 kunder i segmentet %2",module,Magento_CustomerSegment
+"Unknown operator specified.","Okänd operator angiven.",module,Magento_CustomerSegment
 "Conditions Combination",Villkorskombination,module,Magento_CustomerSegment
 "Customer Address",Kundadress,module,Magento_CustomerSegment
-"Product List","Product List",module,Magento_CustomerSegment
-"Product History","Product History",module,Magento_CustomerSegment
-Products,Products,module,Magento_CustomerSegment
-"Wrong ""ApplyTo"" type","Wrong ""ApplyTo"" type",module,Magento_CustomerSegment
+"Product List",Produktlista,module,Magento_CustomerSegment
+"Product History",Produkthistoria,module,Magento_CustomerSegment
+Products,Produkter,module,Magento_CustomerSegment
+"Wrong ""ApplyTo"" type","Fel typ",module,Magento_CustomerSegment
 Customer,Kund,module,Magento_CustomerSegment
-"If Customer Addresses match %1 of these Conditions:","If Customer Addresses match %1 of these Conditions:",module,Magento_CustomerSegment
-"Address Attributes","Address Attributes",module,Magento_CustomerSegment
+"If Customer Addresses match %1 of these Conditions:","Om kundadresserna matchar %1 av dessa villkor:",module,Magento_CustomerSegment
+"Address Attributes",Postadressattribut,module,Magento_CustomerSegment
 "Customer Address %1","Kundadress %1",module,Magento_CustomerSegment
-"Default Address","Default Address",module,Magento_CustomerSegment
-Billing,Billing,module,Magento_CustomerSegment
-Shipping,Shipping,module,Magento_CustomerSegment
+"Default Address",Standardadress,module,Magento_CustomerSegment
+Billing,Fakturering,module,Magento_CustomerSegment
+Shipping,Frakt,module,Magento_CustomerSegment
 "Customer Address %1 Default %2 Address","Customer Address %1 Default %2 Address",module,Magento_CustomerSegment
 "Has State/Province","Has State/Province",module,Magento_CustomerSegment
 "If Customer Address %1 State/Province specified","If Customer Address %1 State/Province specified",module,Magento_CustomerSegment
@@ -4241,39 +4241,39 @@ matches,matches,module,Magento_CustomerSegment
 "Shopping Cart Total","Shopping Cart Total",module,Magento_CustomerSegment
 Subtotal,Subtotal,module,Magento_CustomerSegment
 "Grand Total","Grand Total",module,Magento_CustomerSegment
-Tax,Tax,module,Magento_CustomerSegment
-"Gift Card","Gift Card",module,Magento_CustomerSegment
-"Shopping Cart %1 Amount %2 %3:","Shopping Cart %1 Amount %2 %3:",module,Magento_CustomerSegment
-"Unknown quote total specified.","Unknown quote total specified.",module,Magento_CustomerSegment
-"Number of Cart Line Items","Number of Cart Line Items",module,Magento_CustomerSegment
-"Number of Shopping Cart Line Items %1 %2:","Number of Shopping Cart Line Items %1 %2:",module,Magento_CustomerSegment
-"Products Quantity","Products Quantity",module,Magento_CustomerSegment
-"Shopping Cart Products Qty %1 %2:","Shopping Cart Products Qty %1 %2:",module,Magento_CustomerSegment
-"equals or greater than","equals or greater than",module,Magento_CustomerSegment
-"equals or less than","equals or less than",module,Magento_CustomerSegment
-"greater than","greater than",module,Magento_CustomerSegment
+Tax,Skatt,module,Magento_CustomerSegment
+"Gift Card",Presentkort,module,Magento_CustomerSegment
+"Shopping Cart %1 Amount %2 %3:","Kundkorg %1 belopp %2 %3:",module,Magento_CustomerSegment
+"Unknown quote total specified.","Okänt kundvarukorgsvärde angivet.",module,Magento_CustomerSegment
+"Number of Cart Line Items","Antal radartiklar i vagnen",module,Magento_CustomerSegment
+"Number of Shopping Cart Line Items %1 %2:","Antal produkter i kundvarukorgen %1 %2:",module,Magento_CustomerSegment
+"Products Quantity",Produktkvantitet,module,Magento_CustomerSegment
+"Shopping Cart Products Qty %1 %2:","Antal produkter i varukorgen: %1 %2:",module,Magento_CustomerSegment
+"equals or greater than","är lika med eller större än",module,Magento_CustomerSegment
+"equals or less than","är lika med eller mindre än",module,Magento_CustomerSegment
+"greater than","större än",module,Magento_CustomerSegment
 "less than","mindre än",module,Magento_CustomerSegment
-"Up To Date","Up To Date",module,Magento_CustomerSegment
-"Period %1 %2 Days Up To Date","Period %1 %2 Days Up To Date",module,Magento_CustomerSegment
-"Customer Segment","Customer Segment",module,Magento_CustomerSegment
-"Use in Customer Segment","Use in Customer Segment",module,Magento_CustomerSegment
-"Please choose a condition to add.","Please choose a condition to add.",module,Magento_CustomerSegment
-"Enable Customer Segment Functionality","Enable Customer Segment Functionality",module,Magento_CustomerSegment
-"Refresh Data","Refresh Data",module,Magento_CustomerSegment
-"Manage Segments","Manage Segments",module,Magento_CustomerSegment
+"Up To Date",Aktuell,module,Magento_CustomerSegment
+"Period %1 %2 Days Up To Date","Period %1 %2 dagar upp till datum",module,Magento_CustomerSegment
+"Customer Segment",Kundsegment,module,Magento_CustomerSegment
+"Use in Customer Segment","Använd i kundsegment",module,Magento_CustomerSegment
+"Please choose a condition to add.","Välj ett villkor för att lägga till.",module,Magento_CustomerSegment
+"Enable Customer Segment Functionality","Aktivera kundsegments funktionalitet",module,Magento_CustomerSegment
+"Refresh Data","Uppdatera Data",module,Magento_CustomerSegment
+"Manage Segments","Hantera segment",module,Magento_CustomerSegment
 "All Websites","Alla webbplatser",module,Magento_CustomerSegment
 CSV,CSV,module,Magento_CustomerSegment
 "Excel XML","Excel XML",module,Magento_CustomerSegment
 Name,Namn,module,Magento_CustomerSegment
-Email,Email,module,Magento_CustomerSegment
-Group,Group,module,Magento_CustomerSegment
-Phone,Phone,module,Magento_CustomerSegment
+Email,E-post,module,Magento_CustomerSegment
+Group,Grupp,module,Magento_CustomerSegment
+Phone,Telefon,module,Magento_CustomerSegment
 ZIP,ZIP,module,Magento_CustomerSegment
-Country,Country,module,Magento_CustomerSegment
-State/Province,State/Province,module,Magento_CustomerSegment
+Country,Land,module,Magento_CustomerSegment
+State/Province,Län/provins,module,Magento_CustomerSegment
 "Customer Since","Kund sedan",module,Magento_CustomerSegment
-"View Combined Report","View Combined Report",module,Magento_CustomerSegment
-Set,Set,module,Magento_CustomerSegment
+"View Combined Report","Visa kombinerad rapport",module,Magento_CustomerSegment
+Set,Ange,module,Magento_CustomerSegment
 "AVS result code","AVS resultatkod",module,Magento_Cybersource
 "CVN result code","CVN resultatkod",module,Magento_Cybersource
 "Card number",Kortnummer,module,Magento_Cybersource
@@ -4492,7 +4492,7 @@ Service,Tjänst,module,Magento_Directory
 "All Files","Alla filer",module,Magento_Downloadable
 Unlimited,Unlimited,module,Magento_Downloadable
 "Something went wrong while getting the requested content.","Something went wrong while getting the requested content.",module,Magento_Downloadable
-"My Downloadable Products","My Downloadable Products",module,Magento_Downloadable
+"My Downloadable Products","Min nedladdningsbara produkter",module,Magento_Downloadable
 "We can't find the link you requested.","We can't find the link you requested.",module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","Please sign in to download your product or purchase <a href=""%1"">%2</a>.",module,Magento_Downloadable
 "Please sign in to download your product.","Please sign in to download your product.",module,Magento_Downloadable
@@ -4568,7 +4568,7 @@ U,U,module,Magento_Downloadable
 Availability,Tillgänglighet,module,Magento_Downloadable
 "In stock","In stock",module,Magento_Downloadable
 "Out of stock","Out of stock",module,Magento_Downloadable
-"Go to <a href=""%1"">My Downloadable Products</a>","Go to <a href=""%1"">My Downloadable Products</a>",module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>","Gå till <a href=""%1""> Mina Nedladdningsbara Produkter</a>",module,Magento_Downloadable
 "Downloadable Products","Downloadable Products",module,Magento_Downloadable
 "Order #","Order #",module,Magento_Downloadable
 Date,Datum,module,Magento_Downloadable
@@ -4576,7 +4576,7 @@ Status,Status,module,Magento_Downloadable
 "Remaining Downloads","Remaining Downloads",module,Magento_Downloadable
 "View Order","View Order",module,Magento_Downloadable
 "Start Download","Start Download",module,Magento_Downloadable
-"You have not purchased any downloadable products yet.","You have not purchased any downloadable products yet.",module,Magento_Downloadable
+"You have not purchased any downloadable products yet.","Du har inte köpt några nedladdningsbara produkter ännu.",module,Magento_Downloadable
 Back,Back,module,Magento_Downloadable
 download,download,module,Magento_Downloadable
 "Gift Message","Gift Message",module,Magento_Downloadable
@@ -4584,7 +4584,7 @@ From:,From:,module,Magento_Downloadable
 To:,To:,module,Magento_Downloadable
 Message:,Message:,module,Magento_Downloadable
 "Product Name","Product Name",module,Magento_Downloadable
-Qty,Qty,module,Magento_Downloadable
+Qty,Antal,module,Magento_Downloadable
 Subtotal,Subtotal,module,Magento_Downloadable
 "Discount Amount","Discount Amount",module,Magento_Downloadable
 "Row Total","Row Total",module,Magento_Downloadable
@@ -4765,102 +4765,102 @@ hello,hello,module,Magento_Eav
 "Add New Template","Lägg till ny mall",module,Magento_Email
 "Transactional Emails","Transaktionella mail",module,Magento_Email
 Back,Bakåt,module,Magento_Email
-Reset,Reset,module,Magento_Email
-"Delete Template","Delete Template",module,Magento_Email
-"Convert to Plain Text","Convert to Plain Text",module,Magento_Email
-"Return Html Version","Return Html Version",module,Magento_Email
-"Preview Template","Preview Template",module,Magento_Email
-"Save Template","Save Template",module,Magento_Email
-"Load Template","Load Template",module,Magento_Email
+Reset,Återställ,module,Magento_Email
+"Delete Template","Ta bort mallen",module,Magento_Email
+"Convert to Plain Text","Konvertera till oformaterad Text",module,Magento_Email
+"Return Html Version","Återställ Html-version",module,Magento_Email
+"Preview Template","Förhandsgranska mall",module,Magento_Email
+"Save Template","Spara mall",module,Magento_Email
+"Load Template","Hämta mall",module,Magento_Email
 "Edit Email Template","Redigera e-postmall",module,Magento_Email
 "New Email Template","Ny e-postmall",module,Magento_Email
-"Default Config","Default Config",module,Magento_Email
-"Template Information","Template Information",module,Magento_Email
-"Currently Used For","Currently Used For",module,Magento_Email
-"Template Name","Template Name",module,Magento_Email
-"Template Subject","Template Subject",module,Magento_Email
-"Insert Variable...","Insert Variable...",module,Magento_Email
-"Template Content","Template Content",module,Magento_Email
-"Template Styles","Template Styles",module,Magento_Email
-Preview,Preview,module,Magento_Email
-Unknown,Unknown,module,Magento_Email
-"You deleted the email template.","You deleted the email template.",module,Magento_Email
-"The email template is currently being used.","The email template is currently being used.",module,Magento_Email
-"We can't delete email template data right now. Please review log and try again.","We can't delete email template data right now. Please review log and try again.",module,Magento_Email
-"We can't find an email template to delete.","We can't find an email template to delete.",module,Magento_Email
+"Default Config",Standardinställningar,module,Magento_Email
+"Template Information","Information om mallar",module,Magento_Email
+"Currently Used For","Nuvarande använd",module,Magento_Email
+"Template Name","Mallens namn",module,Magento_Email
+"Template Subject","Mall ämne",module,Magento_Email
+"Insert Variable...","Infoga variabel...",module,Magento_Email
+"Template Content",Mallinnehåll,module,Magento_Email
+"Template Styles",Mallstilar,module,Magento_Email
+Preview,Förhandsgranska,module,Magento_Email
+Unknown,Okänd,module,Magento_Email
+"You deleted the email template.","Du tog bort e-postmallen.",module,Magento_Email
+"The email template is currently being used.","E-postmallen används för närvarande.",module,Magento_Email
+"We can't delete email template data right now. Please review log and try again.","Vi kan inte ta bort e-post malldata just nu. Vänligen Granska loggen och försök igen.",module,Magento_Email
+"We can't find an email template to delete.","Vi kan inte hitta en e-postmall ta bort.",module,Magento_Email
 "Edit Template","Redigera mall",module,Magento_Email
 "Edit System Template","Redigera systemmall",module,Magento_Email
-"New Template","New Template",module,Magento_Email
-"New System Template","New System Template",module,Magento_Email
-"Email Templates","Email Templates",module,Magento_Email
-"Email Preview","Email Preview",module,Magento_Email
-"An error occurred. The email template can not be opened for preview.","An error occurred. The email template can not be opened for preview.",module,Magento_Email
-"This email template no longer exists.","This email template no longer exists.",module,Magento_Email
-"You saved the email template.","You saved the email template.",module,Magento_Email
-"Area is already set","Area is already set",module,Magento_Email
-"Design config must have area and store.","Design config must have area and store.",module,Magento_Email
-"Base Unsecure URL","Base Unsecure URL",module,Magento_Email
-"Base Secure URL","Base Secure URL",module,Magento_Email
-"General Contact Name","General Contact Name",module,Magento_Email
-"General Contact Email","General Contact Email",module,Magento_Email
-"Sales Representative Contact Name","Sales Representative Contact Name",module,Magento_Email
-"Sales Representative Contact Email","Sales Representative Contact Email",module,Magento_Email
-"Custom1 Contact Name","Custom1 Contact Name",module,Magento_Email
-"Custom1 Contact Email","Custom1 Contact Email",module,Magento_Email
-"Custom2 Contact Name","Custom2 Contact Name",module,Magento_Email
-"Custom2 Contact Email","Custom2 Contact Email",module,Magento_Email
-"Store Name","Store Name",module,Magento_Email
-"Store Phone Number","Store Phone Number",module,Magento_Email
-"Store Hours","Store Hours",module,Magento_Email
-Country,Country,module,Magento_Email
-Region/State,Region/State,module,Magento_Email
-"Zip/Postal Code","Zip/Postal Code",module,Magento_Email
+"New Template","Ny mall",module,Magento_Email
+"New System Template","Ny system mall",module,Magento_Email
+"Email Templates",E-postmallar,module,Magento_Email
+"Email Preview","Förhandsgranskning av E-post",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Ett fel uppstod. E-postmallen kan inte öppnas för förhandsgranskning.",module,Magento_Email
+"This email template no longer exists.","Detta e-postmallen finns inte längre.",module,Magento_Email
+"You saved the email template.","Du har sparat e-postmallen.",module,Magento_Email
+"Area is already set","Området är redan inställd",module,Magento_Email
+"Design config must have area and store.","Design inställning måste ha område och webbshop.",module,Magento_Email
+"Base Unsecure URL","Osäkra Baswebbadressen",module,Magento_Email
+"Base Secure URL","Säker baswebbadress",module,Magento_Email
+"General Contact Name","Allmänna kontakt namnet",module,Magento_Email
+"General Contact Email","Allmänna kontakt e-posten",module,Magento_Email
+"Sales Representative Contact Name","Försäljningsrepresentantens kontaktnamn",module,Magento_Email
+"Sales Representative Contact Email","Försäljningsrepresentantens e-post",module,Magento_Email
+"Custom1 Contact Name","Anpassad1 kontaktnamn",module,Magento_Email
+"Custom1 Contact Email","Anpassad1 E-post",module,Magento_Email
+"Custom2 Contact Name","Anpassad2 kontaktnamn",module,Magento_Email
+"Custom2 Contact Email","Anpassad2 E-post",module,Magento_Email
+"Store Name",Butiksnamn,module,Magento_Email
+"Store Phone Number","Butikens telefonnummer",module,Magento_Email
+"Store Hours","Butikens öppettider",module,Magento_Email
+Country,Land,module,Magento_Email
+Region/State,Region/delstat,module,Magento_Email
+"Zip/Postal Code",Postnummer,module,Magento_Email
 City,Stad,module,Magento_Email
-"Street Address 1","Street Address 1",module,Magento_Email
-"Street Address 2","Street Address 2",module,Magento_Email
-"Store Contact Information","Store Contact Information",module,Magento_Email
+"Street Address 1","Gatuadress 1",module,Magento_Email
+"Street Address 2","Gatuadress 2",module,Magento_Email
+"Store Contact Information","Lagra kontaktinformation",module,Magento_Email
 %1,%1,module,Magento_Email
-"Template Variables","Template Variables",module,Magento_Email
-"Please enter a template name.","Please enter a template name.",module,Magento_Email
-"Duplicate Of Template Name","Duplicate Of Template Name",module,Magento_Email
-"Invalid transactional email code: %1","Invalid transactional email code: %1",module,Magento_Email
-"Requested invalid store ""%1""","Requested invalid store ""%1""",module,Magento_Email
-"""file"" parameter must be specified","""file"" parameter must be specified",module,Magento_Email
-"Contents of %s could not be loaded or is empty","Contents of %s could not be loaded or is empty",module,Magento_Email
-"""file"" parameter must be specified and must not be empty","""file"" parameter must be specified and must not be empty",module,Magento_Email
-"Design params must be set before calling this method","Design params must be set before calling this method",module,Magento_Email
+"Template Variables",Mallvariabler,module,Magento_Email
+"Please enter a template name.","Vänligen ange ett Mallnamn.",module,Magento_Email
+"Duplicate Of Template Name","Dubblett av Mallnamn",module,Magento_Email
+"Invalid transactional email code: %1","Ogiltig transaktionell epost-kod: %1",module,Magento_Email
+"Requested invalid store ""%1""","Begärde ogiltig webbshop ""%1""",module,Magento_Email
+"""file"" parameter must be specified","""fil"" parameter måste anges",module,Magento_Email
+"Contents of %s could not be loaded or is empty","Innehållet i %s kunde inte bli hämtad eller är tom",module,Magento_Email
+"""file"" parameter must be specified and must not be empty","""fil""-parametern måste anges och får inte vara tom",module,Magento_Email
+"Design params must be set before calling this method","Design parametrarna måste anges innan du anropar den här metoden",module,Magento_Email
 "<pre> %1 </pre>","<pre> %1 </pre>",module,Magento_Email
 "CSS inlining error:","CSS inlining error:",module,Magento_Email
-"Error filtering template: %s","Error filtering template: %s",module,Magento_Email
-"We're sorry, an error has occurred while generating this email.","We're sorry, an error has occurred while generating this email.",module,Magento_Email
-"Invalid sender data","Invalid sender data",module,Magento_Email
-Title,Title,module,Magento_Email
-"Load default template","Load default template",module,Magento_Email
-Template,Template,module,Magento_Email
-"Are you sure you want to strip tags?","Are you sure you want to strip tags?",module,Magento_Email
-"Are you sure you want to delete this template?","Are you sure you want to delete this template?",module,Magento_Email
-"The template did not load. Please review the log for details.","The template did not load. Please review the log for details.",module,Magento_Email
-Footer,Footer,module,Magento_Email
+"Error filtering template: %s","Fel filtrering på mall: %s",module,Magento_Email
+"We're sorry, an error has occurred while generating this email.","Vi beklagar, ett fel uppstod när detta mail genererades.",module,Magento_Email
+"Invalid sender data","Ogiltiga avsändar data",module,Magento_Email
+Title,Titel,module,Magento_Email
+"Load default template","Ladda Standardmall",module,Magento_Email
+Template,Mall,module,Magento_Email
+"Are you sure you want to strip tags?","Är du säker du vill rensa Taggar?",module,Magento_Email
+"Are you sure you want to delete this template?","Är du säker på att du vill ta bort den här mallen?",module,Magento_Email
+"The template did not load. Please review the log for details.","Det gick inte att läsa in mallen. Vänligen Granska loggen för detaljer.",module,Magento_Email
+Footer,Sidfot,module,Magento_Email
 "Thank you, %store_name","Tack, %store_name",module,Magento_Email
-Header,Header,module,Magento_Email
-Communications,Communications,module,Magento_Email
-"No Templates Found","No Templates Found",module,Magento_Email
+Header,Sidhuvud,module,Magento_Email
+Communications,Kommunikation,module,Magento_Email
+"No Templates Found","Inga mallar hittade",module,Magento_Email
 ID,ID,module,Magento_Email
-Added,Added,module,Magento_Email
-Updated,Updated,module,Magento_Email
-Subject,Subject,module,Magento_Email
-"Template Type","Template Type",module,Magento_Email
+Added,Tillagd,module,Magento_Email
+Updated,Uppdaterad,module,Magento_Email
+Subject,Ämne,module,Magento_Email
+"Template Type",Malltyp,module,Magento_Email
 Action,Åtgärd,module,Magento_Email
-"Logo Image","Logo Image",module,Magento_Email
-"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.",module,Magento_Email
-"Logo Image Alt","Logo Image Alt",module,Magento_Email
-"Logo Width","Logo Width",module,Magento_Email
-"Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".",module,Magento_Email
-"Logo Height","Logo Height",module,Magento_Email
-"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".",module,Magento_Email
-"Header Template","Header Template",module,Magento_Email
-"Email template chosen based on theme fallback, when the ""Default"" option is selected.","Email template chosen based on theme fallback, when the ""Default"" option is selected.",module,Magento_Email
-"Footer Template","Footer Template",module,Magento_Email
+"Logo Image",Logotypbild,module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Tillåtna filtyper: jpg, jpeg, gif, png. För att optimera logotyp för högupplösta skärmar, ladda upp en bild som är 3 x normal storlek och ange sedan 1 x dimensioner i fälten bredd och höjd nedan.",module,Magento_Email
+"Logo Image Alt","Logo bild Alt",module,Magento_Email
+"Logo Width","Logotyp bredd",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Behövs endast om en bild har laddats ovan. Ange antalet pixlar, utan att lägga till ""px"".",module,Magento_Email
+"Logo Height",Logotyphöjd,module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","Behövs endast om en bild har laddats ovan. Ange bildstorlek höjd i pixlar utan att lägga till ""px"".",module,Magento_Email
+"Header Template","Header mall",module,Magento_Email
+"Email template chosen based on theme fallback, when the ""Default"" option is selected.","E-postmallen valt baserat på temafallback när ""Standard"" alternativet är valt.",module,Magento_Email
+"Footer Template",Sidfot-mall,module,Magento_Email
 "Change Encryption Key","Ändra krypteringsnyckeln",module,Magento_EncryptionKey
 "Encryption Key",Krypteringsnyckel,module,Magento_EncryptionKey
 "New Encryption Key","Ny Krypteringsnyckel",module,Magento_EncryptionKey
@@ -5327,7 +5327,7 @@ Attributes,Attribut,module,Magento_GiftRegistry
 [WEBSITE],[WEBSITE],module,Magento_GiftRegistry
 "[STORE VIEW]","[STORE VIEW]",module,Magento_GiftRegistry
 None,None,module,Magento_GiftRegistry
-"New Address","New Address",module,Magento_GiftRegistry
+"New Address","Ny adress",module,Magento_GiftRegistry
 "Edit Gift Registry","Edit Gift Registry",module,Magento_GiftRegistry
 "Create Gift Registry","Create Gift Registry",module,Magento_GiftRegistry
 State/Province,State/Province,module,Magento_GiftRegistry
@@ -5447,7 +5447,7 @@ Owner,Owner,module,Magento_GiftRegistry
 "Show Region","Show Region",module,Magento_GiftRegistry
 "Date Format",Datumformat,module,Magento_GiftRegistry
 "Is Default","Is Default",module,Magento_GiftRegistry
-"Select a shipping address from your address book or enter a new address.","Select a shipping address from your address book or enter a new address.",module,Magento_GiftRegistry
+"Select a shipping address from your address book or enter a new address.","Välj en leveransadress från din adressbok eller ange en ny adress.",module,Magento_GiftRegistry
 Company,Företag,module,Magento_GiftRegistry
 Address,Adress,module,Magento_GiftRegistry
 "Street Address","Street Address",module,Magento_GiftRegistry
@@ -5698,27 +5698,27 @@ Remove,"Ta bort",module,Magento_GroupedProduct
 ID,ID,module,Magento_GroupedProduct
 Thumbnail,Miniatyr,module,Magento_GroupedProduct
 Name,Namn,module,Magento_GroupedProduct
-"Attribute Set","Attribute Set",module,Magento_GroupedProduct
+"Attribute Set",Attributgrupp,module,Magento_GroupedProduct
 Status,Status,module,Magento_GroupedProduct
 SKU,Art.nr,module,Magento_GroupedProduct
 Price,Pris,module,Magento_GroupedProduct
-"Default Quantity","Default Quantity",module,Magento_GroupedProduct
-Actions,Actions,module,Magento_GroupedProduct
+"Default Quantity","Förvalt Antal",module,Magento_GroupedProduct
+Actions,Åtgärder,module,Magento_GroupedProduct
 "Associated Products","Relaterade produkter",module,Magento_GroupedProduct
 Availability:,Tillgänglighet:,module,Magento_GroupedProduct
 "Out of stock","Ej i lager",module,Magento_GroupedProduct
 "Product Name",Produktnamn,module,Magento_GroupedProduct
 Qty,Antal,module,Magento_GroupedProduct
-"No options of this product are available.","No options of this product are available.",module,Magento_GroupedProduct
-"There are no grouped products.","There are no grouped products.",module,Magento_GroupedProduct
-"Default Qty","Default Qty",module,Magento_GroupedProduct
+"No options of this product are available.","Det finns inget alternativ för denna produkt.",module,Magento_GroupedProduct
+"There are no grouped products.","Det finns inga grupperade produkter.",module,Magento_GroupedProduct
+"Default Qty","Förvalt Antal",module,Magento_GroupedProduct
 "Starting at",Från,module,Magento_GroupedProduct
 Availability,Tillgänglighet,module,Magento_GroupedProduct
 "In stock","I lager",module,Magento_GroupedProduct
-"Grouped product items","Grouped product items",module,Magento_GroupedProduct
-"Grouped Product Image","Grouped Product Image",module,Magento_GroupedProduct
+"Grouped product items","Grupperade produktartiklar",module,Magento_GroupedProduct
+"Grouped Product Image","Grupperade Produktbilder",module,Magento_GroupedProduct
 Select...,Välj...,module,Magento_GroupedProduct
-Type,Type,module,Magento_GroupedProduct
+Type,Typ,module,Magento_GroupedProduct
 Quantity,Antal,module,Magento_GroupedProduct
 AttributeSetText,AttributeSetText,module,Magento_GroupedProduct
 StatusText,StatusText,module,Magento_GroupedProduct
@@ -6342,7 +6342,7 @@ Database,Database,module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Lägg till varan i kundvagnen för att se produktpriser. Du kan alltid ta bort den senare.",module,Magento_Msrp
 "See price before order confirmation.","Se pris innan orderbekräftelse.",module,Magento_Msrp
 "On Gesture","På gest",module,Magento_Msrp
-"In Cart","In Cart",module,Magento_Msrp
+"In Cart","I varukorgen",module,Magento_Msrp
 "Before Order Confirmation","Before Order Confirmation",module,Magento_Msrp
 "Use config","Use config",module,Magento_Msrp
 "Click for price","Klicka för pris",module,Magento_Msrp
@@ -6557,7 +6557,7 @@ Total,Total,module,Magento_Multishipping
 "Back to Billing Information","Back to Billing Information",module,Magento_Multishipping
 "Please select a shipping address for applicable items.","Please select a shipping address for applicable items.",module,Magento_Multishipping
 Product,Product,module,Magento_Multishipping
-Qty,Qty,module,Magento_Multishipping
+Qty,Antal,module,Magento_Multishipping
 "Send To","Send To",module,Magento_Multishipping
 "A shipping selection is not applicable.","A shipping selection is not applicable.",module,Magento_Multishipping
 Actions,Actions,module,Magento_Multishipping
@@ -6565,7 +6565,7 @@ Actions,Actions,module,Magento_Multishipping
 "Remove item","Remove item",module,Magento_Multishipping
 "Go to Shipping Information","Go to Shipping Information",module,Magento_Multishipping
 "Update Qty &amp; Addresses","Update Qty &amp; Addresses",module,Magento_Multishipping
-"Enter a New Address","Enter a New Address",module,Magento_Multishipping
+"Enter a New Address","Ange en ny adress",module,Magento_Multishipping
 "Back to Shopping Cart","Back to Shopping Cart",module,Magento_Multishipping
 "Billing Address","Billing Address",module,Magento_Multishipping
 Change,Ändra,module,Magento_Multishipping
@@ -6643,10 +6643,10 @@ Cron,Cron,module,Magento_NewRelicReporting
 Back,Bakåt,module,Magento_Newsletter
 Reset,Reset,module,Magento_Newsletter
 "Preview Template","Preview Template",module,Magento_Newsletter
-"Save Newsletter","Save Newsletter",module,Magento_Newsletter
+"Save Newsletter","Spara nyhetsbrev",module,Magento_Newsletter
 "Save and Resume","Save and Resume",module,Magento_Newsletter
-"View Newsletter","View Newsletter",module,Magento_Newsletter
-"Edit Newsletter","Edit Newsletter",module,Magento_Newsletter
+"View Newsletter","Visa nyhetsbrev",module,Magento_Newsletter
+"Edit Newsletter","Redigera nyhetsbrev",module,Magento_Newsletter
 "Queue Information","Queue Information",module,Magento_Newsletter
 "Queue Date Start","Queue Date Start",module,Magento_Newsletter
 "Subscribers From","Subscribers From",module,Magento_Newsletter
@@ -6654,7 +6654,7 @@ Subject,Subject,module,Magento_Newsletter
 "Sender Name","Sender Name",module,Magento_Newsletter
 "Sender Email","Sender Email",module,Magento_Newsletter
 Message,Message,module,Magento_Newsletter
-"Newsletter Styles","Newsletter Styles",module,Magento_Newsletter
+"Newsletter Styles","Nyhetsbrev stilar",module,Magento_Newsletter
 Start,Start,module,Magento_Newsletter
 Pause,Pause,module,Magento_Newsletter
 "Do you really want to cancel the queue?","Do you really want to cancel the queue?",module,Magento_Newsletter
@@ -6662,13 +6662,13 @@ Cancel,Avbryt,module,Magento_Newsletter
 Resume,Resume,module,Magento_Newsletter
 Preview,Preview,module,Magento_Newsletter
 "Add New Template","Add New Template",module,Magento_Newsletter
-"Newsletter Templates","Newsletter Templates",module,Magento_Newsletter
+"Newsletter Templates","Nyhetsbrev mallar",module,Magento_Newsletter
 "Convert to Plain Text","Convert to Plain Text",module,Magento_Newsletter
 "Return HTML Version","Return HTML Version",module,Magento_Newsletter
 "Delete Template","Delete Template",module,Magento_Newsletter
 "Save As","Save As",module,Magento_Newsletter
 "Save Template","Save Template",module,Magento_Newsletter
-"Edit Newsletter Template","Edit Newsletter Template",module,Magento_Newsletter
+"Edit Newsletter Template","Redigera mall för nyhetsbrev",module,Magento_Newsletter
 "New Newsletter Template","New Newsletter Template",module,Magento_Newsletter
 "Template Information","Template Information",module,Magento_Newsletter
 "Template Name","Template Name",module,Magento_Newsletter
@@ -6752,7 +6752,7 @@ Subscribe,Prenumerera,module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.","Du har avbrutit prenumerationen på nyhetsbrevet.",module,Magento_Newsletter
 "Newsletter Template","Newsletter Template",module,Magento_Newsletter
 "Newsletter Section","Newsletter Section",module,Magento_Newsletter
-"Subscription Options","Subscription Options",module,Magento_Newsletter
+"Subscription Options",Prenumerationsval,module,Magento_Newsletter
 "Allow Guest Subscription","Allow Guest Subscription",module,Magento_Newsletter
 "Need to Confirm","Need to Confirm",module,Magento_Newsletter
 "Confirmation Email Sender","Confirmation Email Sender",module,Magento_Newsletter
@@ -6790,7 +6790,7 @@ Unconfirmed,Unconfirmed,module,Magento_Newsletter
 "Web Site","Web Site",module,Magento_Newsletter
 Store,Store,module,Magento_Newsletter
 "Store View","Store View",module,Magento_Newsletter
-"Newsletter Subscriptions","Newsletter Subscriptions",module,Magento_Newsletter
+"Newsletter Subscriptions","Prenumerationer på nyhetsbrev",module,Magento_Newsletter
 "Make Check payable to:","Checkbetalning till:",module,Magento_OfflinePayments
 "Send Check to:","Skicka check till:",module,Magento_OfflinePayments
 "Purchase Order Number",Inköpsordernummer,module,Magento_OfflinePayments
@@ -7327,7 +7327,7 @@ Date,Datum,module,Magento_Paypal
 "Back to Billing Agreements","Back to Billing Agreements",module,Magento_Paypal
 "Payment Method","Payment Method",module,Magento_Paypal
 View,View,module,Magento_Paypal
-"There are no billing agreements yet.","There are no billing agreements yet.",module,Magento_Paypal
+"There are no billing agreements yet.","Det finns ännu inte några faktureringsavtal.",module,Magento_Paypal
 "New Billing Agreement","New Billing Agreement",module,Magento_Paypal
 "You will be redirected to the payment system website.","You will be redirected to the payment system website.",module,Magento_Paypal
 "-- Please Select --","-- Please Select --",module,Magento_Paypal
@@ -7348,7 +7348,7 @@ Edit,Redigera,module,Magento_Paypal
 "Submitting order information...","Submitting order information...",module,Magento_Paypal
 Item,Item,module,Magento_Paypal
 Price,Price,module,Magento_Paypal
-Qty,Qty,module,Magento_Paypal
+Qty,Antal,module,Magento_Paypal
 Subtotal,Subtotal,module,Magento_Paypal
 "Please update order data to get shipping methods and rates","Please update order data to get shipping methods and rates",module,Magento_Paypal
 or,eller,module,Magento_Paypal
@@ -8078,7 +8078,7 @@ Error,Error,module,Magento_Reports
 "In stock","In stock",module,Magento_Reports
 "Out of stock","Out of stock",module,Magento_Reports
 "Add to Wish List","Lägg till i önskelista",module,Magento_Reports
-"Add to Compare","Add to Compare",module,Magento_Reports
+"Add to Compare","Lägg till i jämför",module,Magento_Reports
 "Recently Compared","Recently Compared",module,Magento_Reports
 "Learn More","Läs Mer",module,Magento_Reports
 Marketing,Marketing,module,Magento_Reports
@@ -8220,7 +8220,7 @@ Reviews,Recensioner,module,Magento_Review
 "You deleted the rating.","You deleted the rating.",module,Magento_Review
 Ratings,Betyg,module,Magento_Review
 "You saved the rating.","You saved the rating.",module,Magento_Review
-"My Product Reviews","My Product Reviews",module,Magento_Review
+"My Product Reviews","Mina Produktrecensioner",module,Magento_Review
 "Cannot initialize product","Cannot initialize product",module,Magento_Review
 "You submitted your review for moderation.","You submitted your review for moderation.",module,Magento_Review
 "We can't post your review right now.","We can't post your review right now.",module,Magento_Review
@@ -8239,7 +8239,7 @@ Pending,Pending,module,Magento_Review
 Rating,Rating,module,Magento_Review
 Actions,Actions,module,Magento_Review
 "See Details","See Details",module,Magento_Review
-"You have submitted no reviews.","You have submitted no reviews.",module,Magento_Review
+"You have submitted no reviews.","Du har inte skickat några recensioner.",module,Magento_Review
 Back,Back,module,Magento_Review
 "My Recent Reviews","My Recent Reviews",module,Magento_Review
 "View All","View All",module,Magento_Review
@@ -8895,61 +8895,61 @@ Quantity,Antal,module,Magento_Sales
 "Shipping Address",Leveransadress,module,Magento_Sales
 "Shipping Method",Fraktsätt,module,Magento_Sales
 "Update Changes","Uppdatera ändringar",module,Magento_Sales
-"Shopping Cart","Shopping Cart",module,Magento_Sales
+"Shopping Cart",Varukorg,module,Magento_Sales
 "Are you sure you want to delete all items from shopping cart?","Är du säker på att du vill tömma kundvagnen?",module,Magento_Sales
-"Clear Shopping Cart","Clear Shopping Cart",module,Magento_Sales
-"Products in Comparison List","Products in Comparison List",module,Magento_Sales
-"Recently Compared Products","Recently Compared Products",module,Magento_Sales
-"Recently Viewed Products","Recently Viewed Products",module,Magento_Sales
+"Clear Shopping Cart","Rensa Varukorgen",module,Magento_Sales
+"Products in Comparison List","Produkter i jämförelselistan",module,Magento_Sales
+"Recently Compared Products","Nyligen jämförda produkter",module,Magento_Sales
+"Recently Viewed Products","Nyligen visade produkter",module,Magento_Sales
 "Last Ordered Items","Senast Beställda Artiklar",module,Magento_Sales
-"Recently Viewed","Recently Viewed",module,Magento_Sales
-"Wish List","Wish List",module,Magento_Sales
-"Please select a store","Please select a store",module,Magento_Sales
-"Order Totals","Order Totals",module,Magento_Sales
-"Shipping Incl. Tax (%1)","Shipping Incl. Tax (%1)",module,Magento_Sales
-"Shipping Excl. Tax (%1)","Shipping Excl. Tax (%1)",module,Magento_Sales
-"New Credit Memo for Invoice #%1","New Credit Memo for Invoice #%1",module,Magento_Sales
-"New Credit Memo for Order #%1","New Credit Memo for Order #%1",module,Magento_Sales
-"Refund Shipping (Incl. Tax)","Refund Shipping (Incl. Tax)",module,Magento_Sales
-"Refund Shipping (Excl. Tax)","Refund Shipping (Excl. Tax)",module,Magento_Sales
-"Refund Shipping","Refund Shipping",module,Magento_Sales
+"Recently Viewed","Senast Visade",module,Magento_Sales
+"Wish List",Önskelista,module,Magento_Sales
+"Please select a store","Vänligen välj en butik",module,Magento_Sales
+"Order Totals",Ordersumma,module,Magento_Sales
+"Shipping Incl. Tax (%1)","Frakt inkl skatt (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Frakt Exkl. frakt (%1)",module,Magento_Sales
+"New Credit Memo for Invoice #%1","Ny kreditnota för faktura #%1",module,Magento_Sales
+"New Credit Memo for Order #%1","Ny kreditnota för Order #%1",module,Magento_Sales
+"Refund Shipping (Incl. Tax)","Återbetala frakt (inkl. skatt)",module,Magento_Sales
+"Refund Shipping (Excl. Tax)","Återbetala frakt (exkl. skatt)",module,Magento_Sales
+"Refund Shipping","Återbetala frakt",module,Magento_Sales
 "Update Qty's","Update Qty's",module,Magento_Sales
-Refund,Refund,module,Magento_Sales
-"Refund Offline","Refund Offline",module,Magento_Sales
-"Paid Amount","Paid Amount",module,Magento_Sales
-"Refund Amount","Refund Amount",module,Magento_Sales
-"Shipping Amount","Shipping Amount",module,Magento_Sales
-"Shipping Refund","Shipping Refund",module,Magento_Sales
-"Order Grand Total","Order Grand Total",module,Magento_Sales
-"Adjustment Refund","Adjustment Refund",module,Magento_Sales
-"Adjustment Fee","Adjustment Fee",module,Magento_Sales
-"Send Email","Send Email",module,Magento_Sales
-"Are you sure you want to send a credit memo email to customer?","Are you sure you want to send a credit memo email to customer?",module,Magento_Sales
-Void,Void,module,Magento_Sales
-Print,Print,module,Magento_Sales
-"The credit memo email was sent.","The credit memo email was sent.",module,Magento_Sales
+Refund,Återbetala,module,Magento_Sales
+"Refund Offline","Återbetalning Offline",module,Magento_Sales
+"Paid Amount","Betalat belopp",module,Magento_Sales
+"Refund Amount","Summa för återbetalning",module,Magento_Sales
+"Shipping Amount",Fraktkostnad,module,Magento_Sales
+"Shipping Refund","Återbetala frakt",module,Magento_Sales
+"Order Grand Total",Ordertotal,module,Magento_Sales
+"Adjustment Refund","Justering av återbetalning",module,Magento_Sales
+"Adjustment Fee",Justeringsavgift,module,Magento_Sales
+"Send Email","Skicka e-postmeddelande",module,Magento_Sales
+"Are you sure you want to send a credit memo email to customer?","Är du säker du vill skicka ett kreditmemo-mail till kunden?",module,Magento_Sales
+Void,Makulera,module,Magento_Sales
+Print,"Skriv ut",module,Magento_Sales
+"The credit memo email was sent.","Kreditmemo-mailet har skickats.",module,Magento_Sales
 "The credit memo email wasn't sent.","The credit memo email wasn't sent.",module,Magento_Sales
-"Credit Memo #%1 | %3 | %2 (%4)","Credit Memo #%1 | %3 | %2 (%4)",module,Magento_Sales
-"Total Refund","Total Refund",module,Magento_Sales
-"New Invoice and Shipment for Order #%1","New Invoice and Shipment for Order #%1",module,Magento_Sales
-"New Invoice for Order #%1","New Invoice for Order #%1",module,Magento_Sales
-"Submit Invoice and Shipment","Submit Invoice and Shipment",module,Magento_Sales
-"Submit Invoice","Submit Invoice",module,Magento_Sales
-"Are you sure you want to send an invoice email to customer?","Are you sure you want to send an invoice email to customer?",module,Magento_Sales
-"Credit Memo","Credit Memo",module,Magento_Sales
-Capture,Capture,module,Magento_Sales
-"The invoice email was sent.","The invoice email was sent.",module,Magento_Sales
+"Credit Memo #%1 | %3 | %2 (%4)","Kredit-Memo #%1 | %3 | %2 (%4)",module,Magento_Sales
+"Total Refund","Återbetala hela beloppet",module,Magento_Sales
+"New Invoice and Shipment for Order #%1","Ny faktura och leverans för Order #%1",module,Magento_Sales
+"New Invoice for Order #%1","Ny faktura för ordern #%1",module,Magento_Sales
+"Submit Invoice and Shipment","Skicka faktura och leverans",module,Magento_Sales
+"Submit Invoice","Skicka faktura",module,Magento_Sales
+"Are you sure you want to send an invoice email to customer?","Är du säker på att du vill maila fakturan till kunden?",module,Magento_Sales
+"Credit Memo",Kreditmemo,module,Magento_Sales
+Capture,Fakturera,module,Magento_Sales
+"The invoice email was sent.","Ett mail med fakturan har skickats.",module,Magento_Sales
 "The invoice email wasn't sent.","The invoice email wasn't sent.",module,Magento_Sales
-"Invoice #%1 | %2 | %4 (%3)","Invoice #%1 | %2 | %4 (%3)",module,Magento_Sales
-"Invalid parent block for this block","Invalid parent block for this block",module,Magento_Sales
-"Order Statuses","Order Statuses",module,Magento_Sales
+"Invoice #%1 | %2 | %4 (%3)","Fakturera #%1 | %2 | %4 (%3)",module,Magento_Sales
+"Invalid parent block for this block","Ogiltig överordnat block för detta block",module,Magento_Sales
+"Order Statuses",Orderstatus,module,Magento_Sales
 "Create New Status","Skapa ny status",module,Magento_Sales
-"Assign Status to State","Assign Status to State",module,Magento_Sales
-"Save Status Assignment","Save Status Assignment",module,Magento_Sales
-"Assign Order Status to State","Assign Order Status to State",module,Magento_Sales
-"Assignment Information","Assignment Information",module,Magento_Sales
+"Assign Status to State","Tilldela Status till stadie",module,Magento_Sales
+"Save Status Assignment","Spara Status tilldelning",module,Magento_Sales
+"Assign Order Status to State","Tilldela orderstatus till ordern",module,Magento_Sales
+"Assignment Information",Tilldelningsinformation,module,Magento_Sales
 "Order Status",Orderstatus,module,Magento_Sales
-"Order State",Orderskick,module,Magento_Sales
+"Order State",Orderstatus,module,Magento_Sales
 "Use Order Status As Default","Använd orderstatus som standard",module,Magento_Sales
 "Visible On Storefront","Synlig i butiksvyn",module,Magento_Sales
 "Edit Order Status","Redigera orderstatus",module,Magento_Sales
@@ -8998,9 +8998,9 @@ Information,Information,module,Magento_Sales
 "Order Information",Orderinformation,module,Magento_Sales
 "Order Invoices",Orderfakturor,module,Magento_Sales
 Shipments,Leveranser,module,Magento_Sales
-"Order Shipments","Order Shipments",module,Magento_Sales
-Transactions,Transactions,module,Magento_Sales
-"Order View","Order View",module,Magento_Sales
+"Order Shipments",Frakt,module,Magento_Sales
+Transactions,Transaktioner,module,Magento_Sales
+"Order View",Ordervy,module,Magento_Sales
 Any,Any,module,Magento_Sales
 Specified,Specified,module,Magento_Sales
 "Applies to Any of the Specified Order Statuses except canceled orders","Applies to Any of the Specified Order Statuses except canceled orders",module,Magento_Sales
@@ -9022,10 +9022,10 @@ Key,Key,module,Magento_Sales
 Value,Value,module,Magento_Sales
 "We found an invalid entity model.","We found an invalid entity model.",module,Magento_Sales
 "Order # %1","Order # %1",module,Magento_Sales
-"Back to My Orders","Back to My Orders",module,Magento_Sales
+"Back to My Orders","Tillbaka till mina beställningar",module,Magento_Sales
 "View Another Order","View Another Order",module,Magento_Sales
 "About Your Refund","About Your Refund",module,Magento_Sales
-"My Orders","My Orders",module,Magento_Sales
+"My Orders","Mina beställningar",module,Magento_Sales
 "Subscribe to Order Status","Subscribe to Order Status",module,Magento_Sales
 "About Your Invoice","About Your Invoice",module,Magento_Sales
 "Print Order # %1","Print Order # %1",module,Magento_Sales
@@ -9064,71 +9064,71 @@ Sales,Sales,module,Magento_Sales
 "View Memo","View Memo",module,Magento_Sales
 "You voided the credit memo.","You voided the credit memo.",module,Magento_Sales
 "We can't void the credit memo.","We can't void the credit memo.",module,Magento_Sales
-"The order no longer exists.","The order no longer exists.",module,Magento_Sales
+"The order no longer exists.","Ordern finns inte längre.",module,Magento_Sales
 "We can't create credit memo for the order.","We can't create credit memo for the order.",module,Magento_Sales
-"Edit Order","Edit Order",module,Magento_Sales
-"You sent the order email.","You sent the order email.",module,Magento_Sales
+"Edit Order","Redigera Order",module,Magento_Sales
+"You sent the order email.","Du har skickat e-post om beställningen.",module,Magento_Sales
 "We can't send the email order right now.","We can't send the email order right now.",module,Magento_Sales
-"You have not put the order on hold.","You have not put the order on hold.",module,Magento_Sales
-"You put the order on hold.","You put the order on hold.",module,Magento_Sales
-"You canceled the invoice.","You canceled the invoice.",module,Magento_Sales
-"Invoice canceling error","Invoice canceling error",module,Magento_Sales
-"The invoice has been captured.","The invoice has been captured.",module,Magento_Sales
-"The order does not allow an invoice to be created.","The order does not allow an invoice to be created.",module,Magento_Sales
+"You have not put the order on hold.","Du har inte parkera ordern.",module,Magento_Sales
+"You put the order on hold.","Du har parkerat ordern.",module,Magento_Sales
+"You canceled the invoice.","Du avbröt fakturan.",module,Magento_Sales
+"Invoice canceling error","Fel i avbrytandet av fakturan",module,Magento_Sales
+"The invoice has been captured.","Fakturan har fångats.",module,Magento_Sales
+"The order does not allow an invoice to be created.","Ordern tillåter inte att en faktura skapas.",module,Magento_Sales
 "You can't create an invoice without products.","You can't create an invoice without products.",module,Magento_Sales
 "New Invoice","Ny faktura",module,Magento_Sales
 "We can't save the invoice right now.","We can't save the invoice right now.",module,Magento_Sales
-"The invoice and the shipment  have been created. The shipping label cannot be created now.","The invoice and the shipment  have been created. The shipping label cannot be created now.",module,Magento_Sales
-"You created the invoice and shipment.","You created the invoice and shipment.",module,Magento_Sales
-"The invoice has been created.","The invoice has been created.",module,Magento_Sales
+"The invoice and the shipment  have been created. The shipping label cannot be created now.","Fakturan och leveransen har skapats. ' ' Fraktetiketten kan inte skapas nu.",module,Magento_Sales
+"You created the invoice and shipment.","Du har skapat faktura och frakt.",module,Magento_Sales
+"The invoice has been created.","Fakturan har skapats.",module,Magento_Sales
 "We can't send the invoice email right now.","We can't send the invoice email right now.",module,Magento_Sales
 "We can't send the shipment right now.","We can't send the shipment right now.",module,Magento_Sales
-"Cannot update item quantity.","Cannot update item quantity.",module,Magento_Sales
-"The invoice has been voided.","The invoice has been voided.",module,Magento_Sales
-"Invoice voiding error","Invoice voiding error",module,Magento_Sales
-"%1 order(s) cannot be canceled.","%1 order(s) cannot be canceled.",module,Magento_Sales
-"You cannot cancel the order(s).","You cannot cancel the order(s).",module,Magento_Sales
-"We canceled %1 order(s).","We canceled %1 order(s).",module,Magento_Sales
-"%1 order(s) were not put on hold.","%1 order(s) were not put on hold.",module,Magento_Sales
-"No order(s) were put on hold.","No order(s) were put on hold.",module,Magento_Sales
-"You have put %1 order(s) on hold.","You have put %1 order(s) on hold.",module,Magento_Sales
-"%1 order(s) were not released from on hold status.","%1 order(s) were not released from on hold status.",module,Magento_Sales
-"No order(s) were released from on hold status.","No order(s) were released from on hold status.",module,Magento_Sales
-"%1 order(s) have been released from on hold status.","%1 order(s) have been released from on hold status.",module,Magento_Sales
-"There are no printable documents related to selected orders.","There are no printable documents related to selected orders.",module,Magento_Sales
-"The payment has been accepted.","The payment has been accepted.",module,Magento_Sales
-"The payment has been denied.","The payment has been denied.",module,Magento_Sales
-"Transaction has been approved.","Transaction has been approved.",module,Magento_Sales
-"Transaction has been voided/declined.","Transaction has been voided/declined.",module,Magento_Sales
-"There is no update for the transaction.","There is no update for the transaction.",module,Magento_Sales
+"Cannot update item quantity.","Kan inte uppdatera artikelkvantitet.",module,Magento_Sales
+"The invoice has been voided.","Fakturan har annullerats.",module,Magento_Sales
+"Invoice voiding error","Fel vid makulering av faktura",module,Magento_Sales
+"%1 order(s) cannot be canceled.","%1 order kan inte avbrytas.",module,Magento_Sales
+"You cannot cancel the order(s).","Du kan inte avbryta order.",module,Magento_Sales
+"We canceled %1 order(s).","Vi avbröt %1 order.",module,Magento_Sales
+"%1 order(s) were not put on hold.","%1 order var inte parkerad.",module,Magento_Sales
+"No order(s) were put on hold.","Ingen beställning parkerad.",module,Magento_Sales
+"You have put %1 order(s) on hold.","Du har parkerat %1 order.",module,Magento_Sales
+"%1 order(s) were not released from on hold status.","%1 order släpptes inte från parkerad status.",module,Magento_Sales
+"No order(s) were released from on hold status.","Ingen beställning släpptes från parkerad status.",module,Magento_Sales
+"%1 order(s) have been released from on hold status.","%1 du har släppts från parkerad status.",module,Magento_Sales
+"There are no printable documents related to selected orders.","Det finns inga utskrivbara dokument relaterade till valda order.",module,Magento_Sales
+"The payment has been accepted.","Betalningen har godkänts.",module,Magento_Sales
+"The payment has been denied.","Betalningen har nekats.",module,Magento_Sales
+"Transaction has been approved.","Transaktionen har godkänts.",module,Magento_Sales
+"Transaction has been voided/declined.","Transaktionen har blivit annullerad/avslagen.",module,Magento_Sales
+"There is no update for the transaction.","Det finns ingen uppdatering för transaktionen.",module,Magento_Sales
 "We can't update the payment right now.","We can't update the payment right now.",module,Magento_Sales
-"You assigned the order status.","You assigned the order status.",module,Magento_Sales
-"Something went wrong while assigning the order status.","Something went wrong while assigning the order status.",module,Magento_Sales
+"You assigned the order status.","Du tilldelade ordern en ny orderstatus.",module,Magento_Sales
+"Something went wrong while assigning the order status.","Något gick fel vid tilldelandet av en ny orderstatus.",module,Magento_Sales
 "We can't find this order status.","We can't find this order status.",module,Magento_Sales
 "Create New Order Status","Skapa ny orderstatus",module,Magento_Sales
-"We found another order status with the same order status code.","We found another order status with the same order status code.",module,Magento_Sales
-"You saved the order status.","You saved the order status.",module,Magento_Sales
+"We found another order status with the same order status code.","Vi hittade en annan orderstatus med samma order statuskod.",module,Magento_Sales
+"You saved the order status.","Du har sparat en ny orderstatus.",module,Magento_Sales
 "We can't add the order status right now.","We can't add the order status right now.",module,Magento_Sales
-"You have unassigned the order status.","You have unassigned the order status.",module,Magento_Sales
-"Something went wrong while unassigning the order.","Something went wrong while unassigning the order.",module,Magento_Sales
+"You have unassigned the order status.","Du har annulerat orderstatusen.",module,Magento_Sales
+"Something went wrong while unassigning the order.","Något gick fel när du tar bort ordern.",module,Magento_Sales
 "Can't unhold order.","Can't unhold order.",module,Magento_Sales
-"You released the order from holding status.","You released the order from holding status.",module,Magento_Sales
-"The order was not on hold.","The order was not on hold.",module,Magento_Sales
-"Exception occurred during order load","Exception occurred during order load",module,Magento_Sales
-"Something went wrong while saving the gift message.","Something went wrong while saving the gift message.",module,Magento_Sales
-"You saved the gift card message.","You saved the gift card message.",module,Magento_Sales
-"The payment has been voided.","The payment has been voided.",module,Magento_Sales
+"You released the order from holding status.","Du släppte ordern från parkerad status.",module,Magento_Sales
+"The order was not on hold.","Ordern var inte parkerad.",module,Magento_Sales
+"Exception occurred during order load","Fel uppstod under orderbelastning",module,Magento_Sales
+"Something went wrong while saving the gift message.","Något gick fel när du sparar gåvomeddelande.",module,Magento_Sales
+"You saved the gift card message.","Du sparade gåvomeddelandet.",module,Magento_Sales
+"The payment has been voided.","Betalningen har makulerats.",module,Magento_Sales
 "We can't void the payment right now.","We can't void the payment right now.",module,Magento_Sales
-"Please correct the transaction ID and try again.","Please correct the transaction ID and try again.",module,Magento_Sales
-"The transaction details have been updated.","The transaction details have been updated.",module,Magento_Sales
+"Please correct the transaction ID and try again.","Vänligen korrigera transaktions-ID och försök igen.",module,Magento_Sales
+"The transaction details have been updated.","Information om transaktionen har uppdaterats.",module,Magento_Sales
 "We can't update the transaction details.","We can't update the transaction details.",module,Magento_Sales
-"Orders and Returns","Orders and Returns",module,Magento_Sales
-"You entered incorrect data. Please try again.","You entered incorrect data. Please try again.",module,Magento_Sales
-Home,Home,module,Magento_Sales
-"Go to Home Page","Go to Home Page",module,Magento_Sales
+"Orders and Returns","Order och returer",module,Magento_Sales
+"You entered incorrect data. Please try again.","Du angett felaktiga uppgifter. Vänligen försök igen.",module,Magento_Sales
+Home,Hem,module,Magento_Sales
+"Go to Home Page","Gå till startsidan",module,Magento_Sales
 "We can't find this wish list.","We can't find this wish list.",module,Magento_Sales
-"We could not add a product to cart by the ID ""%1"".","We could not add a product to cart by the ID ""%1"".",module,Magento_Sales
-"There is an error in one of the option rows.","There is an error in one of the option rows.",module,Magento_Sales
+"We could not add a product to cart by the ID ""%1"".","Vi kunde inte lägga till en produkt i varukorgen av ID ""%1"".",module,Magento_Sales
+"There is an error in one of the option rows.","Det finns ett fel i en av raderna.",module,Magento_Sales
 "Shipping Address:","Shipping Address:",module,Magento_Sales
 "Billing Address:","Billing Address:",module,Magento_Sales
 "Please specify order items.","Vänligen ange orderns artiklar.",module,Magento_Sales
@@ -9185,57 +9185,57 @@ Paid,Paid,module,Magento_Sales
 Ordered,Ordered,module,Magento_Sales
 Shipped,Shipped,module,Magento_Sales
 Invoiced,Invoiced,module,Magento_Sales
-Backordered,Backordered,module,Magento_Sales
-Returned,Returned,module,Magento_Sales
-Partial,Partial,module,Magento_Sales
-Mixed,Mixed,module,Magento_Sales
-"Registered a Void notification.","Registered a Void notification.",module,Magento_Sales
-"If the invoice was created offline, try creating an offline credit memo.","If the invoice was created offline, try creating an offline credit memo.",module,Magento_Sales
-"We refunded %1 online.","We refunded %1 online.",module,Magento_Sales
-"We refunded %1 offline.","We refunded %1 offline.",module,Magento_Sales
-"IPN ""Refunded"". Refund issued by merchant. Registered notification about refunded amount of %1. Transaction ID: ""%2"". Credit Memo has not been created. Please create offline Credit Memo.","IPN ""Refunded"". Refund issued by merchant. Registered notification about refunded amount of %1. Transaction ID: ""%2"". Credit Memo has not been created. Please create offline Credit Memo.",module,Magento_Sales
-"The credit memo has been created automatically.","The credit memo has been created automatically.",module,Magento_Sales
-"Registered notification about refunded amount of %1.","Registered notification about refunded amount of %1.",module,Magento_Sales
-"Canceled order online","Canceled order online",module,Magento_Sales
-"Canceled order offline","Canceled order offline",module,Magento_Sales
-"Approved the payment online.","Approved the payment online.",module,Magento_Sales
-"There is no need to approve this payment.","There is no need to approve this payment.",module,Magento_Sales
-"Denied the payment online","Denied the payment online",module,Magento_Sales
-"Registered update about approved payment.","Registered update about approved payment.",module,Magento_Sales
-"Registered update about denied payment.","Registered update about denied payment.",module,Magento_Sales
-"There is no update for the payment.","There is no update for the payment.",module,Magento_Sales
-"Voided authorization.","Voided authorization.",module,Magento_Sales
-"Amount: %1.","Amount: %1.",module,Magento_Sales
-"Transaction ID: ""%1""","Transaction ID: ""%1""",module,Magento_Sales
-"The payment method you requested is not available.","The payment method you requested is not available.",module,Magento_Sales
-"The payment disallows storing objects.","The payment disallows storing objects.",module,Magento_Sales
-"The transaction ""%1"" cannot be captured yet.","The transaction ""%1"" cannot be captured yet.",module,Magento_Sales
-"The order amount of %1 is pending approval on the payment gateway.","The order amount of %1 is pending approval on the payment gateway.",module,Magento_Sales
-"Ordered amount of %1","Ordered amount of %1",module,Magento_Sales
-"An amount of %1 will be captured after being approved at the payment gateway.","An amount of %1 will be captured after being approved at the payment gateway.",module,Magento_Sales
-"Registered notification about captured amount of %1.","Registered notification about captured amount of %1.",module,Magento_Sales
-"Order is suspended as its capture amount %1 is suspected to be fraudulent.","Order is suspended as its capture amount %1 is suspected to be fraudulent.",module,Magento_Sales
-"The parent transaction ID must have a transaction ID.","The parent transaction ID must have a transaction ID.",module,Magento_Sales
-"Payment transactions disallow storing objects.","Payment transactions disallow storing objects.",module,Magento_Sales
-"The transaction ""%1"" (%2) is already closed.","The transaction ""%1"" (%2) is already closed.",module,Magento_Sales
-"Set order for existing transactions not allowed","Set order for existing transactions not allowed",module,Magento_Sales
-"At minimum, you need to set a payment ID.","At minimum, you need to set a payment ID.",module,Magento_Sales
-Order,Order,module,Magento_Sales
-Authorization,Authorization,module,Magento_Sales
-"We found an unsupported transaction type ""%1"".","We found an unsupported transaction type ""%1"".",module,Magento_Sales
-"Please set a proper payment and order id.","Please set a proper payment and order id.",module,Magento_Sales
-"Please enter a Transaction ID.","Please enter a Transaction ID.",module,Magento_Sales
+Backordered,Restnoterade,module,Magento_Sales
+Returned,Återlämnad,module,Magento_Sales
+Partial,Partiell,module,Magento_Sales
+Mixed,Blandad,module,Magento_Sales
+"Registered a Void notification.","Registrerat ett makulerat meddelande.",module,Magento_Sales
+"If the invoice was created offline, try creating an offline credit memo.","Om fakturan har skapats offline, försöka skapa en kreditnota för offline.",module,Magento_Sales
+"We refunded %1 online.","Vi återbetalade %1 online.",module,Magento_Sales
+"We refunded %1 offline.","Vi återbetalade %1 offline.",module,Magento_Sales
+"IPN ""Refunded"". Refund issued by merchant. Registered notification about refunded amount of %1. Transaction ID: ""%2"". Credit Memo has not been created. Please create offline Credit Memo.","IPN ""Återbetalas"". Återbetalning utfärdas av köpman. Registrerad anmälan om återbetalade beloppet av %1. Transaktions-ID: ""%2"". Kreditnotan har inte skapats. Vänligen skapa offline kreditnota.",module,Magento_Sales
+"The credit memo has been created automatically.","Kreditnotan har skapats automatiskt.",module,Magento_Sales
+"Registered notification about refunded amount of %1.","Registrerad anmälan om återbetalade beloppet av %1.",module,Magento_Sales
+"Canceled order online","Annullerade order online",module,Magento_Sales
+"Canceled order offline","Annullerade order offline",module,Magento_Sales
+"Approved the payment online.","Godkänt betalningen online.",module,Magento_Sales
+"There is no need to approve this payment.","Det finns inget behov av att godkänna denna betalning.",module,Magento_Sales
+"Denied the payment online","Nekad betalning online",module,Magento_Sales
+"Registered update about approved payment.","Registrerad uppdatering om godkänd betalning.",module,Magento_Sales
+"Registered update about denied payment.","Registrerad uppdatering om nekad betalning.",module,Magento_Sales
+"There is no update for the payment.","Det finns ingen uppdatering för betalning.",module,Magento_Sales
+"Voided authorization.","Annullerad auktorisering.",module,Magento_Sales
+"Amount: %1.","Belopp: %1.",module,Magento_Sales
+"Transaction ID: ""%1""","Transaktions-ID: ""%1""",module,Magento_Sales
+"The payment method you requested is not available.","Den betalningsmetod som du har begärt är inte tillgänglig.",module,Magento_Sales
+"The payment disallows storing objects.","Betalningen godkänner inte att lagra objekt.",module,Magento_Sales
+"The transaction ""%1"" cannot be captured yet.","Transaktionen ""%1"" kan inte fångas ännu.",module,Magento_Sales
+"The order amount of %1 is pending approval on the payment gateway.","Orderkostnaden %1 väntar på godkännande av betallösning.",module,Magento_Sales
+"Ordered amount of %1","Beställd mängd %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","Summan %1 kommer att dras efter godkännande av betalningsleverantör.",module,Magento_Sales
+"Registered notification about captured amount of %1.","Registrerad anmälan om dragning av summan %1.",module,Magento_Sales
+"Order is suspended as its capture amount %1 is suspected to be fraudulent.","Beställning avbryts eftersom dragna beloppet %1 misstänks vara falskt.",module,Magento_Sales
+"The parent transaction ID must have a transaction ID.","Överordnat transaktions-ID måste ha ett transaktions-ID.",module,Magento_Sales
+"Payment transactions disallow storing objects.","Betalningstransaktioner förbjuder lagring av objekt.",module,Magento_Sales
+"The transaction ""%1"" (%2) is already closed.","Transaktionen ""%1"" (%2) är redan stängd.",module,Magento_Sales
+"Set order for existing transactions not allowed","Ange ordning för befintliga transaktioner som inte är tillåtna",module,Magento_Sales
+"At minimum, you need to set a payment ID.","Du måste åtminstone ange ett betalnings-ID.",module,Magento_Sales
+Order,Beställning,module,Magento_Sales
+Authorization,Auktorisering,module,Magento_Sales
+"We found an unsupported transaction type ""%1"".","Vi hittade en transaktionstyp ""%1"" som inte stödjs.",module,Magento_Sales
+"Please set a proper payment and order id.","Vänligen ange ett korrekt betalnings och beställning-id.",module,Magento_Sales
+"Please enter a Transaction ID.","Vänligen ange ett transaktion-ID.",module,Magento_Sales
 "You can't do this without a transaction object.","You can't do this without a transaction object.",module,Magento_Sales
-"Order #","Order #",module,Magento_Sales
-"Order Date:","Order Date:",module,Magento_Sales
-"Sold to:","Sold to:",module,Magento_Sales
-"Ship to:","Ship to:",module,Magento_Sales
-"Payment Method:","Payment Method:",module,Magento_Sales
-"Shipping Method:","Shipping Method:",module,Magento_Sales
-"Total Shipping Charges","Total Shipping Charges",module,Magento_Sales
-Title,Title,module,Magento_Sales
-Number,Number,module,Magento_Sales
-"We found an invalid renderer model.","We found an invalid renderer model.",module,Magento_Sales
+"Order #","Beställnings nr",module,Magento_Sales
+"Order Date:",Orderdatum:,module,Magento_Sales
+"Sold to:","Såldes till:",module,Magento_Sales
+"Ship to:","Leverera till:",module,Magento_Sales
+"Payment Method:",Betalsätt:,module,Magento_Sales
+"Shipping Method:",Fraktsätt:,module,Magento_Sales
+"Total Shipping Charges","Totala fraktkostnader",module,Magento_Sales
+Title,Titel,module,Magento_Sales
+Number,Antal,module,Magento_Sales
+"We found an invalid renderer model.","Vi hittade en ogiltig renderings-modell.",module,Magento_Sales
 "Please define the PDF object before using.","Please define the PDF object before using.",module,Magento_Sales
 "We don't recognize the draw line data. Please define the ""lines"" array.","We don't recognize the draw line data. Please define the ""lines"" array.",module,Magento_Sales
 Products,Products,module,Magento_Sales
@@ -9299,66 +9299,66 @@ State/Province,Län,module,Magento_Sales
 "Current Status: %1<br/>","Current Status: %1<br/>",module,Magento_Sales
 "Total: %1<br/>","Total: %1<br/>",module,Magento_Sales
 "Order # %1 Notification(s)","Order # %1 Notification(s)",module,Magento_Sales
-"You can not cancel Credit Memo","You can not cancel Credit Memo",module,Magento_Sales
-"Could not cancel creditmemo","Could not cancel creditmemo",module,Magento_Sales
-"We cannot register an existing credit memo.","We cannot register an existing credit memo.",module,Magento_Sales
-"We found an invalid quantity to invoice item ""%1"".","We found an invalid quantity to invoice item ""%1"".",module,Magento_Sales
-"The Order State ""%1"" must not be set manually.","The Order State ""%1"" must not be set manually.",module,Magento_Sales
-"""Shipment Document Validation Error(s):\n"" .","""Shipment Document Validation Error(s):\n"" .",module,Magento_Sales
-"Could not save a shipment, see error log for details","Could not save a shipment, see error log for details",module,Magento_Sales
-"VAT Request Identifier","VAT Request Identifier",module,Magento_Sales
-"VAT Request Date","VAT Request Date",module,Magento_Sales
-"Pending Payment","Pending Payment",module,Magento_Sales
-Processing,Processing,module,Magento_Sales
-"On Hold","On Hold",module,Magento_Sales
-Complete,Complete,module,Magento_Sales
-Closed,Closed,module,Magento_Sales
-"Suspected Fraud","Suspected Fraud",module,Magento_Sales
-"Payment Review","Payment Review",module,Magento_Sales
+"You can not cancel Credit Memo","Du kan inte avbryta kreditnota",module,Magento_Sales
+"Could not cancel creditmemo","Kunde inte avbryta kreditnota",module,Magento_Sales
+"We cannot register an existing credit memo.","Vi kan inte registrera en befintlig kreditnota.",module,Magento_Sales
+"We found an invalid quantity to invoice item ""%1"".","Ogiltigt antal att fakturera objekt ""%1"".",module,Magento_Sales
+"The Order State ""%1"" must not be set manually.","Tillståndet för ""%1"" kan inte anges manuellt.",module,Magento_Sales
+"""Shipment Document Validation Error(s):\n"" .","""Leveransen har dokument validering fel: \n"".",module,Magento_Sales
+"Could not save a shipment, see error log for details","Kunde inte spara en sändning, se felloggen för mer information",module,Magento_Sales
+"VAT Request Identifier","MOMS begärande-ID",module,Magento_Sales
+"VAT Request Date","MOMS begäran datum",module,Magento_Sales
+"Pending Payment","Inväntar betalning",module,Magento_Sales
+Processing,Bearbetar,module,Magento_Sales
+"On Hold",Parkerad,module,Magento_Sales
+Complete,Slutförd,module,Magento_Sales
+Closed,Stängd,module,Magento_Sales
+"Suspected Fraud","Misstänkt bedrägeri",module,Magento_Sales
+"Payment Review",Betalningsgranskning,module,Magento_Sales
 New,Ny,module,Magento_Sales
-"test message","test message",module,Magento_Sales
-"Email has not been sent","Email has not been sent",module,Magento_Sales
-"Authorized amount of %1.","Authorized amount of %1.",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","We will authorize %1 after the payment is approved at the payment gateway.",module,Magento_Sales
-"Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.",module,Magento_Sales
-"Captured amount of %1 online.","Captured amount of %1 online.",module,Magento_Sales
-"Authorized amount of %1","Authorized amount of %1",module,Magento_Sales
-"Transaction ID: ""%1""","Transaction ID: ""%1""",module,Magento_Sales
-View,View,module,Magento_Sales
-"Group was removed","Group was removed",module,Magento_Sales
-"Changing address information will not recalculate shipping, tax or other order amount.","Changing address information will not recalculate shipping, tax or other order amount.",module,Magento_Sales
-"Comment Text","Comment Text",module,Magento_Sales
-"Notify Customer by Email","Notify Customer by Email",module,Magento_Sales
-"Visible on Storefront","Visible on Storefront",module,Magento_Sales
+"test message",testmeddelande,module,Magento_Sales
+"Email has not been sent","E-post har inte skickats",module,Magento_Sales
+"Authorized amount of %1.","Godkänt belopp av %1.",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","Vi kommer att tillåta %1 när betalningen har godkänts vid betalningsgateway.",module,Magento_Sales
+"Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Godkänt belopp av %1. Beställning avbryts eftersom dess bemyndigade belopp %1 misstänks vara ogiltigt.",module,Magento_Sales
+"Captured amount of %1 online.","Fakturerade %1 online.",module,Magento_Sales
+"Authorized amount of %1","Godkänt belopp %1",module,Magento_Sales
+"Transaction ID: ""%1""","Transaktions-ID: ""%1""",module,Magento_Sales
+View,Visa,module,Magento_Sales
+"Group was removed","Gruppen togs bort",module,Magento_Sales
+"Changing address information will not recalculate shipping, tax or other order amount.","När du ändrar adressuppgifter kommer inte beräkna om frakt-, skatte- eller andra Orderbelopp.",module,Magento_Sales
+"Comment Text",Kommentarstext,module,Magento_Sales
+"Notify Customer by Email","Meddela kunden via e-post",module,Magento_Sales
+"Visible on Storefront","Synlig i butiksvyn",module,Magento_Sales
 Customer,Kund,module,Magento_Sales
-Notified,Notified,module,Magento_Sales
-"Not Notified","Not Notified",module,Magento_Sales
-"No Payment Methods","No Payment Methods",module,Magento_Sales
-"Order Comments","Order Comments",module,Magento_Sales
-"Apply Coupon Code","Apply Coupon Code",module,Magento_Sales
-Apply,Apply,module,Magento_Sales
-"Remove Coupon Code","Remove Coupon Code",module,Magento_Sales
-Remove,Remove,module,Magento_Sales
+Notified,Anmält,module,Magento_Sales
+"Not Notified","Inte anmält",module,Magento_Sales
+"No Payment Methods","Inga betalningsmetoder tillgängliga",module,Magento_Sales
+"Order Comments","Kommentarer till beställning",module,Magento_Sales
+"Apply Coupon Code","Använd kupongkod",module,Magento_Sales
+Apply,Applicera,module,Magento_Sales
+"Remove Coupon Code","Ta bort kupongkoden",module,Magento_Sales
+Remove,"Ta bort",module,Magento_Sales
 "Address Information",Adressinformation,module,Magento_Sales
-"Payment &amp; Shipping Information","Payment &amp; Shipping Information",module,Magento_Sales
-"Order Total","Order Total",module,Magento_Sales
-"Order Currency:","Order Currency:",module,Magento_Sales
-"Same As Billing Address","Same As Billing Address",module,Magento_Sales
-"Select from existing customer addresses:","Select from existing customer addresses:",module,Magento_Sales
+"Payment &amp; Shipping Information","Betalning &amp; fraktInformation",module,Magento_Sales
+"Order Total",Ordertotal,module,Magento_Sales
+"Order Currency:",Ordervaluta:,module,Magento_Sales
+"Same As Billing Address","Samma som faktureringsadress",module,Magento_Sales
+"Select from existing customer addresses:","Välj från befintliga kundadresser:",module,Magento_Sales
 "Add New Address","Lägg till ny adress",module,Magento_Sales
-"Save in address book","Save in address book",module,Magento_Sales
+"Save in address book","Spara i adressboken",module,Magento_Sales
 "You don't need to select a shipping address.","You don't need to select a shipping address.",module,Magento_Sales
-"Gift Message for the Entire Order","Gift Message for the Entire Order",module,Magento_Sales
+"Gift Message for the Entire Order","Gåvameddelande för hela ordern",module,Magento_Sales
 "Leave this box blank if you don't want to leave a gift message for the entire order.","Leave this box blank if you don't want to leave a gift message for the entire order.",module,Magento_Sales
-"Row Subtotal","Row Subtotal",module,Magento_Sales
+"Row Subtotal","Radens delsumma",module,Magento_Sales
 Action,Åtgärd,module,Magento_Sales
 "No ordered items","Inga beställda artiklar",module,Magento_Sales
 "Update Items and Quantities","Uppdatera artiklar och antal",module,Magento_Sales
-"Total %1 product(s)","Total %1 product(s)",module,Magento_Sales
-Subtotal:,Subtotal:,module,Magento_Sales
-"Tier Pricing","Tier Pricing",module,Magento_Sales
+"Total %1 product(s)","Summa %1 produkt(er)",module,Magento_Sales
+Subtotal:,Delsumma:,module,Magento_Sales
+"Tier Pricing","Nivåbaserad prissättning",module,Magento_Sales
 "Custom Price","Anpassat Pris",module,Magento_Sales
-"Please select","Please select",module,Magento_Sales
+"Please select","Vänligen välj",module,Magento_Sales
 "Move to Shopping Cart","Move to Shopping Cart",module,Magento_Sales
 "Move to Wish List","Flytta till önskelista",module,Magento_Sales
 "Subscribe to Newsletter","Subscribe to Newsletter",module,Magento_Sales
@@ -9424,71 +9424,71 @@ Amount,Amount,module,Magento_Sales
 "From Name","From Name",module,Magento_Sales
 "To Name","To Name",module,Magento_Sales
 Status,Status,module,Magento_Sales
-Comment,Comment,module,Magento_Sales
-"Notification Not Applicable","Notification Not Applicable",module,Magento_Sales
-"Order & Account Information","Order & Account Information",module,Magento_Sales
-"The order confirmation email was sent","The order confirmation email was sent",module,Magento_Sales
-"The order confirmation email is not sent","The order confirmation email is not sent",module,Magento_Sales
-"Order Date","Order Date",module,Magento_Sales
-"Order Date (%1)","Order Date (%1)",module,Magento_Sales
-"Purchased From","Purchased From",module,Magento_Sales
-"Link to the New Order","Link to the New Order",module,Magento_Sales
-"Link to the Previous Order","Link to the Previous Order",module,Magento_Sales
-"Placed from IP","Placed from IP",module,Magento_Sales
-"%1 / %2 rate:","%1 / %2 rate:",module,Magento_Sales
-"Customer Name","Customer Name",module,Magento_Sales
+Comment,Kommentar,module,Magento_Sales
+"Notification Not Applicable","Notifikation ej tillämpligt",module,Magento_Sales
+"Order & Account Information","Beställning & kontoinformation",module,Magento_Sales
+"The order confirmation email was sent","Orderbekräftelse skickades",module,Magento_Sales
+"The order confirmation email is not sent","Orderbekräftelsen skickas inte",module,Magento_Sales
+"Order Date",Orderdatum,module,Magento_Sales
+"Order Date (%1)","Orderdatum (%1)",module,Magento_Sales
+"Purchased From","Köpt från",module,Magento_Sales
+"Link to the New Order","Länk till den nya beställningen",module,Magento_Sales
+"Link to the Previous Order","Länk till tidigare beställningar",module,Magento_Sales
+"Placed from IP","Placerad från IP",module,Magento_Sales
+"%1 / %2 rate:","%1 / %2 ränta:",module,Magento_Sales
+"Customer Name",Kundnamn,module,Magento_Sales
 "Customer Group",Kundgrupp,module,Magento_Sales
-"Notes for this Order","Notes for this Order",module,Magento_Sales
-"Comment added","Comment added",module,Magento_Sales
-"Transaction Data","Transaction Data",module,Magento_Sales
-"Transaction ID","Transaction ID",module,Magento_Sales
-"Parent Transaction ID","Parent Transaction ID",module,Magento_Sales
-"Order ID","Order ID",module,Magento_Sales
-"Transaction Type","Transaction Type",module,Magento_Sales
+"Notes for this Order","Anteckningar för denna beställning",module,Magento_Sales
+"Comment added","Kommentar till",module,Magento_Sales
+"Transaction Data",Transaktionsdata,module,Magento_Sales
+"Transaction ID","Transaktions ID",module,Magento_Sales
+"Parent Transaction ID","Överordnat transaktions-ID",module,Magento_Sales
+"Order ID",Order-ID,module,Magento_Sales
+"Transaction Type",Transaktionstyp,module,Magento_Sales
 "Is Closed","Är stängd",module,Magento_Sales
-"Created At","Created At",module,Magento_Sales
+"Created At","Skapad den",module,Magento_Sales
 "Child Transactions","Child Transactions",module,Magento_Sales
-"Transaction Details","Transaction Details",module,Magento_Sales
+"Transaction Details",Transaktionsdetaljer,module,Magento_Sales
 Items,Artiklar,module,Magento_Sales
-"Gift Message for this Order","Gift Message for this Order",module,Magento_Sales
-"Shipped By","Shipped By",module,Magento_Sales
-"Tracking Number","Tracking Number",module,Magento_Sales
-"Billing Last Name","Billing Last Name",module,Magento_Sales
-"Find Order By","Find Order By",module,Magento_Sales
+"Gift Message for this Order","Gåvomeddelande för den här ordern",module,Magento_Sales
+"Shipped By","Skickat av",module,Magento_Sales
+"Tracking Number",Spårningsnummer,module,Magento_Sales
+"Billing Last Name","Fakturering efternamn",module,Magento_Sales
+"Find Order By","Filtrera beställningar på",module,Magento_Sales
 "ZIP Code",Postnummer,module,Magento_Sales
 "Billing ZIP Code","Postnummer för Fakturering",module,Magento_Sales
-Continue,Continue,module,Magento_Sales
-"Print All Refunds","Print All Refunds",module,Magento_Sales
-"Refund #","Refund #",module,Magento_Sales
-"Print Refund","Print Refund",module,Magento_Sales
-"Product Name","Product Name",module,Magento_Sales
+Continue,Fortsätt,module,Magento_Sales
+"Print All Refunds","Skriv ut alla återbetalningar",module,Magento_Sales
+"Refund #","Återbetala #",module,Magento_Sales
+"Print Refund","Skriv ut återbetalning",module,Magento_Sales
+"Product Name",Produktnamn,module,Magento_Sales
 "Order #","Order #",module,Magento_Sales
 Date,Datum,module,Magento_Sales
-"Ship To","Ship To",module,Magento_Sales
-Actions,Actions,module,Magento_Sales
-"View Order","View Order",module,Magento_Sales
-"You have placed no orders.","You have placed no orders.",module,Magento_Sales
-"No shipping information available","No shipping information available",module,Magento_Sales
-"Print Order","Print Order",module,Magento_Sales
-"Print All Invoices","Print All Invoices",module,Magento_Sales
-"Invoice #","Invoice #",module,Magento_Sales
-"Print Invoice","Print Invoice",module,Magento_Sales
+"Ship To","Frakta till",module,Magento_Sales
+Actions,Åtgärder,module,Magento_Sales
+"View Order","Visa beställning",module,Magento_Sales
+"You have placed no orders.","Du har inte gjort några beställningar.",module,Magento_Sales
+"No shipping information available","Ingen fraktinformation tillgänglig",module,Magento_Sales
+"Print Order","Skriv ut order",module,Magento_Sales
+"Print All Invoices","Skriv ut alla fakturor",module,Magento_Sales
+"Invoice #","Faktura nr",module,Magento_Sales
+"Print Invoice","Skriv ut faktura",module,Magento_Sales
 "Qty Invoiced","Antal Fakturerade",module,Magento_Sales
 Close,Stäng,module,Magento_Sales
-"About Your Order","About Your Order",module,Magento_Sales
-"<span class=""label"">Order Date:</span> %1","<span class=""label"">Order Date:</span> %1",module,Magento_Sales
-"Refund #%1","Refund #%1",module,Magento_Sales
-"Shipment #%1","Shipment #%1",module,Magento_Sales
+"About Your Order","Om din beställning",module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label""> beställningsdatum:</span> %1",module,Magento_Sales
+"Refund #%1","Återbetalning #%1",module,Magento_Sales
+"Shipment #%1","Leverans #%1",module,Magento_Sales
 "Qty Shipped","Antal Levererade",module,Magento_Sales
-"Recent Orders","Recent Orders",module,Magento_Sales
-"View All","View All",module,Magento_Sales
+"Recent Orders","Senaste beställningar",module,Magento_Sales
+"View All","Visa alla",module,Magento_Sales
 "Gift Message for This Order","Gift Message for This Order",module,Magento_Sales
 "Recently Ordered","Recently Ordered",module,Magento_Sales
 "Add to Cart","Lägg till i kundvagn",module,Magento_Sales
 Search,Search,module,Magento_Sales
 "Credit memo for your %store_name order","Credit memo for your %store_name order",module,Magento_Sales
 "%name,","%name,",module,Magento_Sales
-"Thank you for your order from %store_name.","Thank you for your order from %store_name.",module,Magento_Sales
+"Thank you for your order from %store_name.","Tack för din beställning från %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","You can check the status of your order by <a href=""%account_url"">logging into your account</a>.",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Om du har några frågor angående din order kan du mejla oss på <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","or call us at <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
@@ -9503,10 +9503,10 @@ Search,Search,module,Magento_Sales
 "Update to your %store_name invoice","Update to your %store_name invoice",module,Magento_Sales
 "Your %store_name order confirmation","Your %store_name order confirmation",module,Magento_Sales
 "%customer_name,","%customer_name,",module,Magento_Sales
-"Once your package ships we will send you a tracking number.","Once your package ships we will send you a tracking number.",module,Magento_Sales
+"Once your package ships we will send you a tracking number.","När din order är behandlad och skickad kommer vi skicka dig ett trackning nummer som du kan spåra din beställning med.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Your Order <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Placed on <span class=""no-link"">%created_at</span>",module,Magento_Sales
-"Once your package ships we will send an email with a link to track your order.","Once your package ships we will send an email with a link to track your order.",module,Magento_Sales
+"Once your package ships we will send an email with a link to track your order.","När ditt paket levereras skickar vi ett mail med en länk till spåra din beställning.",module,Magento_Sales
 "Update to your %store_name order","Update to your %store_name order",module,Magento_Sales
 "Your %store_name order has shipped","Your %store_name order has shipped",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","Your shipping confirmation is below. Thank you again for your business.",module,Magento_Sales
@@ -9539,57 +9539,57 @@ Enable,Aktivera,module,Magento_Sales
 "Minimum Amount","Minimum Amount",module,Magento_Sales
 "Subtotal after discount","Subtotal after discount",module,Magento_Sales
 "Include Tax to Amount","Include Tax to Amount",module,Magento_Sales
-"Description Message","Description Message",module,Magento_Sales
-"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.",module,Magento_Sales
-"Error to Show in Shopping Cart","Error to Show in Shopping Cart",module,Magento_Sales
-"Validate Each Address Separately in Multi-address Checkout","Validate Each Address Separately in Multi-address Checkout",module,Magento_Sales
-"Multi-address Description Message","Multi-address Description Message",module,Magento_Sales
-"We'll use the default description above if you leave this empty.","We'll use the default description above if you leave this empty.",module,Magento_Sales
-"Multi-address Error to Show in Shopping Cart","Multi-address Error to Show in Shopping Cart",module,Magento_Sales
-"We'll use the default error above if you leave this empty.","We'll use the default error above if you leave this empty.",module,Magento_Sales
-Dashboard,Dashboard,module,Magento_Sales
-"Use Aggregated Data","Use Aggregated Data",module,Magento_Sales
-"Orders Cron Settings","Orders Cron Settings",module,Magento_Sales
-"Pending Payment Order Lifetime (minutes)","Pending Payment Order Lifetime (minutes)",module,Magento_Sales
-"Sales Emails","Sales Emails",module,Magento_Sales
-"Asynchronous sending","Asynchronous sending",module,Magento_Sales
+"Description Message","Beskrivning meddelande",module,Magento_Sales
+"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","Detta meddelande kommer att visas i kundvagnen när delsumman (efter rabatt) är lägre än det minsta tillåtna belopp.",module,Magento_Sales
+"Error to Show in Shopping Cart","Går ej att visa i kundvagn",module,Magento_Sales
+"Validate Each Address Separately in Multi-address Checkout","Validera varje adress separat i kassan med flera adresser",module,Magento_Sales
+"Multi-address Description Message","Beskrivande meddelande för flera adresser",module,Magento_Sales
+"We'll use the default description above if you leave this empty.","Vi använder standardbeskrivningen ovan om du lämnar detta tomt.",module,Magento_Sales
+"Multi-address Error to Show in Shopping Cart","Felmeddelandet som visas i kundvarukorgen vid multi-adressproblem",module,Magento_Sales
+"We'll use the default error above if you leave this empty.","Vi använder standardfelet ovan om du lämnar det tomt.",module,Magento_Sales
+Dashboard,Översikt,module,Magento_Sales
+"Use Aggregated Data","Använda aggregerade Data",module,Magento_Sales
+"Orders Cron Settings","Cron inställningar för beställningar",module,Magento_Sales
+"Pending Payment Order Lifetime (minutes)","Väntar betalning bestäningslivstid (minuter)",module,Magento_Sales
+"Sales Emails",Försäljningsmail,module,Magento_Sales
+"Asynchronous sending","Asynkron sändning",module,Magento_Sales
 Enabled,Aktiverad,module,Magento_Sales
-"New Order Confirmation Email Sender","New Order Confirmation Email Sender",module,Magento_Sales
-"New Order Confirmation Template","New Order Confirmation Template",module,Magento_Sales
-"Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_Sales
-"New Order Confirmation Template for Guest","New Order Confirmation Template for Guest",module,Magento_Sales
-"Send Order Email Copy To","Send Order Email Copy To",module,Magento_Sales
-Comma-separated,Comma-separated,module,Magento_Sales
-"Send Order Email Copy Method","Send Order Email Copy Method",module,Magento_Sales
-"Order Comment Email Sender","Order Comment Email Sender",module,Magento_Sales
-"Order Comment Email Template","Order Comment Email Template",module,Magento_Sales
-"Order Comment Email Template for Guest","Order Comment Email Template for Guest",module,Magento_Sales
-"Send Order Comment Email Copy To","Send Order Comment Email Copy To",module,Magento_Sales
-"Send Order Comments Email Copy Method","Send Order Comments Email Copy Method",module,Magento_Sales
-"Invoice Email Sender","Invoice Email Sender",module,Magento_Sales
-"Invoice Email Template","Invoice Email Template",module,Magento_Sales
-"Invoice Email Template for Guest","Invoice Email Template for Guest",module,Magento_Sales
-"Send Invoice Email Copy To","Send Invoice Email Copy To",module,Magento_Sales
-"Send Invoice Email Copy Method","Send Invoice Email Copy Method",module,Magento_Sales
-"Invoice Comment Email Sender","Invoice Comment Email Sender",module,Magento_Sales
-"Invoice Comment Email Template","Invoice Comment Email Template",module,Magento_Sales
-"Invoice Comment Email Template for Guest","Invoice Comment Email Template for Guest",module,Magento_Sales
-"Send Invoice Comment Email Copy To","Send Invoice Comment Email Copy To",module,Magento_Sales
-"Send Invoice Comments Email Copy Method","Send Invoice Comments Email Copy Method",module,Magento_Sales
-Shipment,Shipment,module,Magento_Sales
-"Shipment Email Sender","Shipment Email Sender",module,Magento_Sales
-"Shipment Email Template","Shipment Email Template",module,Magento_Sales
-"Shipment Email Template for Guest","Shipment Email Template for Guest",module,Magento_Sales
-"Send Shipment Email Copy To","Send Shipment Email Copy To",module,Magento_Sales
-"Send Shipment Email Copy Method","Send Shipment Email Copy Method",module,Magento_Sales
-"Shipment Comments","Shipment Comments",module,Magento_Sales
-"Shipment Comment Email Sender","Shipment Comment Email Sender",module,Magento_Sales
-"Shipment Comment Email Template","Shipment Comment Email Template",module,Magento_Sales
-"Shipment Comment Email Template for Guest","Shipment Comment Email Template for Guest",module,Magento_Sales
-"Send Shipment Comment Email Copy To","Send Shipment Comment Email Copy To",module,Magento_Sales
-"Send Shipment Comments Email Copy Method","Send Shipment Comments Email Copy Method",module,Magento_Sales
-"Credit Memo Email Sender","Credit Memo Email Sender",module,Magento_Sales
-"Credit Memo Email Template","Credit Memo Email Template",module,Magento_Sales
+"New Order Confirmation Email Sender","E-postavsändare för beställningsbekräftelse",module,Magento_Sales
+"New Order Confirmation Template","Beställningsbekräftelse mall",module,Magento_Sales
+"Email template chosen based on theme fallback when ""Default"" option is selected.","E-postmallen valt baserat på tema fallback när ""Standard"" alternativet är valt.",module,Magento_Sales
+"New Order Confirmation Template for Guest","Beställningsbekräftelse mall för gäst",module,Magento_Sales
+"Send Order Email Copy To","Skicka beställnings e-kopia till",module,Magento_Sales
+Comma-separated,Kommaseparerad,module,Magento_Sales
+"Send Order Email Copy Method","Skicka E-postkopia av beställningen",module,Magento_Sales
+"Order Comment Email Sender","Order kommentar e-postavsändare",module,Magento_Sales
+"Order Comment Email Template","Beställningskommentar e-post mall",module,Magento_Sales
+"Order Comment Email Template for Guest","Beställningskommentar e-post mall för gäst",module,Magento_Sales
+"Send Order Comment Email Copy To","Skicka beställningskommentar e-postkopia till",module,Magento_Sales
+"Send Order Comments Email Copy Method","Skicka beställningskommentarer e-mail kopiametoden",module,Magento_Sales
+"Invoice Email Sender",Faktura-avsändare,module,Magento_Sales
+"Invoice Email Template","E-post fakturamall",module,Magento_Sales
+"Invoice Email Template for Guest","E-postmall för faktura för gäst",module,Magento_Sales
+"Send Invoice Email Copy To","Skicka faktura e-postkopia till",module,Magento_Sales
+"Send Invoice Email Copy Method","Skicka faktura e-postkopia-metoden",module,Magento_Sales
+"Invoice Comment Email Sender","Faktura kommentar e-postavsändare",module,Magento_Sales
+"Invoice Comment Email Template","Faktura kommentar e-postmall",module,Magento_Sales
+"Invoice Comment Email Template for Guest","Faktura kommentar e-postmall för gäst",module,Magento_Sales
+"Send Invoice Comment Email Copy To","Skicka faktura kommentar e-postkopia till",module,Magento_Sales
+"Send Invoice Comments Email Copy Method","Skicka faktura kommentarer e-postkopie-metoden",module,Magento_Sales
+Shipment,Frakt,module,Magento_Sales
+"Shipment Email Sender","Frakt e-postavsändare",module,Magento_Sales
+"Shipment Email Template","E-post fraktmail",module,Magento_Sales
+"Shipment Email Template for Guest","Frakt e-postmall för gäst",module,Magento_Sales
+"Send Shipment Email Copy To","Skicka Frakt e-postkopia till",module,Magento_Sales
+"Send Shipment Email Copy Method","Skicka frakt e-postkopia-metod",module,Magento_Sales
+"Shipment Comments",Fraktkommentarer,module,Magento_Sales
+"Shipment Comment Email Sender","Fraktkommentar e-postavsändare",module,Magento_Sales
+"Shipment Comment Email Template","Fraktkommentar e-postmall",module,Magento_Sales
+"Shipment Comment Email Template for Guest","Fraktkommentar E-postmall för gäst",module,Magento_Sales
+"Send Shipment Comment Email Copy To","Skicka fraktkommentar e-postkopia till",module,Magento_Sales
+"Send Shipment Comments Email Copy Method","Skicka försändelsekommentarer via e-postkopie-metoden",module,Magento_Sales
+"Credit Memo Email Sender","Kredit Memo-avsändare",module,Magento_Sales
+"Credit Memo Email Template","Kredit Memo e-postmall",module,Magento_Sales
 "Credit Memo Email Template for Guest","Credit Memo Email Template for Guest",module,Magento_Sales
 "Send Credit Memo Email Copy To","Send Credit Memo Email Copy To",module,Magento_Sales
 "Send Credit Memo Email Copy Method","Send Credit Memo Email Copy Method",module,Magento_Sales
@@ -9714,8 +9714,8 @@ Shipment,Shipment,module,Magento_SalesArchive
 "Ship Date","Ship Date",module,Magento_SalesArchive
 "Total Quantity","Total Quantity",module,Magento_SalesArchive
 "Go to Archive","Go to Archive",module,Magento_SalesArchive
-"The ""%1"" product is not part of the current creditmemo.","The ""%1"" product is not part of the current creditmemo.",module,Magento_SalesInventory
-"The return to stock argument contains product item that is not part of the original order.","The return to stock argument contains product item that is not part of the original order.",module,Magento_SalesInventory
+"The ""%1"" product is not part of the current creditmemo.","""%1"" produkten är inte en del av din nuvarande kreditnota.",module,Magento_SalesInventory
+"The return to stock argument contains product item that is not part of the original order.","Återlämna till lager argumentet innehåller produkt-objekt som inte är en del av den ursprungliga ordern.",module,Magento_SalesInventory
 "Cart Price Rules","Varukorg pris regler",module,Magento_SalesRule
 "Add New Rule","Lägg till en Ny Regel",module,Magento_SalesRule
 Delete,"Ta bort",module,Magento_SalesRule
@@ -9729,7 +9729,7 @@ Actions,Actions,module,Magento_SalesRule
 Conditions,Villkor,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","Apply the rule only if the following conditions are met (leave blank for all products).",module,Magento_SalesRule
 "Manage Coupon Codes","Manage Coupon Codes",module,Magento_SalesRule
-"Coupon Qty","Coupon Qty",module,Magento_SalesRule
+"Coupon Qty",Kupongantal,module,Magento_SalesRule
 "Code Length",Kodlängd,module,Magento_SalesRule
 "Excluding prefix, suffix and separators.","Excluding prefix, suffix and separators.",module,Magento_SalesRule
 "Code Format",Kodformat,module,Magento_SalesRule
@@ -9775,7 +9775,7 @@ Catalog,Catalog,module,Magento_SalesRule
 Alphanumeric,Alphanumeric,module,Magento_SalesRule
 Alphabetical,Alphabetical,module,Magento_SalesRule
 Numeric,Numeric,module,Magento_SalesRule
-"We cannot create the requested Coupon Qty. Please check your settings and try again.","We cannot create the requested Coupon Qty. Please check your settings and try again.",module,Magento_SalesRule
+"We cannot create the requested Coupon Qty. Please check your settings and try again.","Vi kan inte skapa önskade kupongantal. Vänligen kontrollera dina inställningar och försök igen.",module,Magento_SalesRule
 "Specified rule does not allow coupons","Specified rule does not allow coupons",module,Magento_SalesRule
 "Specified rule only allows auto generated coupons","Specified rule only allows auto generated coupons",module,Magento_SalesRule
 "Specified rule does not allow auto generated coupons","Specified rule does not allow auto generated coupons",module,Magento_SalesRule
@@ -9807,7 +9807,7 @@ Subtotal,Subtotal,module,Magento_SalesRule
 "Conditions combination",Villkorskombination,module,Magento_SalesRule
 "Cart Attribute","Cart Attribute",module,Magento_SalesRule
 "Quantity in cart","Quantity in cart",module,Magento_SalesRule
-"Price in cart","Price in cart",module,Magento_SalesRule
+"Price in cart","Pris i varukorg",module,Magento_SalesRule
 "Row total in cart","Row total in cart",module,Magento_SalesRule
 "Conditions Combination",Villkorskombination,module,Magento_SalesRule
 "Cart Item Attribute","Cart Item Attribute",module,Magento_SalesRule
@@ -9866,8 +9866,8 @@ To,To,module,Magento_SalesRule
 "Public In RSS Feed","Public In RSS Feed",module,Magento_SalesRule
 Apply,Apply,module,Magento_SalesRule
 "Discount Amount","Discount Amount",module,Magento_SalesRule
-"Maximum Qty Discount is Applied To","Maximum Qty Discount is Applied To",module,Magento_SalesRule
-"Discount Qty Step (Buy X)","Discount Qty Step (Buy X)",module,Magento_SalesRule
+"Maximum Qty Discount is Applied To","Maximalt Antal Rabatter Tillämpas På",module,Magento_SalesRule
+"Discount Qty Step (Buy X)","Rabatt Antal Steg (Köp X)",module,Magento_SalesRule
 "Discount amount is applied to subtotal only","Discount amount is applied to subtotal only",module,Magento_SalesRule
 "Discount amount is applied to subtotal and shipping amount separately","Discount amount is applied to subtotal and shipping amount separately",module,Magento_SalesRule
 "Apply to Shipping Amount","Apply to Shipping Amount",module,Magento_SalesRule
@@ -10248,7 +10248,7 @@ Print,Print,module,Magento_Shipping
 "Show Packages","Show Packages",module,Magento_Shipping
 "About Your Shipment","About Your Shipment",module,Magento_Shipping
 "Order # %1","Order # %1",module,Magento_Shipping
-"Back to My Orders","Back to My Orders",module,Magento_Shipping
+"Back to My Orders","Tillbaka till mina beställningar",module,Magento_Shipping
 "View Another Order","View Another Order",module,Magento_Shipping
 "Please enter a comment.","Please enter a comment.",module,Magento_Shipping
 "Cannot add new comment.","Cannot add new comment.",module,Magento_Shipping
@@ -10303,8 +10303,8 @@ Girth,Girth,module,Magento_Shipping
 "Items in the Package","Items in the Package",module,Magento_Shipping
 Product,Product,module,Magento_Shipping
 Weight,Weight,module,Magento_Shipping
-"Qty Ordered","Qty Ordered",module,Magento_Shipping
-Qty,Qty,module,Magento_Shipping
+"Qty Ordered","Antal Beställda",module,Magento_Shipping
+Qty,Antal,module,Magento_Shipping
 "No detail for number ""%1""","No detail for number ""%1""",module,Magento_Shipping
 "Shipping labels is not available.","Shipping labels is not available.",module,Magento_Shipping
 "Response info is not exist.","Response info is not exist.",module,Magento_Shipping
@@ -10324,7 +10324,7 @@ message,message,module,Magento_Shipping
 "Total Shipping Charges","Total Shipping Charges",module,Magento_Shipping
 "Incl. Tax","Incl. Tax",module,Magento_Shipping
 "Items to Ship","Items to Ship",module,Magento_Shipping
-"Qty to Ship","Qty to Ship",module,Magento_Shipping
+"Qty to Ship","Antal att Leverera",module,Magento_Shipping
 Ship,Ship,module,Magento_Shipping
 "Shipment Total","Shipment Total",module,Magento_Shipping
 "Shipment Comments","Shipment Comments",module,Magento_Shipping
@@ -10333,7 +10333,7 @@ Ship,Ship,module,Magento_Shipping
 "Create Shipping Label","Create Shipping Label",module,Magento_Shipping
 "Append Comments","Append Comments",module,Magento_Shipping
 "Email Copy of Shipment","Email Copy of Shipment",module,Magento_Shipping
-"Invalid value(s) for Qty to Ship","Invalid value(s) for Qty to Ship",module,Magento_Shipping
+"Invalid value(s) for Qty to Ship","Ogiltig värde(n) för Antal att Leverera",module,Magento_Shipping
 "Select All","Select All",module,Magento_Shipping
 "Product Name","Product Name",module,Magento_Shipping
 Delete,"Ta bort",module,Magento_Shipping
@@ -10363,7 +10363,7 @@ Action,Åtgärd,module,Magento_Shipping
 "Items Shipped","Items Shipped",module,Magento_Shipping
 "Order Total","Order Total",module,Magento_Shipping
 "Shipment History","Shipment History",module,Magento_Shipping
-"Qty Shipped","Qty Shipped",module,Magento_Shipping
+"Qty Shipped","Antal Levererade",module,Magento_Shipping
 "Print All Shipments","Print All Shipments",module,Magento_Shipping
 "Shipment #","Shipment #",module,Magento_Shipping
 "Print Shipment","Print Shipment",module,Magento_Shipping
@@ -12430,7 +12430,7 @@ LocalizedException,LocalizedException,module,Magento_Wishlist
 "Move to Wishlist","Flytta till önskelista",module,Magento_Wishlist
 "Add to Wish List","Lägg till i önskelista",module,Magento_Wishlist
 "View Product","Visa produkt",module,Magento_Wishlist
-Qty,Qty,module,Magento_Wishlist
+Qty,Antal,module,Magento_Wishlist
 "Add to Cart","Lägg till i kundvagn",module,Magento_Wishlist
 Availability,Tillgänglighet,module,Magento_Wishlist
 "In stock","I lager",module,Magento_Wishlist
@@ -12438,7 +12438,7 @@ Availability,Tillgänglighet,module,Magento_Wishlist
 Edit,Redigera,module,Magento_Wishlist
 "Remove Item","Remove Item",module,Magento_Wishlist
 "Remove item","Remove item",module,Magento_Wishlist
-"Add to Compare","Add to Compare",module,Magento_Wishlist
+"Add to Compare","Lägg till jämför",module,Magento_Wishlist
 "This Wish List has no Items","This Wish List has no Items",module,Magento_Wishlist
 "%1 has been added to your Wish List.","%1 has been added to your Wish List.",module,Magento_Wishlist
 "Click <a href=""%1"">here</a> to continue shopping.","Click <a href=""%1"">here</a> to continue shopping.",module,Magento_Wishlist
@@ -12575,7 +12575,7 @@ Footer,Sidfot,theme,frontend/Magento/luma
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>",theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Öppettider: <br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Credit memo for your %store_name order","Credit memo for your %store_name order",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Tack för din order från %store_name.",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Tack för din beställning från %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Du kan kolla statusen på din order genom att <a href=""%account_url"">logga in på ditt konto</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Om du har några frågor angående din order kan du mejla oss på <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Your Credit Memo #%creditmemo_id for Order #%order_id",theme,frontend/Magento/luma
