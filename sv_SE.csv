@@ -172,7 +172,7 @@ Subtotal:,Delsumma:,module,Magento_AdvancedCheckout
 Reset,Återställ,module,Magento_AdvancedCheckout
 SKU:,SKU:,module,Magento_AdvancedCheckout
 "Only <span id=""%1_max_allowed"">%2</span> in stock","Endast <span id=""%1_max_allowed"">%2</span> i lager",module,Magento_AdvancedCheckout
-Item,Sak,module,Magento_AdvancedCheckout
+Item,Artikel,module,Magento_AdvancedCheckout
 "See price before order confirmation.","Se pris innan orderbekräftelse.",module,Magento_AdvancedCheckout
 "What's this?","Vad är detta?",module,Magento_AdvancedCheckout
 "Incl. Tax","Inkl Moms",module,Magento_AdvancedCheckout
@@ -2225,7 +2225,7 @@ Qty,Antal,module,Magento_CatalogInventory
 "Inventory Section","Inventory Section",module,Magento_CatalogInventory
 Inventory,Inventory,module,Magento_CatalogInventory
 "Stock Options","Stock Options",module,Magento_CatalogInventory
-"Decrease Stock When Order is Placed","Decrease Stock When Order is Placed",module,Magento_CatalogInventory
+"Decrease Stock When Order is Placed","Minska Produkter i Lager Efter Beställning",module,Magento_CatalogInventory
 "Set Items' Status to be In Stock When Order is Cancelled","Set Items' Status to be In Stock When Order is Cancelled",module,Magento_CatalogInventory
 "Display Out of Stock Products","Display Out of Stock Products",module,Magento_CatalogInventory
 "Products will still be shown by direct product URLs.","Products will still be shown by direct product URLs.",module,Magento_CatalogInventory
@@ -2280,7 +2280,7 @@ Enable,Aktivera,module,Magento_CatalogPermissions
 "Allow Browsing Category","Allow Browsing Category",module,Magento_CatalogPermissions
 "Customer Groups",Kundgrupper,module,Magento_CatalogPermissions
 "Landing Page","Landing Page",module,Magento_CatalogPermissions
-"Allow Adding to Cart","Allow Adding to Cart",module,Magento_CatalogPermissions
+"Allow Adding to Cart","Tillåt tillägg i varukorgen",module,Magento_CatalogPermissions
 "Disallow Catalog Search By","Disallow Catalog Search By",module,Magento_CatalogPermissions
 "Catalog Category Permissions","Catalog Category Permissions",module,Magento_CatalogPermissions
 "Indexed permissions for categories","Indexed permissions for categories",module,Magento_CatalogPermissions
@@ -3216,7 +3216,7 @@ Cancel,Avbryt,module,Magento_ConfigurableProduct
 "These products are not associated.","These products are not associated.",module,Magento_ConfigurableProduct
 "Disable Product","Disable Product",module,Magento_ConfigurableProduct
 "Enable Product","Aktivera produkt",module,Magento_ConfigurableProduct
-"Incl. Tax","Incl. Tax",module,Magento_ConfigurableProduct
+"Incl. Tax","Inkl. Moms",module,Magento_ConfigurableProduct
 "An attribute has been removed. This attribute will no longer appear in your configurations.","An attribute has been removed. This attribute will no longer appear in your configurations.",module,Magento_ConfigurableProduct
 "Select options for all attributes or remove unused attributes.","Select options for all attributes or remove unused attributes.",module,Magento_ConfigurableProduct
 "Choose this option to delete and replace extension data for all past configurations.","Choose this option to delete and replace extension data for all past configurations.",module,Magento_ConfigurableProduct
@@ -3251,7 +3251,7 @@ ID,ID,module,Magento_ConfigurableProductStaging
 Thumbnail,Thumbnail,module,Magento_ConfigurableProductStaging
 Name,Namn,module,Magento_ConfigurableProductStaging
 SKU,SKU,module,Magento_ConfigurableProductStaging
-Price,Price,module,Magento_ConfigurableProductStaging
+Price,Pris,module,Magento_ConfigurableProductStaging
 Quantity,Quantity,module,Magento_ConfigurableProductStaging
 Weight,Weight,module,Magento_ConfigurableProductStaging
 Attributes,Attribut,module,Magento_ConfigurableProductStaging
@@ -3556,7 +3556,7 @@ Customers,Kunder,module,Magento_Customer
 "Please enter a password with at most %1 characters.","Ange ett lösenord med högst %1 tecken.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Ange ett lösenord med minst %1 tecken.",module,Magento_Customer
 "The password can't begin or end with a space.","The password can't begin or end with a space.",module,Magento_Customer
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum av olika klasser av tecken i lösenordet är %1. Klasser av tecken: gemener, versaler, siffror och specialtecken.",module,Magento_Customer
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Du måste minst ha %1 olika typer av tecken i lösenordet. Till teckentyper räknas: gemener, versaler, siffror och specialtecken.",module,Magento_Customer
 "This customer already exists in this store.","Denna kund finns redan i denna butik.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","En kund med samma email finns redan i en associerad webbplats.",module,Magento_Customer
 "%fieldName is a required field.","%fieldName är ett obligatoriskt fält.",module,Magento_Customer
@@ -3694,8 +3694,8 @@ Company,Företag,module,Magento_Customer
 "Phone Number","Phone Number",module,Magento_Customer
 Fax,Fax,module,Magento_Customer
 Address,Adress,module,Magento_Customer
-"Street Address","Street Address",module,Magento_Customer
-"Street Address %1","Street Address %1",module,Magento_Customer
+"Street Address",Gatuadress,module,Magento_Customer
+"Street Address %1","Gatuadress %1",module,Magento_Customer
 "VAT Number","VAT Number",module,Magento_Customer
 City,City,module,Magento_Customer
 State/Province,State/Province,module,Magento_Customer
@@ -3712,8 +3712,8 @@ Country,Country,module,Magento_Customer
 Email,Email,module,Magento_Customer
 "Send confirmation link","Send confirmation link",module,Magento_Customer
 "Back to Sign In","Back to Sign In",module,Magento_Customer
-"Change Email","Change Email",module,Magento_Customer
-"Change Email and Password","Change Email and Password",module,Magento_Customer
+"Change Email","Ändra e-postadress",module,Magento_Customer
+"Change Email and Password","Ändra E-postadress och Lösenord",module,Magento_Customer
 "Current Password","Current Password",module,Magento_Customer
 "New Password","Nytt lösenord",module,Magento_Customer
 "Password Strength","Lösenordets Styrka",module,Magento_Customer
@@ -3727,7 +3727,7 @@ Save,Save,module,Magento_Customer
 Password,Password,module,Magento_Customer
 "Forgot Your Password?","Glömt ditt lösenord?",module,Magento_Customer
 "Subscription option",Prenumerationsval,module,Magento_Customer
-"General Subscription","General Subscription",module,Magento_Customer
+"General Subscription","Allmänt abonnemang",module,Magento_Customer
 "Sign Up for Newsletter","Sign Up for Newsletter",module,Magento_Customer
 "Address Information",Adressinformation,module,Magento_Customer
 "Sign-in Information",Kontoinformation,module,Magento_Customer
@@ -3758,14 +3758,14 @@ Password:,Password:,module,Magento_Customer
 "Confirm Your Account","Bekräfta ditt konto",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Thank you for confirming your %store_name account.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:",module,Magento_Customer
-"Your %store_name email has been changed","Your %store_name email has been changed",module,Magento_Customer
+"Your %store_name email has been changed","Din %store_name E-post har ändrats",module,Magento_Customer
 "Hello,","Hello,",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email.","We have received a request to change the following information associated with your account at %store_name: email.",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: e-post.",module,Magento_Customer
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Customer
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","or call us at <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Customer
 "Thanks,<br>%store_name","Thanks,<br>%store_name",module,Magento_Customer
-"Your %store_name email and password has been changed","Your %store_name email and password has been changed",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email, password.","We have received a request to change the following information associated with your account at %store_name: email, password.",module,Magento_Customer
+"Your %store_name email and password has been changed","Din %store_name e-post och lösenord har ändrats",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email, password.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: e-post.",module,Magento_Customer
 "Reset your %store_name password","Reset your %store_name password",module,Magento_Customer
 "There was recently a request to change the password for your account.","There was recently a request to change the password for your account.",module,Magento_Customer
 "If you requested this change, set a new password here:","If you requested this change, set a new password here:",module,Magento_Customer
@@ -3781,7 +3781,7 @@ Password:,Password:,module,Magento_Customer
 "Email Address",E-postadress,module,Magento_Customer
 "Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_Customer
 "Are you sure you want to delete this address?","Are you sure you want to delete this address?",module,Magento_Customer
-Weak,Weak,module,Magento_Customer
+Weak,Svagt,module,Magento_Customer
 Medium,Medium,module,Magento_Customer
 Strong,Strong,module,Magento_Customer
 "Very Strong","Very Strong",module,Magento_Customer
@@ -3834,7 +3834,7 @@ Strong,Strong,module,Magento_Customer
 "Lockout Time (minutes)","Lockout Time (minutes)",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Enable Autocomplete on login/forgot password forms",module,Magento_Customer
 "Name and Address Options","Namn och adressalternativ",module,Magento_Customer
-"Number of Lines in a Street Address","Number of Lines in a Street Address",module,Magento_Customer
+"Number of Lines in a Street Address","Antal Rader i en Gatuadress",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","Leave empty for default (2). Valid range: 1-4",module,Magento_Customer
 "Show Prefix","Show Prefix",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","The title that goes before name (Mr., Mrs., etc.)",module,Magento_Customer
@@ -4062,8 +4062,8 @@ Company,Företag,module,Magento_CustomerCustomAttributes
 "Phone Number",Telefonnummer,module,Magento_CustomerCustomAttributes
 Fax,Fax,module,Magento_CustomerCustomAttributes
 Address,Adress,module,Magento_CustomerCustomAttributes
-"Street Address","Street Address",module,Magento_CustomerCustomAttributes
-"Street Address %1","Street Address %1",module,Magento_CustomerCustomAttributes
+"Street Address",Gatuadress,module,Magento_CustomerCustomAttributes
+"Street Address %1","Gatuadress %1",module,Magento_CustomerCustomAttributes
 "VAT Number","VAT Number",module,Magento_CustomerCustomAttributes
 City,Stad,module,Magento_CustomerCustomAttributes
 State/Province,State/Province,module,Magento_CustomerCustomAttributes
@@ -4077,13 +4077,13 @@ Country,Country,module,Magento_CustomerCustomAttributes
 "Save Address","Save Address",module,Magento_CustomerCustomAttributes
 "Go back","Gå tillbaka",module,Magento_CustomerCustomAttributes
 "Account Information",Kontoinformation,module,Magento_CustomerCustomAttributes
-"Change Email","Change Email",module,Magento_CustomerCustomAttributes
+"Change Email","Ändra e-postadress",module,Magento_CustomerCustomAttributes
 "Change Password","Ändra Lösenord",module,Magento_CustomerCustomAttributes
 "Change Email and Password","Ändra E-postadress och Lösenord",module,Magento_CustomerCustomAttributes
 Email,Email,module,Magento_CustomerCustomAttributes
 "Current Password","Current Password",module,Magento_CustomerCustomAttributes
 "New Password","Nytt lösenord",module,Magento_CustomerCustomAttributes
-"Password Strength","Password Strength",module,Magento_CustomerCustomAttributes
+"Password Strength","Lösenordets styrka",module,Magento_CustomerCustomAttributes
 "No Password","Inget lösenord",module,Magento_CustomerCustomAttributes
 "Confirm New Password","Bekräfta nytt lösenord",module,Magento_CustomerCustomAttributes
 "Personal Information","Personlig Information",module,Magento_CustomerCustomAttributes
@@ -4311,7 +4311,7 @@ Decision,Decision,module,Magento_Cybersource
 "Authorize Only","Authorize Only",module,Magento_Cybersource
 "Risk Factor Q","Risk Factor Q",module,Magento_Cybersource
 "Risk Factor V","Risk Factor V",module,Magento_Cybersource
-"Place Order","Place Order",module,Magento_Cybersource
+"Place Order",Beställ,module,Magento_Cybersource
 Cybersource,Cybersource,module,Magento_Cybersource
 Enabled,Aktiverad,module,Magento_Cybersource
 "Payment Action","Payment Action",module,Magento_Cybersource
@@ -4984,7 +4984,7 @@ Dropoff,Dropoff,module,Magento_Fedex
 "Residential Delivery","Residential Delivery",module,Magento_Fedex
 "Allowed Methods","Tillåtna metoder",module,Magento_Fedex
 "Hub ID","Hub ID",module,Magento_Fedex
-"The field is applicable if the Smart Post method is selected.","The field is applicable if the Smart Post method is selected.",module,Magento_Fedex
+"The field is applicable if the Smart Post method is selected.","Fältet används om metoden Smart Post är markerad.",module,Magento_Fedex
 "Free Method","Free Method",module,Magento_Fedex
 "Enable Free Shipping Threshold","Enable Free Shipping Threshold",module,Magento_Fedex
 "Free Shipping Amount Threshold","Free Shipping Amount Threshold",module,Magento_Fedex
@@ -5272,7 +5272,7 @@ Delete,"Ta bort",module,Magento_GiftMessage
 "Product ID","Product ID",module,Magento_GiftRegistry
 Product,Product,module,Magento_GiftRegistry
 SKU,SKU,module,Magento_GiftRegistry
-Price,Price,module,Magento_GiftRegistry
+Price,Pris,module,Magento_GiftRegistry
 Quantity,Quantity,module,Magento_GiftRegistry
 Total,Total,module,Magento_GiftRegistry
 "Add to Gift Registry","Add to Gift Registry",module,Magento_GiftRegistry
@@ -5450,8 +5450,8 @@ Owner,Owner,module,Magento_GiftRegistry
 "Select a shipping address from your address book or enter a new address.","Välj en leveransadress från din adressbok eller ange en ny adress.",module,Magento_GiftRegistry
 Company,Företag,module,Magento_GiftRegistry
 Address,Adress,module,Magento_GiftRegistry
-"Street Address","Street Address",module,Magento_GiftRegistry
-"Street Address %1","Street Address %1",module,Magento_GiftRegistry
+"Street Address",Gatuadress,module,Magento_GiftRegistry
+"Street Address %1","Gatuadress %1",module,Magento_GiftRegistry
 City,Stad,module,Magento_GiftRegistry
 "Please select a region, state or province.","Please select a region, state or province.",module,Magento_GiftRegistry
 "Zip/Postal Code","Zip/Postal Code",module,Magento_GiftRegistry
@@ -5462,8 +5462,8 @@ Fax,Fax,module,Magento_GiftRegistry
 "Ship to registrant's address","Ship to registrant's address",module,Magento_GiftRegistry
 "Use the gift registry shipping address","Use the gift registry shipping address",module,Magento_GiftRegistry
 "Added On","Added On",module,Magento_GiftRegistry
-Qty,Qty,module,Magento_GiftRegistry
-"Qty Fulfilled","Qty Fulfilled",module,Magento_GiftRegistry
+Qty,Antal,module,Magento_GiftRegistry
+"Qty Fulfilled","Antal uppfyllda",module,Magento_GiftRegistry
 "Update Gift Registry","Update Gift Registry",module,Magento_GiftRegistry
 Back,Back,module,Magento_GiftRegistry
 "This gift registry has no items.","This gift registry has no items.",module,Magento_GiftRegistry
@@ -5582,7 +5582,7 @@ Websites,Websites,module,Magento_GiftWrapping
 Status,Status,module,Magento_GiftWrapping
 Enabled,Aktiverad,module,Magento_GiftWrapping
 Disabled,Inaktiverad,module,Magento_GiftWrapping
-Price,Price,module,Magento_GiftWrapping
+Price,Pris,module,Magento_GiftWrapping
 Image,Bild,module,Magento_GiftWrapping
 [GLOBAL],[GLOBAL],module,Magento_GiftWrapping
 [WEBSITE],[WEBSITE],module,Magento_GiftWrapping
@@ -5599,8 +5599,8 @@ Image,Bild,module,Magento_GiftWrapping
 "We can't save the gift wrapping right now.","We can't save the gift wrapping right now.",module,Magento_GiftWrapping
 "We can't update the image right now.","We can't update the image right now.",module,Magento_GiftWrapping
 "Please select","Please select",module,Magento_GiftWrapping
-"Excluding Tax","Excluding Tax",module,Magento_GiftWrapping
-"Including Tax","Including Tax",module,Magento_GiftWrapping
+"Excluding Tax","Exklusive moms",module,Magento_GiftWrapping
+"Including Tax","Inklusive moms",module,Magento_GiftWrapping
 "Including and Excluding Tax","Including and Excluding Tax",module,Magento_GiftWrapping
 None,None,module,Magento_GiftWrapping
 "The image content must be valid data.","The image content must be valid data.",module,Magento_GiftWrapping
@@ -5620,8 +5620,8 @@ None,None,module,Magento_GiftWrapping
 "Add Printed Card","Add Printed Card",module,Magento_GiftWrapping
 "Gift Wrapping for the Entire Order","Gift Wrapping for the Entire Order",module,Magento_GiftWrapping
 "Other Gift Options","Other Gift Options",module,Magento_GiftWrapping
-"Excl. Tax","Excl. Tax",module,Magento_GiftWrapping
-"Incl. Tax","Incl. Tax",module,Magento_GiftWrapping
+"Excl. Tax","Exkl. Moms",module,Magento_GiftWrapping
+"Incl. Tax","Inkl. Moms",module,Magento_GiftWrapping
 Preview,Preview,module,Magento_GiftWrapping
 "Gift wrapping","Gift wrapping",module,Magento_GiftWrapping
 "Printed card","Printed card",module,Magento_GiftWrapping
@@ -5730,7 +5730,7 @@ Name,Namn,module,Magento_GroupedProductStaging
 Type,Type,module,Magento_GroupedProductStaging
 SKU,SKU,module,Magento_GroupedProductStaging
 Quantity,Quantity,module,Magento_GroupedProductStaging
-Price,Price,module,Magento_GroupedProductStaging
+Price,Pris,module,Magento_GroupedProductStaging
 "Attribute Set","Attribute Set",module,Magento_GroupedProductStaging
 AttributeSetText,AttributeSetText,module,Magento_GroupedProductStaging
 StatusText,StatusText,module,Magento_GroupedProductStaging
@@ -6349,12 +6349,12 @@ Database,Database,module,Magento_MediaStorage
 "What's this?","What's this?",module,Magento_Msrp
 "Order total will be displayed before you submit the order","Order total will be displayed before you submit the order",module,Magento_Msrp
 "You will see the order total before you submit the order.","You will see the order total before you submit the order.",module,Magento_Msrp
-Price,Price,module,Magento_Msrp
+Price,Pris,module,Magento_Msrp
 "Actual Price","Faktiskt pris",module,Magento_Msrp
 "Add to Cart","Lägg till i kundvagn",module,Magento_Msrp
 "Minimum Advertised Price","Minimum Advertised Price",module,Magento_Msrp
 "Enable MAP","Enable MAP",module,Magento_Msrp
-"Display Actual Price","Display Actual Price",module,Magento_Msrp
+"Display Actual Price","Visa faktiska priset",module,Magento_Msrp
 "Default Popup Text Message","Default Popup Text Message",module,Magento_Msrp
 "Default ""What's This"" Text Message","Default ""What's This"" Text Message",module,Magento_Msrp
 Back,Bakåt,module,Magento_MultipleLocationInventory
@@ -6375,7 +6375,7 @@ Edit,Redigera,module,Magento_MultipleLocationInventory
 "Manage Warehouses","Manage Warehouses",module,Magento_MultipleLocationInventory
 "Warehouse Information","Warehouse Information",module,Magento_MultipleLocationInventory
 "Use default address","Use default address",module,Magento_MultipleLocationInventory
-"Street Address","Street Address",module,Magento_MultipleLocationInventory
+"Street Address",Gatuadress,module,Magento_MultipleLocationInventory
 "Add New Warehouse","Add New Warehouse",module,Magento_MultipleLocationInventory
 ID,ID,module,Magento_MultipleLocationInventory
 Name,Namn,module,Magento_MultipleLocationInventory
@@ -6392,8 +6392,8 @@ Fax,Fax,module,Magento_MultipleLocationInventory
 Wishlist,Önskelistan,module,Magento_MultipleWishlist
 "Customer's Wish List Report","Kundens Önskelista Rapport",module,Magento_MultipleWishlist
 "My Wish Lists","Mina Önskelistor",module,Magento_MultipleWishlist
-"1 item in wish list","1 item in wish list",module,Magento_MultipleWishlist
-"%1 items in wish list","%1 items in wish list",module,Magento_MultipleWishlist
+"1 item in wish list","%1 artikel i önskelistan",module,Magento_MultipleWishlist
+"%1 items in wish list","%1 artiklar i önskelistan",module,Magento_MultipleWishlist
 "Wish List Search","Wish List Search",module,Magento_MultipleWishlist
 "Select Search Type","Select Search Type",module,Magento_MultipleWishlist
 Reports,Reports,module,Magento_MultipleWishlist
@@ -6446,13 +6446,13 @@ Customers,Kunder,module,Magento_MultipleWishlist
 InvalidArgumentException,InvalidArgumentException,module,Magento_MultipleWishlist
 Refresh,Refresh,module,Magento_MultipleWishlist
 "All Wish Lists","Alla önskelistor",module,Magento_MultipleWishlist
-Item,Item,module,Magento_MultipleWishlist
-Qty,Qty,module,Magento_MultipleWishlist
+Item,Artikel,module,Magento_MultipleWishlist
+Qty,Antal,module,Magento_MultipleWishlist
 Price,Price,module,Magento_MultipleWishlist
 Remove,Remove,module,Magento_MultipleWishlist
 "Add To Order","Add To Order",module,Magento_MultipleWishlist
 "Configure and Add to Order","Configure and Add to Order",module,Magento_MultipleWishlist
-"No items","No items",module,Magento_MultipleWishlist
+"No items","Inga artiklar",module,Magento_MultipleWishlist
 "Delete Wish List","Delete Wish List",module,Magento_MultipleWishlist
 Owner,Owner,module,Magento_MultipleWishlist
 Name,Namn,module,Magento_MultipleWishlist
@@ -6534,11 +6534,11 @@ Total,Total,module,Magento_Multishipping
 "Data saving problem","Data saving problem",module,Magento_Multishipping
 "We cannot open the overview page.","We cannot open the overview page.",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Please agree to all Terms and Conditions before placing the order.",module,Magento_Multishipping
-"Order place error","Order place error",module,Magento_Multishipping
+"Order place error","Ett fel uppstod vid hanteringen av din order",module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","Maximum qty allowed for Shipping to multiple addresses is %1",module,Magento_Multishipping
 "Please check shipping address information.","Please check shipping address information.",module,Magento_Multishipping
 "Please check billing address information.","Please check billing address information.",module,Magento_Multishipping
-"Please select shipping methods for all addresses.","Please select shipping methods for all addresses.",module,Magento_Multishipping
+"Please select shipping methods for all addresses.","Vänligen välj fraktmetoder för alla adresser.",module,Magento_Multishipping
 "A payment method is not defined.","A payment method is not defined.",module,Magento_Multishipping
 "The requested payment method is not available for multishipping.","The requested payment method is not available for multishipping.",module,Magento_Multishipping
 "Item not found or already ordered","Item not found or already ordered",module,Magento_Multishipping
@@ -6548,7 +6548,7 @@ Total,Total,module,Magento_Multishipping
 "Select Addresses","Select Addresses",module,Magento_Multishipping
 "Shipping Information","Shipping Information",module,Magento_Multishipping
 "Billing Information","Billing Information",module,Magento_Multishipping
-"Place Order","Place Order",module,Magento_Multishipping
+"Place Order",Beställ,module,Magento_Multishipping
 "Order Success","Order Success",module,Magento_Multishipping
 "Default Billing","Default Billing",module,Magento_Multishipping
 "Default Shipping","Default Shipping",module,Magento_Multishipping
@@ -6583,11 +6583,11 @@ Change,Ändra,module,Magento_Multishipping
 "Incl. Tax","Incl. Tax",module,Magento_Multishipping
 "Excl. Tax","Excl. Tax",module,Magento_Multishipping
 "Order Review","Order Review",module,Magento_Multishipping
-Item,Item,module,Magento_Multishipping
+Item,Artikel,module,Magento_Multishipping
 Edit,Redigera,module,Magento_Multishipping
 Price,Price,module,Magento_Multishipping
 Subtotal,Subtotal,module,Magento_Multishipping
-Items,Items,module,Magento_Multishipping
+Items,Artiklar,module,Magento_Multishipping
 "Grand Total:","Grand Total:",module,Magento_Multishipping
 "Submitting order information...","Submitting order information...",module,Magento_Multishipping
 "Sorry, no quotes are available for this order right now.","Sorry, no quotes are available for this order right now.",module,Magento_Multishipping
@@ -6606,7 +6606,7 @@ Options,Options,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","Allow Shipping to Multiple Addresses",module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Maximum Qty Allowed for Shipping to Multiple Addresses",module,Magento_Multishipping
 "Review Order","Review Order",module,Magento_Multishipping
-"Select Shipping Method","Select Shipping Method",module,Magento_Multishipping
+"Select Shipping Method","Välj fraktsätt",module,Magento_Multishipping
 "We received your order!","We received your order!",module,Magento_Multishipping
 "Message has been rejected: %1","Meddelandet har avvisats: %1",module,Magento_MysqlMq
 "MySQL Message Queue Cleanup","MySQL Meddelandekö Rensa",module,Magento_MysqlMq
@@ -6818,7 +6818,7 @@ Instructions,Instruktioner,module,Magento_OfflinePayments
 Country,Land,module,Magento_OfflineShipping
 Region/State,Region/Stat,module,Magento_OfflineShipping
 "Zip/Postal Code",Postnummer,module,Magento_OfflineShipping
-"Shipping Price","Shipping Price",module,Magento_OfflineShipping
+"Shipping Price",Fraktavgift,module,Magento_OfflineShipping
 "Export CSV","Export CSV",module,Magento_OfflineShipping
 "Store Pickup","Store Pickup",module,Magento_OfflineShipping
 "Weight vs. Destination","Weight vs. Destination",module,Magento_OfflineShipping
@@ -6852,7 +6852,7 @@ Field,Fält,module,Magento_OfflineShipping
 "Flat Rate","Flat Rate",module,Magento_OfflineShipping
 Enabled,Aktiverad,module,Magento_OfflineShipping
 "Method Name","Method Name",module,Magento_OfflineShipping
-Price,Price,module,Magento_OfflineShipping
+Price,Pris,module,Magento_OfflineShipping
 "Calculate Handling Fee","Calculate Handling Fee",module,Magento_OfflineShipping
 "Handling Fee","Handling Fee",module,Magento_OfflineShipping
 "Sort Order","Sort Order",module,Magento_OfflineShipping
@@ -6940,7 +6940,7 @@ No,Nej,module,Magento_Payment
 "Card Verification Number Visual Reference","Card Verification Number Visual Reference",module,Magento_Payment
 "What is this?","What is this?",module,Magento_Payment
 "Credit Card Information","Credit Card Information",module,Magento_Payment
-"Place Order","Place Order",module,Magento_Payment
+"Place Order",Beställ,module,Magento_Payment
 "Forgot an Item?","Forgot an Item?",module,Magento_Payment
 "Edit Your Cart","Edit Your Cart",module,Magento_Payment
 "Please enter a valid credit card type number.","Please enter a valid credit card type number.",module,Magento_Payment
@@ -6971,7 +6971,7 @@ Order,Order,module,Magento_Paypal
 Purchased,Purchased,module,Magento_Paypal
 "Bill-to Name","Bill-to Name",module,Magento_Paypal
 "Ship-to Name","Ship-to Name",module,Magento_Paypal
-"Order Total","Order Total",module,Magento_Paypal
+"Order Total",Ordersumma,module,Magento_Paypal
 "Purchase Point","Purchase Point",module,Magento_Paypal
 "Billing Agreement View","Billing Agreement View",module,Magento_Paypal
 "View Transaction Details","View Transaction Details",module,Magento_Paypal
@@ -6991,7 +6991,7 @@ Close,Stäng,module,Magento_Paypal
 "See terms","See terms",module,Magento_Paypal
 "You will be redirected to the PayPal website.","You will be redirected to the PayPal website.",module,Magento_Paypal
 "You will be redirected to the PayPal website when you place an order.","You will be redirected to the PayPal website when you place an order.",module,Magento_Paypal
-"Incl. Tax","Incl. Tax",module,Magento_Paypal
+"Incl. Tax","Inkl. Moms",module,Magento_Paypal
 "Billing Information","Billing Information",module,Magento_Paypal
 "Shipping Information","Shipping Information",module,Magento_Paypal
 "Invalid block type","Invalid block type",module,Magento_Paypal
@@ -7335,7 +7335,7 @@ Create...,Create...,module,Magento_Paypal
 "Your credit card will be charged for","Your credit card will be charged for",module,Magento_Paypal
 "Your billing agreement # is:","Your billing agreement # is:",module,Magento_Paypal
 "Shipping Method","Shipping Method",module,Magento_Paypal
-"Please select a shipping method...","Please select a shipping method...",module,Magento_Paypal
+"Please select a shipping method...","Vänligen välj ett leveranssätt...",module,Magento_Paypal
 "Update Shipping Method","Update Shipping Method",module,Magento_Paypal
 "Sorry, no quotes are available for this order right now.","Sorry, no quotes are available for this order right now.",module,Magento_Paypal
 "Shipping Address","Shipping Address",module,Magento_Paypal
@@ -7344,7 +7344,7 @@ Edit,Redigera,module,Magento_Paypal
 "Edit Payment Information","Edit Payment Information",module,Magento_Paypal
 "Items in Your Shopping Cart","Items in Your Shopping Cart",module,Magento_Paypal
 "Edit Shopping Cart","Edit Shopping Cart",module,Magento_Paypal
-"Place Order","Place Order",module,Magento_Paypal
+"Place Order",Beställ,module,Magento_Paypal
 "Submitting order information...","Submitting order information...",module,Magento_Paypal
 Item,Item,module,Magento_Paypal
 Price,Price,module,Magento_Paypal
@@ -7354,7 +7354,7 @@ Subtotal,Subtotal,module,Magento_Paypal
 or,eller,module,Magento_Paypal
 "Checkout with PayPal","Checkout with PayPal",module,Magento_Paypal
 "Please do not refresh the page until you complete payment.","Please do not refresh the page until you complete payment.",module,Magento_Paypal
-"You will be required to enter your payment details after you place an order.","You will be required to enter your payment details after you place an order.",module,Magento_Paypal
+"You will be required to enter your payment details after you place an order.","Du kommer att behöva ange betalningsinformation när du gör en beställning.",module,Magento_Paypal
 Continue,Continue,module,Magento_Paypal
 "Additional Options","Additional Options",module,Magento_Paypal
 "-- Please Select Billing Agreement--","-- Please Select Billing Agreement--",module,Magento_Paypal
@@ -7622,7 +7622,7 @@ User,Användare,module,Magento_Paypal
 "You will no longer receive stock alerts.","You will no longer receive stock alerts.",module,Magento_ProductAlert
 "Invalid block type: %1","Invalid block type: %1",module,Magento_ProductAlert
 "Price change alert! We wanted you to know that prices have changed for these products:","Price change alert! We wanted you to know that prices have changed for these products:",module,Magento_ProductAlert
-Price:,Price:,module,Magento_ProductAlert
+Price:,Pris:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.","Click here to stop alerts for this product.",module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Unsubscribe from all price alerts",module,Magento_ProductAlert
 "In stock alert! We wanted you to know that these products are now available:","In stock alert! We wanted you to know that these products are now available:",module,Magento_ProductAlert
@@ -7742,10 +7742,10 @@ Subtotal,Delsumma,module,Magento_Quote
 "Please check the shipping address information. %1","Please check the shipping address information. %1",module,Magento_Quote
 "Please specify a shipping method.","Please specify a shipping method.",module,Magento_Quote
 "Please check the billing address information. %1","Please check the billing address information. %1",module,Magento_Quote
-"Please select a valid payment method.","Please select a valid payment method.",module,Magento_Quote
+"Please select a valid payment method.","Välj en giltig betalningsmetod.",module,Magento_Quote
 "Store Credit","Store Credit",module,Magento_Quote
 Discount,Rabatt,module,Magento_Quote
-Tax,Tax,module,Magento_Quote
+Tax,Moms,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Cart contains virtual product(s) only. Shipping address is not applicable.",module,Magento_Quote
 "Shipping address not set.","Shipping address not set.",module,Magento_Quote
 "Cannot set shipping method. %1","Cannot set shipping method. %1",module,Magento_Quote
@@ -8088,7 +8088,7 @@ Marketing,Marketing,module,Magento_Reports
 "By Customers","By Customers",module,Magento_Reports
 "By Products","By Products",module,Magento_Reports
 Refunds,Refunds,module,Magento_Reports
-"Order Total","Order Total",module,Magento_Reports
+"Order Total",Ordersumma,module,Magento_Reports
 "Order Count","Order Count",module,Magento_Reports
 New,Ny,module,Magento_Reports
 Ordered,Ordered,module,Magento_Reports
@@ -8481,7 +8481,7 @@ Add,"Lägg till",module,Magento_Rma
 "Custom Value","Custom Value",module,Magento_Rma
 "Print Shipping Label","Print Shipping Label",module,Magento_Rma
 "Show Packages","Show Packages",module,Magento_Rma
-Items,Items,module,Magento_Rma
+Items,Artiklar,module,Magento_Rma
 "Return Items","Return Items",module,Magento_Rma
 Product,Product,module,Magento_Rma
 SKU,SKU,module,Magento_Rma
@@ -8620,11 +8620,11 @@ Ordered:,Ordered:,module,Magento_Rma
 "Shipping Address:","Shipping Address:",module,Magento_Rma
 "Return Address:","Return Address:",module,Magento_Rma
 Condition,Villkor,module,Magento_Rma
-Qty,Qty,module,Magento_Rma
+Qty,Antal,module,Magento_Rma
 "There is an error in quantities for item %1.","There is an error in quantities for item %1.",module,Magento_Rma
-"Authorized Qty","Authorized Qty",module,Magento_Rma
-"Returned Qty","Returned Qty",module,Magento_Rma
-"Approved Qty","Approved Qty",module,Magento_Rma
+"Authorized Qty","Auktoriserade Antal",module,Magento_Rma
+"Returned Qty","Returnerat Antal",module,Magento_Rma
+"Approved Qty","Godkänt Antal",module,Magento_Rma
 "%1 for item %2 cannot be empty.","%1 for item %2 cannot be empty.",module,Magento_Rma
 "You cannot return %1.","You cannot return %1.",module,Magento_Rma
 "A quantity of %1 is greater than you can return.","A quantity of %1 is greater than you can return.",module,Magento_Rma
@@ -8688,7 +8688,7 @@ Notified,Notified,module,Magento_Rma
 "Select All","Select All",module,Magento_Rma
 Weight,Weight,module,Magento_Rma
 "Customs Value","Customs Value",module,Magento_Rma
-"Qty Ordered","Qty Ordered",module,Magento_Rma
+"Qty Ordered","Antal Beställda",module,Magento_Rma
 "Shipping Information","Shipping Information",module,Magento_Rma
 "Change shipping method.","Change shipping method.",module,Magento_Rma
 "No authorized items or allowed shipping methods","No authorized items or allowed shipping methods",module,Magento_Rma
@@ -8706,7 +8706,7 @@ Number,Number,module,Magento_Rma
 "RMA Items Requested for","RMA Items Requested for",module,Magento_Rma
 "Please Select Products to Add","Please Select Products to Add",module,Magento_Rma
 Remove,Remove,module,Magento_Rma
-Item,Item,module,Magento_Rma
+Item,Artikel,module,Magento_Rma
 "Return items","Return items",module,Magento_Rma
 Sub-items,Sub-items,module,Magento_Rma
 "Quantity To Return","Quantity To Return",module,Magento_Rma
@@ -8743,7 +8743,7 @@ Height,Height,module,Magento_Rma
 "Shipping and Tracking Information","Shipping and Tracking Information",module,Magento_Rma
 "Track this shipment","Track this shipment",module,Magento_Rma
 "Items Return Requested For","Items Return Requested For",module,Magento_Rma
-"Request Qty","Request Qty",module,Magento_Rma
+"Request Qty","Begäran Antal",module,Magento_Rma
 "Hide Details","Hide Details",module,Magento_Rma
 "Show Details","Show Details",module,Magento_Rma
 "Questions and Answers","Questions and Answers",module,Magento_Rma
@@ -8775,7 +8775,7 @@ Ok,Ok,module,Magento_Rma
 "Enable RMA on Product Level","Enable RMA on Product Level",module,Magento_Rma
 "Use Store Address","Use Store Address",module,Magento_Rma
 "Contact Name","Contact Name",module,Magento_Rma
-"Street Address","Street Address",module,Magento_Rma
+"Street Address",Gatuadress,module,Magento_Rma
 City,Stad,module,Magento_Rma
 State/Province,State/Province,module,Magento_Rma
 "ZIP/Postal Code","ZIP/Postal Code",module,Magento_Rma
@@ -9285,7 +9285,7 @@ State/Province,Län,module,Magento_Sales
 "Street Address",Gatuadress,module,Magento_Sales
 "Phone Number",Telefonnummer,module,Magento_Sales
 "Zip/Postal Code",Postnummer,module,Magento_Sales
-"We can't save the address:\n%1","We can't save the address:\n%1",module,Magento_Sales
+"We can't save the address:\n%1","Vi kan inte spara din adress: \n%1",module,Magento_Sales
 "Cannot save comment:\n%1","Cannot save comment:\n%1",module,Magento_Sales
 "We don't have enough information to save the parent transaction ID.","We don't have enough information to save the parent transaction ID.",module,Magento_Sales
 "We cannot create an empty shipment.","We cannot create an empty shipment.",module,Magento_Sales
@@ -9368,7 +9368,7 @@ Subtotal:,Delsumma:,module,Magento_Sales
 "You don't need to select a shipping method.","You don't need to select a shipping method.",module,Magento_Sales
 "Customer's Activities","Customer's Activities",module,Magento_Sales
 Refresh,Refresh,module,Magento_Sales
-Item,Item,module,Magento_Sales
+Item,Artikel,module,Magento_Sales
 "Add To Order","Add To Order",module,Magento_Sales
 "Configure and Add to Order","Configure and Add to Order",module,Magento_Sales
 "No items","Inga artiklar",module,Magento_Sales
@@ -9929,7 +9929,7 @@ Yes,Ja,module,Magento_ScalableInventory
 No,Nej,module,Magento_ScalableInventory
 "Use Config Settings","Use Config Settings",module,Magento_ScalableInventory
 [GLOBAL],[GLOBAL],module,Magento_ScalableInventory
-Qty,Qty,module,Magento_ScalableInventory
+Qty,Antal,module,Magento_ScalableInventory
 "Out-of-Stock Threshold","Out-of-Stock Threshold",module,Magento_ScalableInventory
 "Minimum Qty Allowed in Shopping Cart","Minimum Qty Allowed in Shopping Cart",module,Magento_ScalableInventory
 "Maximum Qty Allowed in Shopping Cart","Maximum Qty Allowed in Shopping Cart",module,Magento_ScalableInventory
@@ -10319,10 +10319,10 @@ message,message,module,Magento_Shipping
 "Email has not been sent","Email has not been sent",module,Magento_Shipping
 "Payment &amp; Shipping Method","Payment &amp; Shipping Method",module,Magento_Shipping
 "Payment Information","Payment Information",module,Magento_Shipping
-"The order was placed using %1.","The order was placed using %1.",module,Magento_Shipping
+"The order was placed using %1.","Den beställning gjordes med hjälp av %1.",module,Magento_Shipping
 "Shipping Information","Shipping Information",module,Magento_Shipping
 "Total Shipping Charges","Total Shipping Charges",module,Magento_Shipping
-"Incl. Tax","Incl. Tax",module,Magento_Shipping
+"Incl. Tax","Inkl. Moms",module,Magento_Shipping
 "Items to Ship","Items to Ship",module,Magento_Shipping
 "Qty to Ship","Antal att Leverera",module,Magento_Shipping
 Ship,Ship,module,Magento_Shipping
@@ -10361,7 +10361,7 @@ Action,Åtgärd,module,Magento_Shipping
 "Shipping and Tracking Information","Shipping and Tracking Information",module,Magento_Shipping
 "Track this shipment","Track this shipment",module,Magento_Shipping
 "Items Shipped","Items Shipped",module,Magento_Shipping
-"Order Total","Order Total",module,Magento_Shipping
+"Order Total",Ordersumma,module,Magento_Shipping
 "Shipment History","Shipment History",module,Magento_Shipping
 "Qty Shipped","Antal Levererade",module,Magento_Shipping
 "Print All Shipments","Print All Shipments",module,Magento_Shipping
@@ -10400,8 +10400,8 @@ Country,Country,module,Magento_Shipping
 Region/State,Region/State,module,Magento_Shipping
 "ZIP/Postal Code","ZIP/Postal Code",module,Magento_Shipping
 City,Stad,module,Magento_Shipping
-"Street Address","Street Address",module,Magento_Shipping
-"Street Address Line 2","Street Address Line 2",module,Magento_Shipping
+"Street Address",Gatuadress,module,Magento_Shipping
+"Street Address Line 2","Gatuadress Rad 2",module,Magento_Shipping
 "Shipping Policy Parameters","Shipping Policy Parameters",module,Magento_Shipping
 "Apply custom Shipping Policy","Apply custom Shipping Policy",module,Magento_Shipping
 "Shipping Policy","Shipping Policy",module,Magento_Shipping
@@ -11033,7 +11033,7 @@ Reset,Reset,module,Magento_Tax
 Name,Namn,module,Magento_Tax
 "Customer Tax Class","Customer Tax Class",module,Magento_Tax
 "Product Tax Class","Product Tax Class",module,Magento_Tax
-"Tax Rate","Tax Rate",module,Magento_Tax
+"Tax Rate",Skattesats,module,Magento_Tax
 Priority,Priority,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","Tax rates at the same priority are added, others are compounded.",module,Magento_Tax
 "Calculate Off Subtotal Only","Calculate Off Subtotal Only",module,Magento_Tax
@@ -11042,14 +11042,14 @@ Priority,Priority,module,Magento_Tax
 "Add New Tax Class","Add New Tax Class",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Shipping Incl. Tax (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Shipping Excl. Tax (%1)",module,Magento_Tax
-"Subtotal (Excl.Tax)","Subtotal (Excl.Tax)",module,Magento_Tax
-"Subtotal (Incl.Tax)","Subtotal (Incl.Tax)",module,Magento_Tax
-"Shipping & Handling (Excl.Tax)","Shipping & Handling (Excl.Tax)",module,Magento_Tax
-"Shipping & Handling (Incl.Tax)","Shipping & Handling (Incl.Tax)",module,Magento_Tax
-"Grand Total (Excl.Tax)","Grand Total (Excl.Tax)",module,Magento_Tax
-"Grand Total (Incl.Tax)","Grand Total (Incl.Tax)",module,Magento_Tax
+"Subtotal (Excl.Tax)","Delsumma (Exkl.Moms)",module,Magento_Tax
+"Subtotal (Incl.Tax)","Delsumma (Inkl.Moms)",module,Magento_Tax
+"Shipping & Handling (Excl.Tax)","Frakt & hantering (Exkl.Moms)",module,Magento_Tax
+"Shipping & Handling (Incl.Tax)","Frakt & hantering (Inkl.Moms)",module,Magento_Tax
+"Grand Total (Excl.Tax)","Totalsumma (Excl.Moms)",module,Magento_Tax
+"Grand Total (Incl.Tax)","Totalsumma (Exkl.Moms)",module,Magento_Tax
 Sales,Sales,module,Magento_Tax
-Tax,Tax,module,Magento_Tax
+Tax,Moms,module,Magento_Tax
 "Manage Tax Rates","Manage Tax Rates",module,Magento_Tax
 "New Tax Rate","New Tax Rate",module,Magento_Tax
 "Tax Zones and Rates","Tax Zones and Rates",module,Magento_Tax
@@ -11100,19 +11100,19 @@ Code,Kod,module,Magento_Tax
 "Grand Total (Excl. Tax)","Grand Total (Excl. Tax)",module,Magento_Tax
 "Grand Total (Incl. Tax)","Grand Total (Incl. Tax)",module,Magento_Tax
 "Shipping (Excl. Tax)","Shipping (Excl. Tax)",module,Magento_Tax
-"Shipping (Incl. Tax)","Shipping (Incl. Tax)",module,Magento_Tax
-"Subtotal (Excl. Tax)","Subtotal (Excl. Tax)",module,Magento_Tax
-"Subtotal (Incl. Tax)","Subtotal (Incl. Tax)",module,Magento_Tax
+"Shipping (Incl. Tax)","Frakt (inkl. skatt)",module,Magento_Tax
+"Subtotal (Excl. Tax)","Delsumma (Exkl. Moms)",module,Magento_Tax
+"Subtotal (Incl. Tax)","Delsumma (Inkl. Moms)",module,Magento_Tax
 Subtotal,Subtotal,module,Magento_Tax
 "Unit Price","Unit Price",module,Magento_Tax
 "Row Total","Row Total",module,Magento_Tax
 Total,Total,module,Magento_Tax
 "Before Discount","Before Discount",module,Magento_Tax
 "After Discount","After Discount",module,Magento_Tax
-"Excluding Tax","Excluding Tax",module,Magento_Tax
-"Including Tax","Including Tax",module,Magento_Tax
+"Excluding Tax","Exklusive moms",module,Magento_Tax
+"Including Tax","Inklusive moms",module,Magento_Tax
 None,None,module,Magento_Tax
-"Including and Excluding Tax","Including and Excluding Tax",module,Magento_Tax
+"Including and Excluding Tax","Inklusive och exklusive moms",module,Magento_Tax
 "To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”.","To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”.",module,Magento_Tax
 "Store(s) affected:","Store(s) affected:",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Click on the link to <a href=""%1"">ignore this notification</a>",module,Magento_Tax
@@ -11126,14 +11126,14 @@ None,None,module,Magento_Tax
 "customer group",kundgrupp,module,Magento_Tax
 product,product,module,Magento_Tax
 "Excl. tax:","Excl. tax:",module,Magento_Tax
-"Incl. Tax","Incl. Tax",module,Magento_Tax
+"Incl. Tax","Inkl. Moms",module,Magento_Tax
 "Entity already exists","Entity already exists",module,Magento_Tax
 "Cannot save titles","Cannot save titles",module,Magento_Tax
 "Some Message","Some Message",module,Magento_Tax
 "Something went wrong","Something went wrong",module,Magento_Tax
 "Could not save","Could not save",module,Magento_Tax
 "No such entity","No such entity",module,Magento_Tax
-"Excl. Tax","Excl. Tax",module,Magento_Tax
+"Excl. Tax","Exkl. Moms",module,Magento_Tax
 Note:,Note:,module,Magento_Tax
 "Leave this field empty if you wish to use the tax identifier.","Leave this field empty if you wish to use the tax identifier.",module,Magento_Tax
 "An error occurred","An error occurred",module,Magento_Tax
@@ -11181,9 +11181,9 @@ Rate,Rate,module,Magento_Tax
 "Subtotal Only","Subtotal Only",module,Magento_Tax
 "(Excl. Tax)","(Excl. Tax)",module,Magento_Tax
 "(Incl. Tax)","(Incl. Tax)",module,Magento_Tax
-"Order Total Excl. Tax","Order Total Excl. Tax",module,Magento_Tax
-"Order Total Incl. Tax","Order Total Incl. Tax",module,Magento_Tax
-"Order Total","Order Total",module,Magento_Tax
+"Order Total Excl. Tax","Ordersumma Exkl. Skatt",module,Magento_Tax
+"Order Total Incl. Tax","Ordersumma Inkl. Skatt",module,Magento_Tax
+"Order Total",Ordersumma,module,Magento_Tax
 "Your credit card will be charged for","Your credit card will be charged for",module,Magento_Tax
 Code,Kod,module,Magento_TaxImportExport
 Country,Land,module,Magento_TaxImportExport
@@ -11480,8 +11480,8 @@ Keyword,Keyword,module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Please enter a valid email address (Ex: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Please enter 6 or more characters. Leading and trailing spaces will be ignored.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Please enter 7 or more characters, using both numeric and alphabetic.",module,Magento_Ui
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.",module,Magento_Ui
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimilängden på detta fält måste vara minst %1 symboler. Inledande och efterföljande blanksteg ignoreras.",module,Magento_Ui
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Du måste minst ha %1 olika typer av tecken i lösenordet. Till teckentyper räknas: gemener, versaler, siffror och specialtecken.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Please enter a valid URL. Protocol is required (http://, https:// or ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Please enter a valid URL. For example http://www.example.com or www.example.com.",module,Magento_Ui
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Please enter a valid XML-identifier (Ex: something_1, block5, id-4).",module,Magento_Ui
@@ -11506,7 +11506,7 @@ Keyword,Keyword,module,Magento_Ui
 "Please enter a value greater than or equal to {0}.","Please enter a value greater than or equal to {0}.",module,Magento_Ui
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.",module,Magento_Ui
 "Please enter issue number or start date for switch/solo card type.","Please enter issue number or start date for switch/solo card type.",module,Magento_Ui
-"This is a required field.","This is a required field.",module,Magento_Ui
+"This is a required field.","Detta är ett obligatoriskt fält.",module,Magento_Ui
 "Please enter positive number in this field.","Please enter positive number in this field.",module,Magento_Ui
 "Please enter a valid value, ex: 10,20,30","Please enter a valid value, ex: 10,20,30",module,Magento_Ui
 "We don't recognize or support this file extension type.","We don't recognize or support this file extension type.",module,Magento_Ui
@@ -11999,12 +11999,12 @@ Name,Namn,module,Magento_Variable
 "Wrong request.","Felaktig begäran.",module,Magento_Vault
 "Deletion failure. Please try again.","Raderingen misslyckades. Vänligen försök igen.",module,Magento_Vault
 "Stored Payment Method was successfully removed","Stored Payment Method was successfully removed",module,Magento_Vault
-"Stored Payment Methods","Stored Payment Methods",module,Magento_Vault
+"Stored Payment Methods","Lagrade betalningsmetoder",module,Magento_Vault
 "No available payment tokens for specified order payment.","No available payment tokens for specified order payment.",module,Magento_Vault
 "Card Number","Card Number",module,Magento_Vault
 "Expiration Date","Expiration Date",module,Magento_Vault
 Type,Type,module,Magento_Vault
-"You have no stored payment methods.","You have no stored payment methods.",module,Magento_Vault
+"You have no stored payment methods.","Du har inga sparade betalningsmetoder.",module,Magento_Vault
 ending,ending,module,Magento_Vault
 Actions,Actions,module,Magento_Vault
 Delete,"Ta bort",module,Magento_Vault
@@ -12278,14 +12278,14 @@ label_value,label_value,module,Magento_Weee
 frontend_label,frontend_label,module,Magento_Weee
 "Fixed Product Tax","Fixed Product Tax",module,Magento_Weee
 Country/State,Country/State,module,Magento_Weee
-Tax,Tax,module,Magento_Weee
+Tax,Moms,module,Magento_Weee
 Website,Website,module,Magento_Weee
 Action,Åtgärd,module,Magento_Weee
-"Excl. Tax","Excl. Tax",module,Magento_Weee
+"Excl. Tax","Exkl. Moms",module,Magento_Weee
 Total,Total,module,Magento_Weee
-"Incl. Tax","Incl. Tax",module,Magento_Weee
-"Total Incl. Tax","Total Incl. Tax",module,Magento_Weee
-"Final Price","Final Price",module,Magento_Weee
+"Incl. Tax","Inkl. Moms",module,Magento_Weee
+"Total Incl. Tax","Totalt inkl moms",module,Magento_Weee
+"Final Price","Slutliga priset",module,Magento_Weee
 "Fixed Product Taxes","Fixed Product Taxes",module,Magento_Weee
 "Enable FPT","Aktivera FPT",module,Magento_Weee
 "Display Prices In Product Lists","Display Prices In Product Lists",module,Magento_Weee
@@ -12440,7 +12440,7 @@ Edit,Redigera,module,Magento_Wishlist
 "Remove item","Remove item",module,Magento_Wishlist
 "Add to Compare","Lägg till jämför",module,Magento_Wishlist
 "This Wish List has no Items","This Wish List has no Items",module,Magento_Wishlist
-"%1 has been added to your Wish List.","%1 has been added to your Wish List.",module,Magento_Wishlist
+"%1 has been added to your Wish List.","%1 har lagts till din önskelista.",module,Magento_Wishlist
 "Click <a href=""%1"">here</a> to continue shopping.","Click <a href=""%1"">here</a> to continue shopping.",module,Magento_Wishlist
 "See Details","See Details",module,Magento_Wishlist
 "Options Details","Options Details",module,Magento_Wishlist
