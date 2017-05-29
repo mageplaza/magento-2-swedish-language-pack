@@ -2371,7 +2371,7 @@ Description,Beskrivning,module,Magento_CatalogRuleStaging
 "Update Information","Redigera information",module,Magento_CatalogRuleStaging
 "Remove Catalog Price Rule from Update","Ta bort policyregel pris från Update",module,Magento_CatalogRuleStaging
 "Update Name","Namn på uppdatering",module,Magento_CatalogRuleStaging
-"Start Date","Start Date",module,Magento_CatalogRuleStaging
+"Start Date",Startdatum,module,Magento_CatalogRuleStaging
 "End Date",Slutdatum,module,Magento_CatalogRuleStaging
 "Rule Information","Information om regel",module,Magento_CatalogRuleStaging
 Active,Active,module,Magento_CatalogRuleStaging
@@ -2448,7 +2448,7 @@ Design,Design,module,Magento_CatalogStaging
 View/Edit,Visa/redigera,module,Magento_CatalogStaging
 Delete,"Ta bort",module,Magento_CatalogStaging
 Preview,Preview,module,Magento_CatalogStaging
-"Set Product as New","Set Product as New",module,Magento_CatalogStaging
+"Set Product as New","Ställ in produkten som ny från",module,Magento_CatalogStaging
 "Store View:","Store View:",module,Magento_CatalogStaging
 "Stores Configuration","Butiks konfiguration",module,Magento_CatalogStaging
 Images,Bilder,module,Magento_CatalogStaging
@@ -2941,7 +2941,7 @@ Action,Åtgärd,module,Magento_CmsStaging
 "Start Date",Startdatum,module,Magento_CmsStaging
 "End Date",Slutdatum,module,Magento_CmsStaging
 "General Information","Allmän Information",module,Magento_CmsStaging
-"Enable Block","Enable Block",module,Magento_CmsStaging
+"Enable Block","Aktivera block",module,Magento_CmsStaging
 "Block Title","Block Title",module,Magento_CmsStaging
 Identifier,Identifierare,module,Magento_CmsStaging
 "Store View","Store View",module,Magento_CmsStaging
@@ -3260,7 +3260,7 @@ Attributes,Attribut,module,Magento_ConfigurableProductStaging
 Required,Obligatorisk,module,Magento_ConfigurableProductStaging
 System,System,module,Magento_ConfigurableProductStaging
 Visible,Synlig,module,Magento_ConfigurableProductStaging
-Scope,Scope,module,Magento_ConfigurableProductStaging
+Scope,Omfattning,module,Magento_ConfigurableProductStaging
 Searchable,Searchable,module,Magento_ConfigurableProductStaging
 Comparable,Jämförbar,module,Magento_ConfigurableProductStaging
 "Page not found.","Sidan kunde inte hittas.",module,Magento_Contact
@@ -5237,7 +5237,7 @@ End,End,module,Magento_GiftCardAccount
 "Could not add gift message to order's item: ""%1""","Kunde inte lägga till gåvomeddelande att beställa produkt: ""%1""",module,Magento_GiftMessage
 "Unknown entity type","Unknown entity type",module,Magento_GiftMessage
 "Test label","Test etikett",module,Magento_GiftMessage
-"Use Config Settings","Use Config Settings",module,Magento_GiftMessage
+"Use Config Settings","Använd konfigurationsinställningarna",module,Magento_GiftMessage
 From,Från,module,Magento_GiftMessage
 To,Till,module,Magento_GiftMessage
 Message,Meddelande,module,Magento_GiftMessage
@@ -5857,7 +5857,7 @@ Summary,Summary,module,Magento_ImportExport
 "Reindex required","Indexering krävs",module,Magento_Indexer
 Ready,Redo,module,Magento_Indexer
 Processing,Bearbetar,module,Magento_Indexer
-Never,Never,module,Magento_Indexer
+Never,Aldrig,module,Magento_Indexer
 "%1 index is locked by another reindex process. Skipping.","%1 index is locked by another reindex process. Skipping.",module,Magento_Indexer
 "Index Management",Indexhantering,module,Magento_Indexer
 "Please select indexers.","Vänligen välj indexerare.",module,Magento_Indexer
@@ -5882,7 +5882,7 @@ API,API,module,Magento_Integration
 Save,Spara,module,Magento_Integration
 "Save & Activate","Spara & aktivera",module,Magento_Integration
 "New Integration","Ny integration",module,Magento_Integration
-"Edit Integration '%1'","Edit Integration '%1'",module,Magento_Integration
+"Edit Integration '%1'","Redigera Integration '%1'",module,Magento_Integration
 "Integration Info",Integrationsguide,module,Magento_Integration
 General,Allmänt,module,Magento_Integration
 Name,Namn,module,Magento_Integration
@@ -5891,7 +5891,7 @@ Email,E-post,module,Magento_Integration
 "Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Ange webbadressen där Oauth identifieringsinformation kan skickas när du använder Oauth-token exchange. Vi rekommenderar att du använder https://.",module,Magento_Integration
 "Identity link URL","Identity link URL",module,Magento_Integration
 "URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL to redirect user to link their 3rd party account with this Magento integration credentials.",module,Magento_Integration
-"Current User Identity Verification","Current User Identity Verification",module,Magento_Integration
+"Current User Identity Verification","Identitetsverifiering för nuvarande användare",module,Magento_Integration
 "Your Password","Ditt lösenord",module,Magento_Integration
 "Integration Details","Inställningar för intregration",module,Magento_Integration
 "Basic Settings","Grundläggande inställningar",module,Magento_Integration
@@ -6002,7 +6002,7 @@ Invitations,Inbjudningar,module,Magento_Invitation
 "Invitations Information","Information om inbjudningar",module,Magento_Invitation
 "Enter Each Email on New Line","Ange varje e-postadress på ny rad",module,Magento_Invitation
 Message,Meddelande,module,Magento_Invitation
-"Send From","Send From",module,Magento_Invitation
+"Send From","Skicka från",module,Magento_Invitation
 "Invitee Group","Inbjuden grupp",module,Magento_Invitation
 Reset,Reset,module,Magento_Invitation
 Save,Spara,module,Magento_Invitation
@@ -6143,7 +6143,7 @@ No,Nej,module,Magento_LayeredNavigation
 "Use in Layered Navigation","Användning i Filternavigering",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","Kan endast användas med datatyperna Dropdown, flera val och pris",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price.","Kan endast användas med datatyperna Dropdown, flera val och pris.",module,Magento_LayeredNavigation
-"Use in Search Results Layered Navigation","Use in Search Results Layered Navigation",module,Magento_LayeredNavigation
+"Use in Search Results Layered Navigation","Användning i sökresultat för filternavigering",module,Magento_LayeredNavigation
 Position,Position,module,Magento_LayeredNavigation
 "Position in Layered Navigation","Position i Filternavigering",module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block.","Placering av attribut i filternavigeringsblock.",module,Magento_LayeredNavigation
@@ -6172,7 +6172,7 @@ Back,Bakåt,module,Magento_Logging
 "Log Entry Details","Loggpost Detaljer",module,Magento_Logging
 "Source Data",Källdata,module,Magento_Logging
 "Value Before Change","Värde före förändring",module,Magento_Logging
-"Value After Change","Value After Change",module,Magento_Logging
+"Value After Change","Värde efter förändring",module,Magento_Logging
 "No changes","Inga ändringar",module,Magento_Logging
 "The item was deleted","Objektet har tagits bort",module,Magento_Logging
 N/A,N/A,module,Magento_Logging
@@ -6305,7 +6305,7 @@ Partners,Samarbetspartners,module,Magento_Marketplace
 "Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.",module,Magento_Marketplace
 "Featured Platinum Partners","Platinum partner",module,Magento_Marketplace
 "Partner search","Sök samarbetspartner",module,Magento_Marketplace
-"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento har ett blomstrande ekosystem av teknik att hjälpa handlare och märken leverera den bästa möjliga kundupplevelsen. De är erkända som experter inom e-handel, Sök, e-postmarknadsföring, utbetalningar, skatt, bedrägeri, optimering och analytics, uppfyllelse och mer. Besök Magento Partner Directory för att se alla våra partners.",module,Magento_Marketplace
 "More Partners","Fler partner",module,Magento_Marketplace
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","Tillägg och teman är en viktig komponent i Magento ekosystemet. Besök på Magento Marketplace för att se de senaste innovationerna som utvecklare har skapat för att förbättra din Magento butik.",module,Magento_Marketplace
 "Visit Magento Marketplaces","Besök Magento marknadsplatser",module,Magento_Marketplace
@@ -6319,7 +6319,7 @@ Synchronizing...,Synkroniserar...,module,Magento_MediaStorage
 "The timeout limit for response from synchronize process was reached.","Tidsgränsen uppnåddes för svar från processing för att synkronisera.",module,Magento_MediaStorage
 "File %1 does not exist","Fil %1 saknas",module,Magento_MediaStorage
 "File %1 is not readable","Filen %S kan inte läsas",module,Magento_MediaStorage
-"File System","File System",module,Magento_MediaStorage
+"File System",Filsystem,module,Magento_MediaStorage
 Database,Databas,module,Magento_MediaStorage
 "database ""%1""","databasen ""%1""",module,Magento_MediaStorage
 "Parent directory does not exist: %1","Överordnade katalogen finns inte: %1",module,Magento_MediaStorage
@@ -6363,7 +6363,7 @@ Back,Bakåt,module,Magento_MultipleLocationInventory
 "Enable Warehouse","Aktivera lagerstället",module,Magento_MultipleLocationInventory
 Warehouse,Lagerställe,module,Magento_MultipleLocationInventory
 "New Warehouse","Lägg till nytt lager",module,Magento_MultipleLocationInventory
-"Manage Warehouse","Manage Warehouse",module,Magento_MultipleLocationInventory
+"Manage Warehouse","Hantera lager",module,Magento_MultipleLocationInventory
 "Please correct the data sent.","Korrigera datan som skickas.",module,Magento_MultipleLocationInventory
 "Please select a user","Vänligen välj en användare",module,Magento_MultipleLocationInventory
 "Requested warehouse doesn't exist","Önskat lager finns inte",module,Magento_MultipleLocationInventory
@@ -6372,7 +6372,7 @@ Edit,Redigera,module,Magento_MultipleLocationInventory
 "Multiple Location Inventory","Flera lager",module,Magento_MultipleLocationInventory
 "Change status of warehouse","Ändra status för lagerställe",module,Magento_MultipleLocationInventory
 "Edit warehouse","Redigera lager",module,Magento_MultipleLocationInventory
-"Manage Warehouses","Manage Warehouses",module,Magento_MultipleLocationInventory
+"Manage Warehouses","Hantera lager",module,Magento_MultipleLocationInventory
 "Warehouse Information",Lageruppgifter,module,Magento_MultipleLocationInventory
 "Use default address","Använd standardadress",module,Magento_MultipleLocationInventory
 "Street Address",Gatuadress,module,Magento_MultipleLocationInventory
@@ -6395,7 +6395,7 @@ Wishlist,Önskelistan,module,Magento_MultipleWishlist
 "1 item in wish list","%1 artikel i önskelistan",module,Magento_MultipleWishlist
 "%1 items in wish list","%1 artiklar i önskelistan",module,Magento_MultipleWishlist
 "Wish List Search","Önskelista Sök",module,Magento_MultipleWishlist
-"Select Search Type","Select Search Type",module,Magento_MultipleWishlist
+"Select Search Type","Välj söktyp",module,Magento_MultipleWishlist
 Reports,Rapporter,module,Magento_MultipleWishlist
 Customers,Kunder,module,Magento_MultipleWishlist
 "Customer Wish List Report","Rapport för kundens önskelista",module,Magento_MultipleWishlist
@@ -6525,7 +6525,7 @@ Comment,Comment,module,Magento_MultipleWishlist
 "Review Order - %1","Granska beställning - %1",module,Magento_Multishipping
 Total,Totalt,module,Magento_Multishipping
 "Total for this address","Totalt för denna adress",module,Magento_Multishipping
-"Shipping Methods","Shipping Methods",module,Magento_Multishipping
+"Shipping Methods",Fraktsätt,module,Magento_Multishipping
 "Edit Address","Redigera adress",module,Magento_Multishipping
 "Edit Billing Address","Redigera faktureringsadress",module,Magento_Multishipping
 "Edit Shipping Address","Redigera leveransadress",module,Magento_Multishipping
@@ -6613,8 +6613,8 @@ Options,Options,module,Magento_Multishipping
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","All tid är i minuter. Använd ""0"" om du vill hoppa över automatisk rensning.",module,Magento_MysqlMq
 "Retry Messages In Progress After","Försök igen meddelanden pågår efter",module,Magento_MysqlMq
 "Successful Messages Lifetime","Livstid för levererade meddelanden",module,Magento_MysqlMq
-"Failed Messages Lifetime","Failed Messages Lifetime",module,Magento_MysqlMq
-"New Messages Lifetime","New Messages Lifetime",module,Magento_MysqlMq
+"Failed Messages Lifetime","Livstid för misslyckade meddelanden",module,Magento_MysqlMq
+"New Messages Lifetime","Livslängd för nya meddelanden",module,Magento_MysqlMq
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Ingen ny relic applikations-ID konfigurerade, kan inte fortsätta med Cron event-rapportering",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","The New Relic integrationen kräver newrelic-php5 agenten, som inte är installerad. Mer 
@@ -6622,8 +6622,8 @@ Options,Options,module,Magento_Multishipping
 "New Relic Reporting Section","New Relic Rapportsektion",module,Magento_NewRelicReporting
 "New Relic Reporting","New Relic rapportering",module,Magento_NewRelicReporting
 General,Allmänt,module,Magento_NewRelicReporting
-"Enable New Relic Integration","Enable New Relic Integration",module,Magento_NewRelicReporting
-"New Relic API URL","New Relic API URL",module,Magento_NewRelicReporting
+"Enable New Relic Integration","Aktivera New Relic Integration",module,Magento_NewRelicReporting
+"New Relic API URL","Ny relik API-nyckel",module,Magento_NewRelicReporting
 "Insights API URL","Insights API URL",module,Magento_NewRelicReporting
 "Use %s to replace the account ID in the URL","Använda %s för att ersätta det konto-ID i URLen",module,Magento_NewRelicReporting
 "New Relic Account ID","Ny relik konto-ID",module,Magento_NewRelicReporting
@@ -6644,7 +6644,7 @@ Back,Bakåt,module,Magento_Newsletter
 Reset,Återställ,module,Magento_Newsletter
 "Preview Template","Förhandsgranska mall",module,Magento_Newsletter
 "Save Newsletter","Spara nyhetsbrev",module,Magento_Newsletter
-"Save and Resume","Save and Resume",module,Magento_Newsletter
+"Save and Resume","Spara och återuppta",module,Magento_Newsletter
 "View Newsletter","Visa nyhetsbrev",module,Magento_Newsletter
 "Edit Newsletter","Redigera nyhetsbrev",module,Magento_Newsletter
 "Queue Information",Kö-Information,module,Magento_Newsletter
@@ -6820,8 +6820,8 @@ Region/State,Region/Stat,module,Magento_OfflineShipping
 "Zip/Postal Code",Postnummer,module,Magento_OfflineShipping
 "Shipping Price",Fraktavgift,module,Magento_OfflineShipping
 "Export CSV","Exportera till CSV",module,Magento_OfflineShipping
-"Store Pickup","Store Pickup",module,Magento_OfflineShipping
-"Weight vs. Destination","Weight vs. Destination",module,Magento_OfflineShipping
+"Store Pickup","Hämta i Butik",module,Magento_OfflineShipping
+"Weight vs. Destination","Pris kontra Destination",module,Magento_OfflineShipping
 "Price vs. Destination","Pris kontra Destination",module,Magento_OfflineShipping
 "# of Items vs. Destination","# av objekt vs. Destination",module,Magento_OfflineShipping
 "Weight (and above)","Vikt (och över)",module,Magento_OfflineShipping
@@ -6875,8 +6875,8 @@ Import,Importera,module,Magento_OfflineShipping
 "Built-in Cache","Inbyggt Cache",module,Magento_PageCache
 "Varnish Cache (Recommended)","Varnish Cache (rekommenderas)",module,Magento_PageCache
 "Full Page Cache","Fullpage Cache",module,Magento_PageCache
-"Caching Application","Caching Application",module,Magento_PageCache
-"Varnish Configuration","Varnish Configuration",module,Magento_PageCache
+"Caching Application","Cachelagring av applikation",module,Magento_PageCache
+"Varnish Configuration","Varnish konfigurering",module,Magento_PageCache
 "Access list",Åtkomstlistan,module,Magento_PageCache
 "IPs access list separated with ',' that can purge Varnish configuration for config file generation.
                             If field is empty default value localhost will be saved.","IPs access list separated with ',' that can purge Varnish configuration for config file generation.
@@ -6897,12 +6897,12 @@ Year,År,module,Magento_Payment
 "We cannot retrieve the payment info model object.","Vi kan inte hämta betalningsmetod objektet.",module,Magento_Payment
 N/A,N/A,module,Magento_Payment
 "Credit Card Type",Kreditkortstyp,module,Magento_Payment
-"Credit Card Number","Credit Card Number",module,Magento_Payment
+"Credit Card Number",Kreditkortsnummer,module,Magento_Payment
 "Switch/Solo/Maestro Issue Number","Switch/Solo/Maestro utfärdandenummer",module,Magento_Payment
 "Switch/Solo/Maestro Start Date","Switch/Solo/Maestro startdatum",module,Magento_Payment
 "We cannot retrieve the transparent payment method model object.","We cannot retrieve the transparent payment method model object.",module,Magento_Payment
 "Command Executor for %1 is not defined.","Command Executor for %1 is not defined.",module,Magento_Payment
-"Command %1 does not exist.","Command %1 does not exist.",module,Magento_Payment
+"Command %1 does not exist.","Kommandot %1 existerar inte.",module,Magento_Payment
 "Transaction has been declined. Please try again later.","Transaktionen har avvisats. Försök igen senare.",module,Magento_Payment
 "Wrong gateway response format.","Fel gateway svarsformat.",module,Magento_Payment
 "Validator for field %1 does not exist.","Validator för fältet %1 existerar inte.",module,Magento_Payment
@@ -6956,13 +6956,13 @@ ID,ID,module,Magento_Paypal
 Email,Email,module,Magento_Paypal
 "First Name",Förnamn,module,Magento_Paypal
 "Last Name",Efternamn,module,Magento_Paypal
-"Reference ID","Reference ID",module,Magento_Paypal
+"Reference ID","Referens ID",module,Magento_Paypal
 Status,Status,module,Magento_Paypal
 Created,Skapad,module,Magento_Paypal
 N/A,N/A,module,Magento_Paypal
 Updated,Uppdaterad,module,Magento_Paypal
 Back,Tillbaka,module,Magento_Paypal
-"Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_Paypal
+"Are you sure you want to do this?","Är du säker på att du vill göra detta?",module,Magento_Paypal
 Cancel,Avbryt,module,Magento_Paypal
 "Billing Agreement #%1","Faktureringsavtal #%1",module,Magento_Paypal
 "General Information","Allmän Information",module,Magento_Paypal
@@ -7585,13 +7585,13 @@ User,Användare,module,Magento_Paypal
 "Welcome, %1!","Välkommen, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","Vi kan inte läsa in konfigurationen från filen %1.",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","Metoden ""%1"" definieras inte i ""%2""",module,Magento_Persistent
-"To check out, please sign in using your email address.","To check out, please sign in using your email address.",module,Magento_Persistent
-"Remember Me","Remember Me",module,Magento_Persistent
+"To check out, please sign in using your email address.","För att checka ut, signa in med din e-postadress.",module,Magento_Persistent
+"Remember Me","Kom ihåg mig",module,Magento_Persistent
 "What's this?","What's this?",module,Magento_Persistent
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Kontrollera ""Kom ihåg mig"" för att komma åt din varukorg på datorn även om du inte är inloggad.",module,Magento_Persistent
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Markera ""Kom ihåg mig"" för att komma åt din varukorg på datorn även om du inte är inloggad.",module,Magento_Persistent
-"Persistent Shopping Cart","Persistent Shopping Cart",module,Magento_Persistent
-"General Options","General Options",module,Magento_Persistent
+"Persistent Shopping Cart","Persisterande kundvagn",module,Magento_Persistent
+"General Options","Allmänna inställningar",module,Magento_Persistent
 "Enable Persistence","Aktivera beständighet",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Persistens livstid (sekunder)",module,Magento_Persistent
 "Enable ""Remember Me""","Aktivera ""Kom ihåg mig""",module,Magento_Persistent
@@ -7603,7 +7603,7 @@ User,Användare,module,Magento_Paypal
 "Persist Currently Compared Products","Håll kvar nuvarande jämförda produkter",module,Magento_PersistentHistory
 "Persist Comparison History","Framför Jämförelsehistorik",module,Magento_PersistentHistory
 "Persist Recently Viewed Products","Håll kvar nyligen visade produkter",module,Magento_PersistentHistory
-"Persist Customer Group Membership and Segmentation","Persist Customer Group Membership and Segmentation",module,Magento_PersistentHistory
+"Persist Customer Group Membership and Segmentation","Persisterande kundgrupps medlemsskap och segmentering",module,Magento_PersistentHistory
 "Read Product Price","Visa produktpriset",module,Magento_PricePermissions
 "Edit Product Price","Redigera Produktpris",module,Magento_PricePermissions
 "Edit Product Status","Redigera Produktstatus",module,Magento_PricePermissions
@@ -7615,12 +7615,12 @@ User,Användare,module,Magento_Paypal
 "Alert subscription has been saved.","Bevakningsprenumerationen har sparats.",module,Magento_ProductAlert
 "You deleted the alert subscription.","Du har tagit bort prenumerationen av denna notifiering.",module,Magento_ProductAlert
 "We can't find the product.","We can't find the product.",module,Magento_ProductAlert
-"You will no longer receive price alerts for this product.","You will no longer receive price alerts for this product.",module,Magento_ProductAlert
+"You will no longer receive price alerts for this product.","Du får inte längre lagermeddelanden för denna produkt.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","Det gick inte att uppdatera alert prenumerationen.",module,Magento_ProductAlert
 "You will no longer receive stock alerts for this product.","Du får inte längre lagermeddelanden för denna produkt.",module,Magento_ProductAlert
 "The product was not found.","Produkten finns inte.",module,Magento_ProductAlert
-"You will no longer receive stock alerts.","You will no longer receive stock alerts.",module,Magento_ProductAlert
-"Invalid block type: %1","Invalid block type: %1",module,Magento_ProductAlert
+"You will no longer receive stock alerts.","Du får inte längre lagermeddelanden för denna produkt.",module,Magento_ProductAlert
+"Invalid block type: %1","Ogiltig blocktyp: %1",module,Magento_ProductAlert
 "Price change alert! We wanted you to know that prices have changed for these products:","Prisförändrings varning! Vi ville att du skulle veta att priser har ändrats för dessa produkter:",module,Magento_ProductAlert
 Price:,Pris:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.","Klicka här för att stoppa aviseringar för den här produkten.",module,Magento_ProductAlert
@@ -7652,13 +7652,13 @@ Title,Titel,module,Magento_ProductVideo
 Description,Beskrivning,module,Magento_ProductVideo
 "Preview Image","Förhandsgranska bild",module,Magento_ProductVideo
 "Get Video Information","Få Video Information",module,Magento_ProductVideo
-"Hide from Product Page","Hide from Product Page",module,Magento_ProductVideo
+"Hide from Product Page","Dölj från produktsidan",module,Magento_ProductVideo
 Role,Roll,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube och Vimeo stöds.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo stöds. < br / > för att lägga till YouTube video, vänligen <a href=""%1""> Ange YouTube API-nyckel</a> först.",module,Magento_ProductVideo
 "Protocol isn't allowed","Protokollet är inte tillåtet",module,Magento_ProductVideo
-"Could not get preview image information. Please check your connection and try again.","Could not get preview image information. Please check your connection and try again.",module,Magento_ProductVideo
-"Add Video","Add Video",module,Magento_ProductVideo
+"Could not get preview image information. Please check your connection and try again.","Kunde inte få förhandsgranska bildinformation. Kontrollera anslutningen och försök igen.",module,Magento_ProductVideo
+"Add Video","Lägg till Video",module,Magento_ProductVideo
 "Browse to find or drag image here","Bläddra för att hitta eller dra bilden hit",module,Magento_ProductVideo
 "Delete video","Radera video",module,Magento_ProductVideo
 "Delete image","Ta bort Bild",module,Magento_ProductVideo
@@ -7760,13 +7760,13 @@ Carts,Carts,module,Magento_Quote
 "Add New Rule","Lägg till Ny Regel",module,Magento_Reminder
 "Are you sure you want to match this rule now?","Är du säker att du vill matcha denna regel nu?",module,Magento_Reminder
 "No more than %1 customers may receive the reminder email after this action.","Inte mer än %1 kunder kan få en påminnelse efter denna åtgärd.",module,Magento_Reminder
-"Run Now","Run Now",module,Magento_Reminder
-"Save and Continue Edit","Save and Continue Edit",module,Magento_Reminder
+"Run Now","Kör nu",module,Magento_Reminder
+"Save and Continue Edit","Spara och Fortsätt Redigera",module,Magento_Reminder
 "Edit Rule '%1'","Redigera regel '%1'",module,Magento_Reminder
 "New Rule","Ny regel",module,Magento_Reminder
 "Email Reminder Rule","Regel för E-post påminnelser",module,Magento_Reminder
 Conditions,Villkor,module,Magento_Reminder
-"You need to set at least one condition for this rule to work.","You need to set at least one condition for this rule to work.",module,Magento_Reminder
+"You need to set at least one condition for this rule to work.","Du måste ange minst ett villkor för den här regeln ska fungera.",module,Magento_Reminder
 ID,ID,module,Magento_Reminder
 Email,E-post,module,Magento_Reminder
 "Matched At",Matchade,module,Magento_Reminder
@@ -8143,12 +8143,12 @@ undefined,undefined,module,Magento_Reports
 Product,Produkt,module,Magento_Review
 "Product Rating",Produktbetyg,module,Magento_Review
 Status,Status,module,Magento_Review
-Visibility,Visibility,module,Magento_Review
+Visibility,Synlighet,module,Magento_Review
 Nickname,Smeknamn,module,Magento_Review
 "Summary of Review","Sammanfattning av recension",module,Magento_Review
 Review,Recension,module,Magento_Review
-Previous,Previous,module,Magento_Review
-"Save and Previous","Save and Previous",module,Magento_Review
+Previous,Föregående,module,Magento_Review
+"Save and Previous","Spara och tidigare",module,Magento_Review
 "Save and Next","Spara och nästa",module,Magento_Review
 Next,Nästa,module,Magento_Review
 "Delete Review","Ta bort recension",module,Magento_Review
@@ -8286,13 +8286,13 @@ SKU,Artikelnr,module,Magento_ReviewStaging
 "Expired reward","Utgången bonus",module,Magento_Reward
 Unlimited,Obegränsat,module,Magento_Reward
 "No Data","Inga data",module,Magento_Reward
-Website,Website,module,Magento_Reward
-Balance,Balance,module,Magento_Reward
+Website,Webbplats,module,Magento_Reward
+Balance,Saldo,module,Magento_Reward
 "Currency Amount",Valutabelopp,module,Magento_Reward
 "Reward Points Threshold","Belöningspunkternas tröskel",module,Magento_Reward
 "Reward Points Cap","Maxgräns för bonuspoäng",module,Magento_Reward
-"Delete Orphan Points","Delete Orphan Points",module,Magento_Reward
-"Update Reward Points Balance","Update Reward Points Balance",module,Magento_Reward
+"Delete Orphan Points","Ta bort okopplade",module,Magento_Reward
+"Update Reward Points Balance","Uppdatera lojalitetspoängssaldo",module,Magento_Reward
 Store,Butik,module,Magento_Reward
 "Update Points","Uppdatera poäng",module,Magento_Reward
 "Enter a negative number to subtract from the balance.","Ange ett negativt tal som du subtraherar från saldot.",module,Magento_Reward
@@ -8453,13 +8453,13 @@ Returns,Returer,module,Magento_Rma
 "Create Returns","Skapa Returer",module,Magento_Rma
 "Select Items","Välj Artiklar",module,Magento_Rma
 "New Return Request","Nya returförfrågan",module,Magento_Rma
-"Create New RMA for %1 in %2","Create New RMA for %1 in %2",module,Magento_Rma
+"Create New RMA for %1 in %2","Skapa nytt RMA för %1 i %2",module,Magento_Rma
 "Create New RMA for %1","Skapa ny RMA för %1",module,Magento_Rma
 "Create New RMA","Skapa ny RMA",module,Magento_Rma
 "Please Select Order","Vänligen välj en beställning",module,Magento_Rma
 Order,Beställning,module,Magento_Rma
-"Purchase Point","Purchase Point",module,Magento_Rma
-Purchased,Purchased,module,Magento_Rma
+"Purchase Point",Beställningspunkt,module,Magento_Rma
+Purchased,Köpt,module,Magento_Rma
 "Customer First Name","Kundens Förnamn",module,Magento_Rma
 "Customer Last Name","Kundens efternamn",module,Magento_Rma
 "Grand Total (Base)","Totalsumma (bas)",module,Magento_Rma
@@ -8806,21 +8806,21 @@ Feed,Flöde,module,Magento_Rss
 "Miscellaneous Feeds","Diverse Flöden",module,Magento_Rss
 "Get Feed","Ta Emot Feed",module,Magento_Rss
 "RSS Feeds Section","RSS-Feeds avsnitt",module,Magento_Rss
-"RSS Feeds","RSS Feeds",module,Magento_Rss
-"Rss Config","Rss Config",module,Magento_Rss
+"RSS Feeds",RSS-flöde,module,Magento_Rss
+"Rss Config",Rss-Config,module,Magento_Rss
 "Enable RSS","Aktivera RSS",module,Magento_Rss
 Apply,Applicera,module,Magento_Rule
 "Please choose a valid discount amount.","Vänligen välj ett giltigt rabattbelopp.",module,Magento_Rule
 "End Date must follow Start Date.","Slutdatum måste följa Startdatum.",module,Magento_Rule
 "Please specify a website.","Ange en webbplats.",module,Magento_Rule
 "Please specify Customer Groups.","Vänligen ange kundgrupper.",module,Magento_Rule
-to,to,module,Magento_Rule
-by,by,module,Magento_Rule
+to,till,module,Magento_Rule
+by,av,module,Magento_Rule
 "Please choose an action to add.","Vänligen välj en åtgärd att lägga till.",module,Magento_Rule
 "Perform following actions","Utför följande åtgärder",module,Magento_Rule
 is,är,module,Magento_Rule
 "is not","är inte",module,Magento_Rule
-"equals or greater than","equals or greater than",module,Magento_Rule
+"equals or greater than","är lika med eller större än",module,Magento_Rule
 "equals or less than","är lika med eller mindre än",module,Magento_Rule
 "greater than","större än",module,Magento_Rule
 "less than","mindre än",module,Magento_Rule
@@ -9644,17 +9644,17 @@ Refunds,Refunds,module,Magento_Sales
 "We have archived the order.","Vi har arkiverat ordern.",module,Magento_SalesArchive
 "Please specify the order ID to be archived.","Ange order-ID som ska arkiveras.",module,Magento_SalesArchive
 "Credit Memos",Kreditnotor,module,Magento_SalesArchive
-Invoices,Invoices,module,Magento_SalesArchive
-"We archived %1 order(s).","We archived %1 order(s).",module,Magento_SalesArchive
+Invoices,Fakturor,module,Magento_SalesArchive
+"We archived %1 order(s).","Vi arkiverade %1 beställning(ar).",module,Magento_SalesArchive
 "We can't archive the selected order(s).","Vi kan inte arkivera valda beställning(ar).",module,Magento_SalesArchive
 "We removed %1 order(s) from the archive.","Vi tog bort %1 beställning(ar) från arkivet.",module,Magento_SalesArchive
 Orders,Beställningar,module,Magento_SalesArchive
-"We have removed the order from the archive.","We have removed the order from the archive.",module,Magento_SalesArchive
-"Please specify the order ID to be removed from archive.","Please specify the order ID to be removed from archive.",module,Magento_SalesArchive
+"We have removed the order from the archive.","Vi har tagit bort ordern från arkivet.",module,Magento_SalesArchive
+"Please specify the order ID to be removed from archive.","Ange order-ID tas bort från arkivet.",module,Magento_SalesArchive
 Shipments,Frakt,module,Magento_SalesArchive
 "There are %1 orders in this archive. All of them will be moved to the regular table after the archive is disabled.","I detta arkiv finns %1 order. Alla dessa kommer att flyttas till den vanliga tabellen efter arkivet är inaktiverad.",module,Magento_SalesArchive
 Archive,Arkiv,module,Magento_SalesArchive
-"Restore from Archive","Restore from Archive",module,Magento_SalesArchive
+"Restore from Archive","Återställ från säkerhetskopia",module,Magento_SalesArchive
 "Orders, Invoices, Shipments, Credit Memos Archiving","Order, fakturor, leveranser, kreditnotor arkivering",module,Magento_SalesArchive
 "Enable Archiving","Aktivera arkivering",module,Magento_SalesArchive
 "Archive Orders Purchased","Arkiv för order",module,Magento_SalesArchive
@@ -9721,13 +9721,13 @@ Shipment,Shipment,module,Magento_SalesArchive
 Delete,"Ta bort",module,Magento_SalesRule
 "Are you sure you want to delete this?","Är du säker du vill ta bort detta?",module,Magento_SalesRule
 Reset,Återställ,module,Magento_SalesRule
-"Save and Continue Edit","Save and Continue Edit",module,Magento_SalesRule
+"Save and Continue Edit","Spara och Fortsätt Redigera",module,Magento_SalesRule
 Save,Spara,module,Magento_SalesRule
 Actions,Åtgärder,module,Magento_SalesRule
 "Apply the rule only to cart items matching the following conditions (leave blank for all items).","Tillämpa regeln endast på varukorgsobjekt som matchar följande villkor (lämna tomt för alla artiklar).",module,Magento_SalesRule
 "Apply To",Gäller,module,Magento_SalesRule
 Conditions,Villkor,module,Magento_SalesRule
-"Apply the rule only if the following conditions are met (leave blank for all products).","Apply the rule only if the following conditions are met (leave blank for all products).",module,Magento_SalesRule
+"Apply the rule only if the following conditions are met (leave blank for all products).","Tillämpa regeln endast om följande villkor är uppfyllda (lämna tomt för alla produkter).",module,Magento_SalesRule
 "Manage Coupon Codes","Hantera kupongkoder",module,Magento_SalesRule
 "Coupon Qty",Kupongantal,module,Magento_SalesRule
 "Code Length",Kodlängd,module,Magento_SalesRule
@@ -9888,7 +9888,7 @@ Edit,Redigera,module,Magento_SalesRuleStaging
 "Scheduled Changes","Schemalagda uppgifter",module,Magento_SalesRuleStaging
 Name,Namn,module,Magento_SalesRuleStaging
 Description,Beskrivning,module,Magento_SalesRuleStaging
-"Update Information","Update Information",module,Magento_SalesRuleStaging
+"Update Information","Redigera information",module,Magento_SalesRuleStaging
 "Remove Cart Price Rule from Update","Remove Cart Price Rule from Update",module,Magento_SalesRuleStaging
 "Update Name","Uppdatera namn",module,Magento_SalesRuleStaging
 "Start Date","Start Date",module,Magento_SalesRuleStaging
@@ -9928,13 +9928,13 @@ Labels,Etiketter,module,Magento_SalesRuleStaging
 Yes,Ja,module,Magento_ScalableInventory
 No,Nej,module,Magento_ScalableInventory
 "Use Config Settings","Använd konfigurationsinställningarna",module,Magento_ScalableInventory
-[GLOBAL],[GLOBAL],module,Magento_ScalableInventory
+[GLOBAL],[GLOBALT],module,Magento_ScalableInventory
 Qty,Antal,module,Magento_ScalableInventory
 "Out-of-Stock Threshold","""Slut i lager""-gräns",module,Magento_ScalableInventory
 "Minimum Qty Allowed in Shopping Cart","Minsta antal tillåtna i kundvagn",module,Magento_ScalableInventory
 "Maximum Qty Allowed in Shopping Cart","Högsta antal tillåtna i kundvagn",module,Magento_ScalableInventory
-"Qty Uses Decimals","Qty Uses Decimals",module,Magento_ScalableInventory
-"Allow Multiple Boxes for Shipping","Allow Multiple Boxes for Shipping",module,Magento_ScalableInventory
+"Qty Uses Decimals","Antal använder decimaler",module,Magento_ScalableInventory
+"Allow Multiple Boxes for Shipping","Tillåt flera försändelser för frakt",module,Magento_ScalableInventory
 Backorders,Restnoterade,module,Magento_ScalableInventory
 "Use deferred Stock update","Använd latent lager uppdatering",module,Magento_ScalableInventory
 "Notify for Quantity Below","Anmäla för kvantitet nedan",module,Magento_ScalableInventory
@@ -9951,8 +9951,8 @@ Description,Beskrivning,module,Magento_ScheduledImportExport
 "Start Time",Starttid,module,Magento_ScheduledImportExport
 Frequency,Frekvens,module,Magento_ScheduledImportExport
 Status,Status,module,Magento_ScheduledImportExport
-"Server Type","Server Type",module,Magento_ScheduledImportExport
-"File Directory","File Directory",module,Magento_ScheduledImportExport
+"Server Type",Servernamn,module,Magento_ScheduledImportExport
+"File Directory",Hem-mapp,module,Magento_ScheduledImportExport
 "For Type ""Local Server"" use relative path to Magento installation, e.g. var/export, var/import, var/export/some/dir","För typ ""Lokal Server"" använd relativ sökväg till Magento-installation, e.g. var/export, var import, var/export/some/dir",module,Magento_ScheduledImportExport
 "FTP Host[:Port]","FTP-värd [: Port]",module,Magento_ScheduledImportExport
 "User Name",Användarnamn,module,Magento_ScheduledImportExport
@@ -10159,13 +10159,13 @@ Website,Website,module,Magento_Search
 "We couldn't logout because of an error.","Vi kunde inte logga ut på grund av ett fel.",module,Magento_Security
 "Someone logged into this account from another device or browser. Your current session is terminated.","Någon har loggat in i detta kontot från en annan apparat eller webbläsare. Din nuvarande session har avslutats.",module,Magento_Security
 "Your current session is terminated by another user of this account.","Den aktuella sessionen avslutas av en annan användare av detta konto.",module,Magento_Security
-"Your account is temporarily disabled.","Your account is temporarily disabled.",module,Magento_Security
+"Your account is temporarily disabled.","Ditt konto är tillfälligt inaktiverad.",module,Magento_Security
 "Your current session has been expired.","Din session har upphört.",module,Magento_Security
 "By IP and Email","Via IP och E-post",module,Magento_Security
 "By IP","Via IP",module,Magento_Security
 "By Email","Via e-post",module,Magento_Security
-None,None,module,Magento_Security
-"Too many password reset requests. Please wait and try again or contact %1.","Too many password reset requests. Please wait and try again or contact %1.",module,Magento_Security
+None,Ingen,module,Magento_Security
+"Too many password reset requests. Please wait and try again or contact %1.","För många förfrågningar om att återställa lösenord. Vänligen vänta och försök igen eller kontakta %1.",module,Magento_Security
 "Incorrect Security Checker class. It has to implement SecurityCheckerInterface","Felaktig Security Checker klass. Det måste genomföra ""SecurityCheckerInterface""",module,Magento_Security
 "some error","några fel",module,Magento_Security
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Administratörskontot är öppen i mer än en plats. Observera att andra platser kan vara olika webbläsare eller sessioner på samma dator.",module,Magento_Security
@@ -10192,8 +10192,8 @@ None,None,module,Magento_Security
 "Invalid Sender Email","Ogiltig avsändare Email",module,Magento_SendFriend
 "Please enter a message.","Fyll i meddelandetexten.",module,Magento_SendFriend
 "Please specify at least one recipient.","Ange minst en mottagare.",module,Magento_SendFriend
-"Please enter a correct recipient email address.","Please enter a correct recipient email address.",module,Magento_SendFriend
-"No more than %1 emails can be sent at a time.","No more than %1 emails can be sent at a time.",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Vänligen ange en korrekt mottagares e-postadress.",module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","Inte mer än %1 e-postmeddelanden kan skickas samtidigt.",module,Magento_SendFriend
 "Please define a correct product instance.","Vänligen ange en korrekt produkt-instans.",module,Magento_SendFriend
 "Invalid Sender Information","Ogiltig avsändarinformation",module,Magento_SendFriend
 "Please define the correct sender information.","Vänligen definiera rätt avsändarinformation.",module,Magento_SendFriend
@@ -10234,13 +10234,13 @@ Enabled,Aktiverad,module,Magento_SendFriend
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","Du försöker lägga till en kvantitet för vissa produkter som inte motsvarar det antal som har levererats.",module,Magento_Shipping
 "Products should be added to package(s)","Produkter bör läggas till paket",module,Magento_Shipping
 "The value that you entered is not valid.","Värdet som du angett är inte giltigt.",module,Magento_Shipping
-"Add Tracking Number","Add Tracking Number",module,Magento_Shipping
+"Add Tracking Number","Lägg till Spårningsnummer",module,Magento_Shipping
 "Custom Value","Anpassat Värde",module,Magento_Shipping
 Add,"Lägg till",module,Magento_Shipping
 "Send Tracking Information","Skicka spårningsinformation",module,Magento_Shipping
 "Are you sure you want to send a Shipment email to customer?","Är du säker du vill skicka ett kreditmemo-mail till kunden?",module,Magento_Shipping
-Print,Print,module,Magento_Shipping
-"the shipment email was sent","the shipment email was sent",module,Magento_Shipping
+Print,"Skriv ut",module,Magento_Shipping
+"the shipment email was sent","e-postmeddelande med fraktinformation skickat",module,Magento_Shipping
 "the shipment email is not sent","frakt E-post har inte skickats",module,Magento_Shipping
 "Shipment #%1 | %3 (%2)","Leverans #%1 | %3 (%2)",module,Magento_Shipping
 "Create Shipping Label...","Skapa sändningsetikett...",module,Magento_Shipping
@@ -10446,13 +10446,13 @@ Debug,Debug,module,Magento_Signifyd
 "New Sitemap","Ny Sitemap",module,Magento_Sitemap
 "Sitemap Information","Sitemap information",module,Magento_Sitemap
 Sitemap,Sitemap,module,Magento_Sitemap
-Filename,Filename,module,Magento_Sitemap
+Filename,Filnamn,module,Magento_Sitemap
 "example: sitemap.xml","exempel: sitemap.xml",module,Magento_Sitemap
 Path,Sökväg,module,Magento_Sitemap
 "example: ""/sitemap/"" or ""/"" for base path (path must be writeable)","exempel: ""/sitemap/"" eller ""/"" för bassökväg (sökväg måste vara skrivbar)",module,Magento_Sitemap
 "Store View",Butiksvy,module,Magento_Sitemap
-Generate,Generate,module,Magento_Sitemap
-"XML Sitemap","XML Sitemap",module,Magento_Sitemap
+Generate,Generera,module,Magento_Sitemap
+"XML Sitemap",XML-Sitemap,module,Magento_Sitemap
 "Add Sitemap","Lägg Sitemap",module,Magento_Sitemap
 Catalog,Katalog,module,Magento_Sitemap
 "You deleted the sitemap.","Du bort sitemapen.",module,Magento_Sitemap
@@ -10512,13 +10512,13 @@ Action,Åtgärd,module,Magento_Sitemap
 "Could not ping search engine: %1","Kunde inte pinga sökmotor: %1",module,Magento_Solr
 "Final commit","Slutgiltigt commit",module,Magento_Solr
 "Partial commit","Partiell commit",module,Magento_Solr
-"Engine autocommit","Engine autocommit",module,Magento_Solr
+"Engine autocommit","Motor för autocommits",module,Magento_Solr
 "Solr Server Hostname","Solr Server Hostname",module,Magento_Solr
 "Solr Server Port","Solr serverport",module,Magento_Solr
 "Solr Server Username","Solr Server användarnamn",module,Magento_Solr
 "Solr Server Password","Solr serverlösenord",module,Magento_Solr
 "Solr Server Timeout","Solr Server Timeout",module,Magento_Solr
-"Solr Server Path","Solr Server Path",module,Magento_Solr
+"Solr Server Path","Solr serversökvägen",module,Magento_Solr
 "Without starting and trailing slashes.","Utan start och avslutande snedstreck.",module,Magento_Solr
 "Indexation Mode",Indexering-läge,module,Magento_Solr
 "Partial commit mode affects time of indexation, but allows indexed products to be visible on Storefront before indexation is completed.","Partiell commit-läge påverkar tidpunkten för indexering, men tillåter indexerade produkter ska synas på skyltfönster innan indexeringen är slutförd.",module,Magento_Solr
@@ -10538,7 +10538,7 @@ Save,Spara,module,Magento_Staging
 "Save as a New Update","Spara som en ny uppdatering",module,Magento_Staging
 "Assign to Existing Update","Tilldela till befintliga uppdatering",module,Magento_Staging
 "You removed this %1 from the update and saved it in the other one.","Du tog bort denna %1 från uppdateringen och har sparat den i en annan.",module,Magento_Staging
-"%1 is required parameter.","%1 is required parameter.",module,Magento_Staging
+"%1 is required parameter.","%1 är obligatorisk parameter.",module,Magento_Staging
 "You removed this %1 from the update.","Du bort denna %1 från uppdateringen.",module,Magento_Staging
 "You removed this %1 from the update and saved it in a new one.","Du bort denna %1 från uppdateringen och sparade den i en ny.",module,Magento_Staging
 "Invalid action type %1.","Invalid action type %1.",module,Magento_Staging
@@ -10598,13 +10598,13 @@ Action,Åtgärd,module,Magento_Staging
 "Requested store is inactive","Den önskade affären är inaktiv",module,Magento_Store
 "Requested store is not found","Begärd butik hittades ej",module,Magento_Store
 "Environment emulation nesting is not allowed.","Environment emulation nesting is not allowed.",module,Magento_Store
-"Invalid scope object","Invalid scope object",module,Magento_Store
+"Invalid scope object","Ogiltigt scope objekt",module,Magento_Store
 "Store with the same code","Butik med samma kod",module,Magento_Store
 "Website with the same code","Webbplats med samma kod",module,Magento_Store
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav.",module,Magento_Store
 "Name is required","Namn är obligatoriskt",module,Magento_Store
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.",module,Magento_Store
-"Store is inactive","Store is inactive",module,Magento_Store
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav.",module,Magento_Store
+"Store is inactive","Butiken är inaktiv",module,Magento_Store
 "Default store is inactive","Standardbutiken är inaktiv",module,Magento_Store
 "All Store Views","Alla butiksvyer",module,Magento_Store
 "-- Please Select --","--Vänligen välj--",module,Magento_Store
@@ -10633,12 +10633,12 @@ Back,Tillbaka,module,Magento_Support
 Create,Skapa,module,Magento_Support
 "Requested system report has no data to output.","Önskad systemrapport har inga data att visa.",module,Magento_Support
 "&copy; Magento Commerce Inc., %1","© Magento Commerce Inc., %1",module,Magento_Support
-"Are you sure you want to delete the system report?","Are you sure you want to delete the system report?",module,Magento_Support
+"Are you sure you want to delete the system report?","Är du säker på att du vill ta bort systemrapporten?",module,Magento_Support
 Download,"Ladda ner",module,Magento_Support
 "Go to Top","Gå till topp",module,Magento_Support
 Report,Rapport,module,Magento_Support
 "System Report Information",Systeminformation,module,Magento_Support
-"Requested system report has no data to display.","Requested system report has no data to display.",module,Magento_Support
+"Requested system report has no data to display.","Önskad systemrapport har inga data att visa.",module,Magento_Support
 "Output path %1 doesn't exist","Output path %1 doesn't exist",module,Magento_Support
 "Unknown DB param: %1","Okänd DB param: %1",module,Magento_Support
 "Paths file already exists","Paths filen finns redan",module,Magento_Support
@@ -10877,12 +10877,12 @@ Stores,Stores,module,Magento_Support
 "Filtering by this attribute will update the product image on catalog page","Filtering efter denna attribut kommer uppdatera produktbilden på kategorisidan",module,Magento_Swatches
 "Use Product Image for Swatch if Possible","Använd om möjligt produktbilden för Swatch",module,Magento_Swatches
 "Allows use fallback logic for replacing swatch image with product swatch or base image","Tillåter användning av fallback logik för att ersätta swatch bild med swatch eller basproduktbild",module,Magento_Swatches
-"Visual Swatch","Visual Swatch",module,Magento_Swatches
+"Visual Swatch","Visuell Swatch",module,Magento_Swatches
 "Text Swatch","Text Swatch",module,Magento_Swatches
 "Manage Swatch (Values of Your Attribute)","Hantera Swatch (värden på ditt attribut)",module,Magento_Swatches
 "Is Default",Standard,module,Magento_Swatches
 "Add Swatch","Lägg till Swatch",module,Magento_Swatches
-"Sort Option","Sort Option",module,Magento_Swatches
+"Sort Option",Sorteringsalternativ,module,Magento_Swatches
 Swatch,Swatch,module,Magento_Swatches
 Description,Beskrivning,module,Magento_Swatches
 Delete,"Ta bort",module,Magento_Swatches
@@ -10916,13 +10916,13 @@ Admin,Admin,module,Magento_Swatches
 "Save and Continue Edit","Spara och Fortsätt Redigera",module,Magento_TargetRule
 "Edit Rule '%1'","Redigera regel '%1'",module,Magento_TargetRule
 "New Rule","Ny regel",module,Magento_TargetRule
-"Rule Information","Rule Information",module,Magento_TargetRule
+"Rule Information","Information om regel",module,Magento_TargetRule
 "Product Result Conditions (leave blank for matching all products)","Villkor för produktresultat (Lämna tomt för att matcha alla produkter)",module,Magento_TargetRule
 "Products to Display","Produkter som ska visas",module,Magento_TargetRule
 "Product Match Conditions (leave blank for matching all products)","Produkten Matchar villkor (lämna tomt för att matcha alla produkter)",module,Magento_TargetRule
 "Products to Match","Matchande Produkter",module,Magento_TargetRule
-"General Rule Information","General Rule Information",module,Magento_TargetRule
-"Rule Name","Rule Name",module,Magento_TargetRule
+"General Rule Information","Allmän Information",module,Magento_TargetRule
+"Rule Name",Regelnamn,module,Magento_TargetRule
 Priority,Prioritet,module,Magento_TargetRule
 Status,Status,module,Magento_TargetRule
 Active,Aktiv,module,Magento_TargetRule
@@ -11017,8 +11017,8 @@ End,End,module,Magento_TargetRule
 State,Län,module,Magento_Tax
 Country,Land,module,Magento_Tax
 "Rate Percent","Procent Betyg",module,Magento_Tax
-"Tax Titles","Tax Titles",module,Magento_Tax
-"Add New Tax Rate","Add New Tax Rate",module,Magento_Tax
+"Tax Titles",Skattesatser,module,Magento_Tax
+"Add New Tax Rate","Lägg till ny skatteregel",module,Magento_Tax
 Back,Bakåt,module,Magento_Tax
 Reset,Återställ,module,Magento_Tax
 "Delete Rate","Ta bort Avgift",module,Magento_Tax
@@ -11195,8 +11195,8 @@ Rate,Betygsätt,module,Magento_TaxImportExport
 "Range To","Sträcker sig till",module,Magento_TaxImportExport
 "Tax Zones and Rates","Skatt zoner och priser",module,Magento_TaxImportExport
 "Import and Export Tax Rates","Import och Export skattesatser",module,Magento_TaxImportExport
-"The tax rate has been imported.","The tax rate has been imported.",module,Magento_TaxImportExport
-"Invalid file upload attempt","Invalid file upload attempt",module,Magento_TaxImportExport
+"The tax rate has been imported.","Skattesatsen har importerats.",module,Magento_TaxImportExport
+"Invalid file upload attempt","Ogiltig filuppladdningsförsök",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Ogiltig filuppladdningsförsök.",module,Magento_TaxImportExport
 "Invalid file format.","Ogiltigt filformat.",module,Magento_TaxImportExport
 "One of the countries has invalid code.","Ett av länderna har ogiltig kod.",module,Magento_TaxImportExport
@@ -11407,7 +11407,7 @@ Translations,Översättningar,module,Magento_Translation
 "Parameter ""class"" must be present.","Parametern ""klass"" måste vara närvarande.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","Parametern ""sortOrder"" måste vara närvarande.",module,Magento_Ui
 "Invalid UI Component element name: '%1'","Ogiltig UI komponent elementnamn: '%1'",module,Magento_Ui
-"Bookmark with id ""%1"" does not exist.","Bookmark with id ""%1"" does not exist.",module,Magento_Ui
+"Bookmark with id ""%1"" does not exist.","Produkt med id %1 finns inte.",module,Magento_Ui
 "Invalid UI Component element name: ''","Ogiltigt elementnamn för UI komponent: '%1'",module,Magento_Ui
 Cancel,Avbryt,module,Magento_Ui
 Back,Tillbaka,module,Magento_Ui
@@ -11532,7 +11532,7 @@ CSV,CSV,module,Magento_Ui
 "UPS Next Day Air Saver","UPS Next Day Air Saver",module,Magento_Ups
 "UPS Next Day Air Early A.M.","UPS Next Day Air Early A.M.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS Worldwide Express Plus",module,Magento_Ups
-"UPS Second Day Air A.M.","UPS Second Day Air A.M.",module,Magento_Ups
+"UPS Second Day Air A.M.","UPS Andra Dag Air förmiddag.",module,Magento_Ups
 "UPS Saver","UPS Saver",module,Magento_Ups
 "UPS Worldwide Saver","UPS Worldwide Express",module,Magento_Ups
 "UPS Express","UPS Express",module,Magento_Ups
@@ -11707,7 +11707,7 @@ Roles,Roller,module,Magento_User
 "Role Information",Rollinformation,module,Magento_User
 "Role Users",Roll-användare,module,Magento_User
 "User ID",Användar-ID,module,Magento_User
-"User Name","User Name",module,Magento_User
+"User Name",Användarnamn,module,Magento_User
 "First Name",Förnamn,module,Magento_User
 "Last Name",Efternamn,module,Magento_User
 Email,E-post,module,Magento_User
@@ -11845,7 +11845,7 @@ Unlocked,Unlocked,module,Magento_User
 "Retail Ground","Retail Ground",module,Magento_Usps
 "Media Mail","Media Mail",module,Magento_Usps
 "Library Mail","Bibliotek Mail",module,Magento_Usps
-"Priority Mail Express Flat Rate Envelope","Priority Mail Express Flat Rate Envelope",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope","Prioriterad Frakt med förpackning, fast pris",module,Magento_Usps
 "First-Class Mail Large Postcards","Förstklassiga stora vykort",module,Magento_Usps
 "Priority Mail Flat Rate Envelope","Prioritetsfrakt Fastpris brev",module,Magento_Usps
 "Priority Mail Medium Flat Rate Box","Prioriterad Fraktsätt för medelstora lådor med fast pris",module,Magento_Usps
@@ -12144,7 +12144,7 @@ Bottom,"Längst ned",module,Magento_VisualMerchandiser
 "Choose a selection...","Välj ett urval...",module,Magento_VisualMerchandiser
 "Page not found.","Sidan kunde inte hittas.",module,Magento_VisualMerchandiser
 "No SKU entered","Inget artikelnummer inlagt",module,Magento_VisualMerchandiser
-"Undefined Action","Undefined Action",module,Magento_VisualMerchandiser
+"Undefined Action","Odefinierad åtgärd",module,Magento_VisualMerchandiser
 "Products with the following SKUs do not exist: %s","Produkter med följande artiklar finns inte: %s",module,Magento_VisualMerchandiser
 "%s SKU(s) processed successfully","%s SKU(s) behandlas framgångsrikt",module,Magento_VisualMerchandiser
 "On Top","På toppen",module,Magento_VisualMerchandiser
@@ -12235,7 +12235,7 @@ Stock,Stock,module,Magento_VisualMerchandiser
 "SOAP extension is not loaded.","SOAP-tillägget laddas inte.",module,Magento_Webapi
 "Invalid XML","Ogiltig XML",module,Magento_Webapi
 "Invalid XML: Detected use of illegal DOCTYPE","Invalid XML: Detected use of illegal DOCTYPE",module,Magento_Webapi
-message,message,module,Magento_Webapi
+message,meddelande,module,Magento_Webapi
 Message,Meddelande,module,Magento_Webapi
 "Soap fault reason.","Soap fel.",module,Magento_Webapi
 "Manage Customers","Hantera kunder",module,Magento_Webapi
@@ -12499,7 +12499,7 @@ Matched,Matchade,module,Magento_Worldpay
 "Your purchase process has been cancelled.","Din köpprocessen har avbrutits.",module,Magento_Worldpay
 "Something went wrong while processing your order. Please try again later.","Något gick fel när vi behandlade din order. Försök igen senare.",module,Magento_Worldpay
 "Gateway response is not valid.","Gateway svar är inte giltigt.",module,Magento_Worldpay
-"Wrong response type","Wrong response type",module,Magento_Worldpay
+"Wrong response type","Fel svarstyp",module,Magento_Worldpay
 "Currency doesn't match.","Currency doesn't match.",module,Magento_Worldpay
 "Amount doesn't match.","Amount doesn't match.",module,Magento_Worldpay
 "Not supported response.","Not supported response.",module,Magento_Worldpay
