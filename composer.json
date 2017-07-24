@@ -3,7 +3,7 @@
   "description": "Swedish language package for Magento 2",
   "homepage": "https://www.mageplaza.com",
   "require": {
-    "mageplaza/core-m2": "~1.3.0|dev-master"
+    "mageplaza/module-core": "~1.3.0|dev-master"
   },
   "type": "magento2-language",
   "version": "1.0.0",
