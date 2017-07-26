@@ -2756,20 +2756,20 @@ Sales,Försäljning,module,Magento_CheckoutAgreements
 "Checkout Terms and Conditions","Allmänna villkor för checkout",module,Magento_CheckoutAgreements
 "This condition no longer exists.","Detta villkor existerar inte längre.",module,Magento_CheckoutAgreements
 "You deleted the condition.","Du bort villkoret.",module,Magento_CheckoutAgreements
-"Something went wrong  while deleting this condition.","Something went wrong  while deleting this condition.",module,Magento_CheckoutAgreements
+"Something went wrong  while deleting this condition.","Något gick fel vid raderingen av det här villkoret.",module,Magento_CheckoutAgreements
 "Edit Condition","Redigera villkor",module,Magento_CheckoutAgreements
-"New Condition","New Condition",module,Magento_CheckoutAgreements
-"You saved the condition.","You saved the condition.",module,Magento_CheckoutAgreements
-"Something went wrong while saving this condition.","Something went wrong while saving this condition.",module,Magento_CheckoutAgreements
-Automatically,Automatically,module,Magento_CheckoutAgreements
-Manually,Manually,module,Magento_CheckoutAgreements
-"Please agree to all the terms and conditions before placing the order.","Please agree to all the terms and conditions before placing the order.",module,Magento_CheckoutAgreements
+"New Condition","Nytt villkor",module,Magento_CheckoutAgreements
+"You saved the condition.","Du har sparat villkoret.",module,Magento_CheckoutAgreements
+"Something went wrong while saving this condition.","Något gick fel vid sparandet av det här villkoret.",module,Magento_CheckoutAgreements
+Automatically,Automatiskt,module,Magento_CheckoutAgreements
+Manually,Manuellt,module,Magento_CheckoutAgreements
+"Please agree to all the terms and conditions before placing the order.","Vänligen acceptera köpvillkoren innan du lägger en order.",module,Magento_CheckoutAgreements
 "Unable to save checkout agreement %1","Unable to save checkout agreement %1",module,Magento_CheckoutAgreements
 "Unable to remove checkout agreement %1","Unable to remove checkout agreement %1",module,Magento_CheckoutAgreements
 "Checkout agreement with specified ID ""%1"" not found.","Checkout agreement with specified ID ""%1"" not found.",module,Magento_CheckoutAgreements
-Close,Close,module,Magento_CheckoutAgreements
-"Terms & Conditions","Terms & Conditions",module,Magento_CheckoutAgreements
-"Enable Terms and Conditions","Enable Terms and Conditions",module,Magento_CheckoutAgreements
+Close,Stäng,module,Magento_CheckoutAgreements
+"Terms & Conditions",Köpvillkor,module,Magento_CheckoutAgreements
+"Enable Terms and Conditions","Aktivera löpvillkor",module,Magento_CheckoutAgreements
 "Preview mode doesn't allow submitting the order.","Preview-läge tillåter inte att skicka in ordern.",module,Magento_CheckoutStaging
 "Preview Quote Lifetime (minutes)","Förhandsgranska Offertgiltighetstid (minuter)",module,Magento_CheckoutStaging
 "Static Blocks","Statiska block",module,Magento_Cms
@@ -2831,7 +2831,7 @@ Pages,Sidor,module,Magento_Cms
 "A total of %1 record(s) have been enabled.","A total of %1 record(s) have been enabled.",module,Magento_Cms
 "Page Title","Page Title",module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","To apply changes you should fill in hidden required ""%1"" field",module,Magento_Cms
-"You saved the page.","You saved the page.",module,Magento_Cms
+"You saved the page.","Du har sparat sidan.",module,Magento_Cms
 "The directory %1 is not writable by server.","The directory %1 is not writable by server.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","Make sure that static block content does not reference the block itself.",module,Magento_Cms
 "CMS Block with id ""%1"" does not exist.","CMS Block with id ""%1"" does not exist.",module,Magento_Cms
@@ -3918,10 +3918,10 @@ Comment,Kommentar,module,Magento_CustomerBalance
 "Please specify a customer ID.","Vänligen ange ett kund-ID.",module,Magento_CustomerBalance
 "Please specify a valid customer.","Vänligen ange ett giltigt kund-Id.",module,Magento_CustomerBalance
 Created,Skapad,module,Magento_CustomerBalance
-Updated,Updated,module,Magento_CustomerBalance
-Used,Used,module,Magento_CustomerBalance
-Refunded,Refunded,module,Magento_CustomerBalance
-Reverted,Reverted,module,Magento_CustomerBalance
+Updated,Uppdaterad,module,Magento_CustomerBalance
+Used,Använd,module,Magento_CustomerBalance
+Refunded,Återbetald,module,Magento_CustomerBalance
+Reverted,Återgått,module,Magento_CustomerBalance
 "You need a balance to save your balance history.","You need a balance to save your balance history.",module,Magento_CustomerBalance
 "Order #%1","Order #%1",module,Magento_CustomerBalance
 "There is no credit memo set to balance model.","There is no credit memo set to balance model.",module,Magento_CustomerBalance
@@ -12547,7 +12547,7 @@ Remove,"Ta bort",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","För att logga in på vår webbsida, använd dessa uppgifter under utcheckningen på sidan <a href=""%customer_url"">Mitt konto </a>:",theme,frontend/Magento/luma
 Email:,Epost:,theme,frontend/Magento/luma
 Password:,Lösenord:,theme,frontend/Magento/luma
-"Password you set when creating account","Lösenord du väljer när kontot skapades",theme,frontend/Magento/luma
+"Password you set when creating account","Lösenord du valde när kontot skapades",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Glömt ditt lösenord? Tryck  <a href=""%reset_url"">här</a> för att återställa det.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","När du loggar in på ditt konto kommer du att kunna:",theme,frontend/Magento/luma
 "Quick Checkout",Snabbcheckout,theme,frontend/Magento/luma
