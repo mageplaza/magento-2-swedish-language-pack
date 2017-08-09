@@ -35,7 +35,7 @@ Install the Swedish language pack via composer is never easier.
 **Install Swedish pack**:
 
 ```
-composer require mageplaza/magento-2-swedish-language-pack
+composer require mageplaza/magento-2-swedish-language-pack:dev-master
 php bin/magento setup:static-content:deploy sv_SE
 php bin/magento cache:clean
 php bin/magento cache:flush
@@ -46,7 +46,7 @@ php bin/magento cache:flush
 **Update  Swedish pack**:
 
 ```
-composer update mageplaza/magento-2-swedish-language-pack
+composer update mageplaza/magento-2-swedish-language-pack:dev-master
 php bin/magento setup:static-content:deploy sv_SE
 php bin/magento indexer:reindex
 php bin/magento cache:clean
