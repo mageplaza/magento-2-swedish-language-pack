@@ -8329,6 +8329,7 @@ Action,Åtgärd,module,Magento_Reports
 Report,Report,module,Magento_Reports
 Description,Beskrivning,module,Magento_Reports
 undefined,undefined,module,Magento_Reports
+"Item in Cart","Item in Cart",module,Magento_Reports
 "Save Review","Spara utvärdering",module,Magento_Review
 "New Review","Ny Recension",module,Magento_Review
 "Review Details","Granska Detaljer",module,Magento_Review
