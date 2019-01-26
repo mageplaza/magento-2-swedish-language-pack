@@ -91,8 +91,11 @@ Unzip the Swedish language pack to Magento 2 root folder. In this guide, we extr
 Your Magento 2 root folder can be: `/home/account_name/yourstore.com/public_html/`
 
 ```
-unzip master.zip app/i18n/Mageplaza/sv_se
+unzip master.zip app/i18n/Mageplaza/
 ```
+
+Rename folder `magento-2-swedish-language-pack` to `sv_se`.
+
 
 You also can unzip locally and upload them to Magento 2 root folder.
 
@@ -112,7 +115,11 @@ To download and install Swedish pack manually, you have to access to your server
 
 #### Step 1: Unzip and upload
 
-Unzip the compressed file and upload file `sv_SE.zip` into `app/i18n/mageplaza/sv_SE/sv_SE.csv`
+Unzip the compressed file and upload file `master.zip` into `app/i18n/Mageplaza/sv_se/sv_SE.csv`
+
+See this screenshot
+
+![Swedish pack](https://i.imgur.com/tS668yC.png)
 
 #### Step 2: Flush cache
 
