@@ -1,1 +1,97 @@
-Mageplaza,Mageplaza
+"Proceed to Checkout","Gå till kassan",module,Magento_NegotiableQuote
+"Proceed to Checkout","Gå vidare till kassan",module,Magento_Checkout
+"Shipping Methods","Fraktsätt",module,Magento_Shipping
+"Track your order","Spåra din order",module,Magento_Shipping
+"Track All Shipments","Spåra alla försändelser",module,Magento_Shipping
+"Shipping Methods","Fraktsätt",module,Magento_Support
+"Please select shipping methods for all addresses.","Vänligen välj fraktsätt för alla adresser.",module,Magento_Multishipping
+"Please specify shipping methods for all addresses.","Vänligen specificera fraktmetoder för alla adresser.",module,Magento_Multishipping
+"Get shipping methods and rates","Hämta fraktsätt och avgifter",module,Magento_NegotiableQuote
+"Get shipping methods and rates","Hämta fraktsätt och avgifter",module,Magento_Sales
+"Clear my shopping cart","Töm varukorgen",module,Magento_AdvancedCheckout
+"Shopping Cart for %1 in %2","Varukorg för %1 i %2",module,Magento_AdvancedCheckout
+"Add to Shopping Cart by SKU","Lägg till i varukorg via artikelnummer",module,Magento_AdvancedCheckout
+"Add to Shopping Cart","Lägg till i varukorg",module,Magento_AdvancedCheckout
+"Shopping cart management is disabled for this customer.","Varukorgshantering är avstängt för den här kunden.",module,Magento_AdvancedCheckout
+"Shopping Cart",Varukorg,module,Magento_AdvancedCheckout
+"You added %1 to your shopping cart.","Du lagt till %1 i din varukorg.",module,Magento_AdvancedCheckout
+"You can't add this many to your cart.","Du kan inte lägga till så många utan denna produkt i varukorgen.",module,Magento_AdvancedCheckout
+"We can't add the item to your cart.","Vi kan inte lägga till denna produkt i varukorgen.",module,Magento_AdvancedCheckout
+"You added %1 product to your shopping cart.","Du lagt %1 produkt i din varukorg.",module,Magento_AdvancedCheckout
+"You added %1 products to your shopping cart.","Du lagt %1 produkt i din varukorg.",module,Magento_AdvancedCheckout
+"View Shopping Cart","Visa varukorg",module,Magento_AdvancedCheckout
+"View and modify Shopping Cart","Visa och ändra varukorg",module,Magento_AdvancedCheckout
+"Shopping Cart Promotions Related","Varukorg Reklamrelaterat",module,Magento_Banner
+"Display on Shopping Cart","Vis på varukorg",module,Magento_Braintree
+"Display on Shopping Cart","Visa i varukorg",module,Magento_BraintreeTwo
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Dessa ""impuls-köp"" produkter visas bredvid varukorgen som korsförsäljer till artiklarna redan i varukorgen.",module,Magento_Catalog
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Dessa ""impuls-köp"" produkter visas bredvid varukorgen som korsförsäljer till artiklarna redan i varukorgen.",module,Magento_Catalog
+"Minimum Qty Allowed in Shopping Cart","Minsta antal tillåtna i varukorg",module,Magento_Catalog
+"Maximum Qty Allowed in Shopping Cart","Högsta antal tillåtna i varukorg",module,Magento_Catalog
+"Add To Cart","Lägg till i varukorg",module,Magento_Catalog
+"Add to Cart","Lägg till i varukorg",module,Magento_CatalogPermissions
+"Add to Cart","Lägg till i varukorg",module,Magento_CatalogWidget
+"Shopping Cart",Varukorg,module,Magento_Checkout
+"My Cart (1 item)","Min varukorg (1 artikel)",module,Magento_Checkout
+"My Cart (%1 items)","Min varukorg (%1 artiklar)",module,Magento_Checkout
+"My Cart","Min varukorg",module,Magento_Checkout
+"You added %1 to your shopping cart.","Du har lagt till %1 i din varukorg.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 lades till i din varukorg.",module,Magento_Checkout
+"Display number of items in cart","Visa antal artiklar i varukorgen",module,Magento_Checkout
+ text 2:2845: "Shipping method is not applicable for empty cart","Leveransmetod går inte att ange för en tom varukorg",module,Magento_Checkout
+"Totals calculation is not applicable to empty cart","Kan inte beräkna summa för en tom varukorg",module,Magento_Checkout
+"Shopping Cart Items","Varukorgens Artiklar",module,Magento_Checkout
+"Clear Shopping Cart","Rensa Varukorg",module,Magento_Checkout
+"Update Shopping Cart","Uppdatera Varukorg",module,Magento_Checkout
+"Update Cart","Uppdatera Varukorg",module,Magento_Checkout
+"You have no items in your shopping cart.","Du har inga artiklar i din varukorg.",module,Magento_Checkout
+"Edit Your Cart","Redigera din varukorg",module,Magento_Checkout
+"Are you sure you would like to remove this item from the shopping cart?","Är du säker du vill ta bort artikeln från varukorgen?",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","Efter att en Produkt lagts till Omdirigera till Varukorgen",module,Magento_Checkout
+"Item in Cart","Artiklar i Varukorg",module,Magento_Checkout
+"Items in Cart","Artiklar i varukorgen",module,Magento_Checkout
+"Shopping Cart from %1","Varukorg från %1",module,Magento_Customer
+"You are not using store credit in your shopping cart.","Du använder inte store-kredit i din varukorg.",module,Magento_CustomerBalance
+"Gift Messages are not applicable for empty cart","Presentkortsmeddelanden är inte möjliga för tom varukorg",module,Magento_GiftMessage
+"Could not add gift message to shopping cart","Kunde inte lägga till gåvomeddelande till varukorg",module,Magento_GiftMessage
+"There is no item with provided id in the cart","Det finns ingen produkt med medföljande id i varukorgen",module,Magento_GiftMessage
+"There is no product with provided  itemId: %1 in the cart","Det finns ingen produkt med id %1 i varukorgen",module,Magento_GiftMessage
+"There is no item with provided id in the order","Det finns ingen produkt med medföljande id i varukorgen",module,Magento_GiftMessage
+"Gift Messages are not applicable for empty order","Presentkortsmeddelanden går ej att tillämpa för tom varukorg",module,Magento_GiftMessage
+"Add to Cart","Lägg till i varukorg",module,Magento_GiftRegistry
+"To see product price, add this item to your cart. You can always remove it later.","Lägg till varan i varukorgen för att se produktpriser. Du kan alltid ta bort den senare.",module,Magento_Msrp
+"Add to Cart","Lägg till i varukorg",module,Magento_Msrp
+"Add to Cart","Lägg till i varukorg",module,Magento_MultipleWishlist
+"Your shopping cart has been updated with new prices.","Din varukorg har uppdaterats med nya priser.",module,Magento_Persistent
+"Persistent Shopping Cart","Persisterande varukorg",module,Magento_Persistent
+"Edit Cart Price Rules","Redigera Varukorgsregler",module,Magento_PromotionPermissions
+"Cart %1 doesn't contain products","Varukorg %1 innehåller inte produkter",module,Magento_Quote
+"Cannot assign customer to the given cart. You don't have permission for this operation.","Kan inte tilldela varukorgen till vald kund. Du har inte behörighet för den här åtgärden.",module,Magento_Quote
+"We found an invalid request for adding product to quote.","Vi hittade en ogiltig begäran för att lägga till produkten i varukorg.",module,Magento_Quote
+"This is the wrong quote item id to update configuration.","Detta är fel varukorgs-id för att uppdatera konfiguration.",module,Magento_Quote
+"Items in Cart","Artiklar i varukorgen",module,Magento_Reports
+"Add to Cart","Lägg till i varukorg",module,Magento_Reports
+"Are you sure you want to delete all items from shopping cart?","Är du säker på att du vill tömma varukorgen?",module,Magento_Sales
+"Cart Price Rule","Varukorg Prisregel",module,Magento_Sales
+"Move to Shopping Cart","Lägg till i varukorgen",module,Magento_Sales
+"Add to Cart","Lägg till i varukorg",module,Magento_Sales
+"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","Detta meddelande kommer att visas i varukorgen när delsumman (efter rabatt) är lägre än det minsta tillåtna belopp.",module,Magento_Sales
+"Error to Show in Shopping Cart","Går ej att visa i varukorg",module,Magento_Sales
+"Minimum Qty Allowed in Shopping Cart","Minsta antal tillåtna i varukorg",module,Magento_ScalableInventory
+"Maximum Qty Allowed in Shopping Cart","Högsta antal tillåtna i varukorg",module,Magento_ScalableInventory
+"You added %1 to your shopping cart.","Du har lagt till %1 i din varukorg.",module,Magento_Wishlist
+"Add All to Cart","Lägg till alla i varukorgen",module,Magento_Wishlist
+"Add to Cart","Lägg till i varukorg",module,Magento_Wishlist
+"Contact Us","Kontakta oss",module,Magento_NegotiableQuote
+"Contact Us","Kontakta oss",module,Magento_RequisitionList
+"Privacy and Cookie Policy","Sekretess och cookie policy",module,Magento_Cms
+"Orders and Returns","Beställningar och returer",module,Magento_Widget
+"What's this?","Vad är det här?",module,Magento_Persistent
+"What's this?","Vad är det här?",module,Magento_AdvancedCheckout
+"View details","Visa detaljer",module,Magento_Analytics
+"Details","Detaljer",module,Magento_CustomerSegment
+"Details","Detaljer",module,Magento_Catalog
+"Details","Detaljer",module,Magento_Logging
+"Details","Detaljer",module,Magento_Reports
+"Details","Detaljer",module,Magento_Rma
+"Request Details","Begär detaljer",module,Magento_Rma
