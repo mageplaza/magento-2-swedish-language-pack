@@ -14,11 +14,11 @@
 "Add to Shopping Cart","Lägg till i varukorg",module,Magento_AdvancedCheckout
 "Shopping cart management is disabled for this customer.","Varukorgshantering är avstängt för den här kunden.",module,Magento_AdvancedCheckout
 "Shopping Cart",Varukorg,module,Magento_AdvancedCheckout
-"You added %1 to your shopping cart.","Du lagt till %1 i din varukorg.",module,Magento_AdvancedCheckout
+"You added %1 to your shopping cart.","Du har lagt till %1 i din varukorg.",module,Magento_AdvancedCheckout
 "You can't add this many to your cart.","Du kan inte lägga till så många utan denna produkt i varukorgen.",module,Magento_AdvancedCheckout
 "We can't add the item to your cart.","Vi kan inte lägga till denna produkt i varukorgen.",module,Magento_AdvancedCheckout
-"You added %1 product to your shopping cart.","Du lagt %1 produkt i din varukorg.",module,Magento_AdvancedCheckout
-"You added %1 products to your shopping cart.","Du lagt %1 produkt i din varukorg.",module,Magento_AdvancedCheckout
+"You added %1 product to your shopping cart.","Du har lagt %1 produkt i din varukorg.",module,Magento_AdvancedCheckout
+"You added %1 products to your shopping cart.","Du har lagt %1 produkter i din varukorg.",module,Magento_AdvancedCheckout
 "View Shopping Cart","Visa varukorg",module,Magento_AdvancedCheckout
 "View and modify Shopping Cart","Visa och ändra varukorg",module,Magento_AdvancedCheckout
 "Shopping Cart Promotions Related","Varukorg Reklamrelaterat",module,Magento_Banner
