@@ -1,5 +1,5 @@
 "Proceed to Checkout","Gå till kassan",module,Magento_NegotiableQuote
-"Proceed to Checkout","Gå vidare till kassan",module,Magento_Checkout
+"Proceed to Checkout","Gå till kassan",module,Magento_Checkout
 "Shipping Methods","Fraktsätt",module,Magento_Shipping
 "Track your order","Spåra din order",module,Magento_Shipping
 "Track All Shipments","Spåra alla försändelser",module,Magento_Shipping
