@@ -196,3 +196,8 @@
 "Last login","Senaste inloggning",module,Magento_User
 "Failures","Misslyckanden",module,Magento_User
 "Unlocked","Upplåst",module,Magento_User
+"Grid","Rutnät",module,Magento_Catalog
+"List","Listvy",module,Magento_Catalog
+"All","Alla",module,Magento_Catalog
+"Grid Only","Endast rutnät",module,Magento_Catalog
+"Grid","Grid",module,Magento_VisualMerchandiser
