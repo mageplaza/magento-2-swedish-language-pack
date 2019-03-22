@@ -1,20 +1,20 @@
 All,Alla,module,Magento_AdminGws
 None,Inga,module,Magento_AdminGws
 "Allowed Scopes","Tillåten omfattning",module,Magento_AdminGws
-"More permissions are needed to delete the ""%1"" item.","More permissions are needed to delete the ""%1"" item.",module,Magento_AdminGws
+"More permissions are needed to delete the ""%1"" item.","Ytterligare rättigheter behövs för att ta bort objektet ”%1”.",module,Magento_AdminGws
 "You need more permissions to apply some of the rule updates.","Du behöver högre behörighet för att tillämpa några av regeluppdateringarna.",module,Magento_AdminGws
-"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","This entity needs to be assigned to a store view. Verify the entity assignment and try again.",module,Magento_AdminGws
-"Orders can only be completed in an active store. Verify the store and try again.","Orders can only be completed in an active store. Verify the store and try again.",module,Magento_AdminGws
-"This item needs to be assigned to a store view. Assign item and try again.","This item needs to be assigned to a store view. Assign item and try again.",module,Magento_AdminGws
-"More permissions are needed to save this item.","More permissions are needed to save this item.",module,Magento_AdminGws
-"More permissions are needed to delete this item.","More permissions are needed to delete this item.",module,Magento_AdminGws
-"More permissions are needed to view this item.","More permissions are needed to view this item.",module,Magento_AdminGws
-"At least one website or store group needs to be selected. Select and try again.","At least one website or store group needs to be selected. Select and try again.",module,Magento_AdminGws
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Denna enhet måste tilldelas en butiksvy. Kontrollera enhetens tilldelning och försök igen.",module,Magento_AdminGws
+"Orders can only be completed in an active store. Verify the store and try again.","Beställningar kan endast färdigställas i en aktiv butik. Verifiera butiken och försök igen.",module,Magento_AdminGws
+"This item needs to be assigned to a store view. Assign item and try again.","Detta objekt måste tilldelas en butiksvy. Tilldela objektet och försök igen.",module,Magento_AdminGws
+"More permissions are needed to save this item.","Mer rättigheter behövs för att spara detta objekt.",module,Magento_AdminGws
+"More permissions are needed to delete this item.","Mer rättigheter behövs för att radera detta objekt.",module,Magento_AdminGws
+"More permissions are needed to view this item.","Mer rättigheter behövs för att visa detta objekt.",module,Magento_AdminGws
+"At least one website or store group needs to be selected. Select and try again.","Minst en webbplats eller butiksgrupp måste väljas. Välj och försök igen.",module,Magento_AdminGws
 "More permissions are needed to set All Scopes to a Role.","More permissions are needed to set All Scopes to a Role.",module,Magento_AdminGws
-"The ""%1"" website ID is incorrect. Verify the website ID and try again.","The ""%1"" website ID is incorrect. Verify the website ID and try again.",module,Magento_AdminGws
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","”%1” webbplats-ID är felaktigt. Kontrollera webbplatsen ID och försök igen.",module,Magento_AdminGws
 "You need more permissions to access website ""%1"".","Du behöver högre behörighet för att visa webbsidan ""%1"".",module,Magento_AdminGws
-"The ""%1"" store ID is incorrect. Verify the store ID and try again.","The ""%1"" store ID is incorrect. Verify the store ID and try again.",module,Magento_AdminGws
-"More permissions are needed to save this setting.","More permissions are needed to save this setting.",module,Magento_AdminGws
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","”%1” butiks-ID är felaktigt. Kontrollera butiks-ID och försök igen.",module,Magento_AdminGws
+"More permissions are needed to save this setting.","Mer rättigheter behövs för att spara denna inställning.",module,Magento_AdminGws
 "Role Scopes",Roll-omfattning,module,Magento_AdminGws
 Custom,Anpassad,module,Magento_AdminGws
 "Read Details","Läs detaljer",module,Magento_AdminNotification
@@ -104,15 +104,15 @@ Configure,Konfigurera,module,Magento_AdvancedCheckout
 "You must buy at least %1 of these per purchase.","Du måste köpa minst %1 av dessa per köptillfälle.",module,Magento_AdvancedCheckout
 "Specify the product's options.","Välj produktenval.",module,Magento_AdvancedCheckout
 "Alert me when this item is available.","Avisera mig när produkten är tillgänglig.",module,Magento_AdvancedCheckout
-"This customer couldn't be found. Verify the customer and try again.","This customer couldn't be found. Verify the customer and try again.",module,Magento_AdvancedCheckout
+"This customer couldn't be found. Verify the customer and try again.","Denna kund kunde inte hittas. Verifiera kunden och försök igen.",module,Magento_AdvancedCheckout
 "Shopping cart management is disabled for this customer.","Kundvagnshantering är avstängt för den här kunden.",module,Magento_AdvancedCheckout
-"This store couldn't be found. Verify the store and try again.","This store couldn't be found. Verify the store and try again.",module,Magento_AdvancedCheckout
+"This store couldn't be found. Verify the store and try again.","Denna butik inte kunde hittas. Verifiera butiken och försök igen.",module,Magento_AdvancedCheckout
 Customers,Kunder,module,Magento_AdvancedCheckout
 "Shopping Cart",Kundvagn,module,Magento_AdvancedCheckout
-"An error occurred. For details, see the error log.","An error occurred. For details, see the error log.",module,Magento_AdvancedCheckout
+"An error occurred. For details, see the error log.","Ett fel uppstod. För mer detaljer, titta i felloggen.",module,Magento_AdvancedCheckout
 "You do not have access to this.","Du har inte tillgång till detta.",module,Magento_AdvancedCheckout
-"Orders can only be completed in an active store. Verify the store and try again.","Orders can only be completed in an active store. Verify the store and try again.",module,Magento_AdvancedCheckout
-"The ordered item needs to be loaded. Load the item and try again.","The ordered item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
+"Orders can only be completed in an active store. Verify the store and try again.","Beställningar kan endast färdigställas i en aktiv butik. Verifiera butik och försök igen.",module,Magento_AdvancedCheckout
+"The ordered item needs to be loaded. Load the item and try again.","Den beställda artikeln måste laddas. Läs in artikeln och försök igen.",module,Magento_AdvancedCheckout
 "The quote item ID needs to be received. Set the ID and try again.","The quote item ID needs to be received. Set the ID and try again.",module,Magento_AdvancedCheckout
 "The quote item needs to be loaded. Load the item and try again.","The quote item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
 "The wish list item ID needs to be received. Set the ID and try again.","The wish list item ID needs to be received. Set the ID and try again.",module,Magento_AdvancedCheckout
@@ -147,7 +147,7 @@ Customers,Kunder,module,Magento_AdvancedCheckout
 "Yes, for Specified Customer Groups","Ja, för angivna kundgrupper",module,Magento_AdvancedCheckout
 "Yes, for Everyone","Ja, för alla",module,Magento_AdvancedCheckout
 No,Nej,module,Magento_AdvancedCheckout
-"The file is corrupt and can't be used.","The file is corrupt and can't be used.",module,Magento_AdvancedCheckout
+"The file is corrupt and can't be used.","Filen är skadad och kan inte användas.",module,Magento_AdvancedCheckout
 "Please upload the file in .csv format.","Vänligen ladda upp filen i Csv-format.",module,Magento_AdvancedCheckout
 "%1 item(s) need your attention.","%1 objekt behöver din uppmärksamhet.",module,Magento_AdvancedCheckout
 "Apply Coupon Code","Använd kupongkod",module,Magento_AdvancedCheckout
