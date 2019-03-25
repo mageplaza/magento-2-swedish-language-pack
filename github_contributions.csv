@@ -201,3 +201,4 @@
 "All","Alla",module,Magento_Catalog
 "Grid Only","Endast rutnät",module,Magento_Catalog
 "Grid","Grid",module,Magento_VisualMerchandiser
+"View and Edit Cart","Visa och ändra varukorgen",module,Magento_Checkout
