@@ -48,7 +48,7 @@
 "Edit Your Cart","Redigera din varukorg",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Är du säker du vill ta bort artikeln från varukorgen?",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Efter att en Produkt lagts till Omdirigera till Varukorgen",module,Magento_Checkout
-"Item in Cart","Artiklar i Varukorg",module,Magento_Checkout
+"Item in Cart","Artikel i varukorgen",module,Magento_Checkout
 "Items in Cart","Artiklar i varukorgen",module,Magento_Checkout
 "Shopping Cart from %1","Varukorg från %1",module,Magento_Customer
 "You are not using store credit in your shopping cart.","Du använder inte store-kredit i din varukorg.",module,Magento_CustomerBalance
