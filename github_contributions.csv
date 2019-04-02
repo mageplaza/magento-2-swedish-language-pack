@@ -202,3 +202,41 @@
 "Grid Only","Endast rutnät",module,Magento_Catalog
 "Grid","Rutnät",module,Magento_VisualMerchandiser
 "View and Edit Cart","Visa och ändra varukorgen",module,Magento_Checkout
+"Quick Checkout",Snabbkassa,theme,frontend/Magento/luma
+"We can't rebuild the index for an undefined product.","Vi kan inte bygga om indexet för en odefinierad produkt.",module,Magento_CatalogInventory
+"Unable to remove Stock with id ""%1""","Kan inte ta bort lager med id ""%1""",module,Magento_CatalogInventory
+"Unable to save Stock Status","Kan inte spara lagerstatus",module,Magento_CatalogInventory
+"Unable to remove Stock Status for product %1","Kan inte ta bort lagerstatus för produkt %1",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","Det minsta antalet du kan köpa är %1.",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","Vänligen korrigera antalet för vissa produkter.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Du kan som mest köpa %1.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Vi har inte så många ""%1"" som du begärde.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Vi har inte så många ""%1"" som du begärde, men en restorder kommer skapas för återstående %2.",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Vi har inte ""%1"" i begärt antal, så en restorder skapas för återstående %2.",module,Magento_CatalogInventory
+"You can buy %1 only in quantities of %2 at a time.","Du kan endast köpa %1 i kvantiteter av %2 i taget.",module,Magento_CatalogInventory
+"You can buy this product only in quantities of %1 at a time.","Du kan endast köpa denna produkt i kvantiteter av %1 åt gången.",module,Magento_CatalogInventory
+"Decimal qty increments is not allowed.","Antalsökningar med decimaler är inte tillåtet.",module,Magento_CatalogInventory
+"%1 is available to buy in increments of %2","%1 är tillgänglig att köpa i steg om %2",module,Magento_CatalogInventory
+"Product availability","Produkttillgänglighet,module,Magento_CatalogInventory
+"Inventory","Lager",module,Magento_CatalogInventory
+"Stock Options","Lageralternativ",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","Sätt artiklarnas status till att vara i lager när order avbryts",module,Magento_CatalogInventory
+"Display Out of Stock Products","Visa produkter som är slut i lager",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","Produkterna kommer fortfarande att vara synliga via direkta produkt-URL:er.",module,Magento_CatalogInventory
+"Only X left Threshold","Endast X kvar tröskelvärde",module,Magento_CatalogInventory
+"Display Products Availability in Stock on Storefront","Visa produkters lagerstatus i webbshoppen",module,Magento_CatalogInventory
+"Product Stock Options","Produktens lageralternativ",module,Magento_CatalogInventory
+"Please note that these settings apply to individual items in the cart, not to the entire cart.","Vänligen notera att dessa inställningar appliceras till enskilda artiklar i varukorgen, inte hela varukorgen.",module,Magento_CatalogInventory
+"Manage Stock","Hantera lager",module,Magento_CatalogInventory
+Backorders,Restordrar,module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","Maximalt antal tillåtna i varukorgen",module,Magento_CatalogInventory
+"Out-of-Stock Threshold","Slut i lager tröskelvärde",module,Magento_CatalogInventory
+"Minimum Qty Allowed in Shopping Cart","Minsta antalet tillåtet i varukorg",module,Magento_CatalogInventory
+"Notify for Quantity Below","Meddela för antal under",module,Magento_CatalogInventory
+"Automatically Return Credit Memo Item to Stock","Returnera kreditnots-artiklar automatiskt till lager",module,Magento_CatalogInventory
+"Enable Qty Increments","Aktivera antals-ökning",module,Magento_CatalogInventory
+"Qty Increments","Antals-ökning",module,Magento_CatalogInventory
+Stock,Lager,module,Magento_CatalogInventory
+"Index stock","Indexera lager",module,Magento_CatalogInventory
+"Use Config Settings","Använd konfigurationsinställningarna",module,Magento_CatalogInventory
+"Qty Uses Decimals","Antal använder decimaler",module,Magento_CatalogInventory
