@@ -119,11 +119,13 @@ To download and install Swedish pack manually, you have to access to your server
 
 #### Step 1: Unzip and upload
 
-Unzip the compressed file and upload file `master.zip` into `app/i18n/Mageplaza/sv_se/sv_SE.csv`
+Unzip the compressed file and upload file `master.zip` into `app/i18n/Mageplaza/sv_se/`
 
-See this screenshot
+See this screenshot:
 
 ![Swedish pack](https://cdn3.mageplaza.com/media/general/language-pack.png)
+
+This language pack code is: **sv_se**
 
 #### Step 2: Flush cache
 
