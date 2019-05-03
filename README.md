@@ -6,6 +6,7 @@ By following Swedish Language Pack tutorial, there is no need to copy all CSV fi
 
 Read more [Magento 2 Swedish Language Pack](https://www.mageplaza.com/magento-2-swedish-language-pack.html)
 
+![Mageplaza Swedish language pack](https://i.imgur.com/qjWPj1W.png)
 
 ## Overview
 
