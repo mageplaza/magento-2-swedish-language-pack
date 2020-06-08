@@ -8989,12 +8989,12 @@ information om installation av agenten finns  <a target=""_blank"" href=""%1"">h
 "This email address is already assigned to another user.","This email address is already assigned to another user.",module,Magento_Newsletter
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.",module,Magento_Newsletter
 "Please enter a valid email address.","Vänligen ange en giltig e-postadress.",module,Magento_Newsletter
-"This email address is already subscribed.","This email address is already subscribed.",module,Magento_Newsletter
-"The confirmation request has been sent.","The confirmation request has been sent.",module,Magento_Newsletter
-"Thank you for your subscription.","Thank you for your subscription.",module,Magento_Newsletter
-"There was a problem with the subscription: %1","There was a problem with the subscription: %1",module,Magento_Newsletter
-"Something went wrong with the subscription.","Something went wrong with the subscription.",module,Magento_Newsletter
-"You unsubscribed.","You unsubscribed.",module,Magento_Newsletter
+"This email address is already subscribed.","Den här e-mail är redan abonnemad.",module,Magento_Newsletter
+"The confirmation request has been sent.","Bekräftelsebegäran har skickats.",module,Magento_Newsletter
+"Thank you for your subscription.","Tack för din prenumeration.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Det uppstod ett problem med prenumerationen: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.","Något gick fel med prenumerationen.",module,Magento_Newsletter
+"You unsubscribed.","Du avslutar prenumerationen.",module,Magento_Newsletter
 "Something went wrong while unsubscribing you.","Something went wrong while unsubscribing you.",module,Magento_Newsletter
 "Sent","Skickat",module,Magento_Newsletter
 "Cancelled","Avbruten",module,Magento_Newsletter
