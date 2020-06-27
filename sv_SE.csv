@@ -185,7 +185,7 @@
 "Upload File","Ladda upp fil",module,Magento_AdvancedCheckout
 "Your csv file must include ""sku"" and ""qty"" columns.","Din CSV-fil måste innehålla kolumnerna ""sku"" och ""antal"".",module,Magento_AdvancedCheckout
 "Reset","Återställ",module,Magento_AdvancedCheckout
-"SKU: ","SKU: ",module,Magento_AdvancedCheckout
+"SKU: ","Art.nr: ",module,Magento_AdvancedCheckout
 "Only <span id=""%1_max_allowed"">%2</span> in stock","Endast <span id=""%1_max_allowed"">%2</span> i lager",module,Magento_AdvancedCheckout
 "Item","Artikel",module,Magento_AdvancedCheckout
 "See price before order confirmation.","Se pris innan orderbekräftelse.",module,Magento_AdvancedCheckout
@@ -197,7 +197,7 @@
 "Remove item","Ta bort artikel",module,Magento_AdvancedCheckout
 "Products Requiring Attention","Produkter som kräver uppmärksamhet",module,Magento_AdvancedCheckout
 "Add to Cart","Lägg till i kundvagn",module,Magento_AdvancedCheckout
-"Sku","Sku",module,Magento_AdvancedCheckout
+"Sku","Artikelnummer",module,Magento_AdvancedCheckout
 "File","Fil",module,Magento_AdvancedCheckout
 "File extensions allowed: .csv","Tillåtna filändelser: .csv",module,Magento_AdvancedCheckout
 "Add Row","Lägg till rad",module,Magento_AdvancedCheckout
@@ -3215,7 +3215,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Your session has expired","Din session har gått ut",module,Magento_Checkout
 "A letter with further instructions will be sent to your email.","Ett brev med vidare instruktioner har skickats till dig via e-post.",module,Magento_Checkout
 "You added %1 to your shopping cart.","Du har lagt till %1 i din kundvagn.",module,Magento_Checkout
-"We can't add this item to your shopping cart right now.","We can't add this item to your shopping cart right now.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now.","Vi kan inte lägga till den här artikeln i din kundvagn.",module,Magento_Checkout
 "Out of stock","Ej i lager",module,Magento_Checkout
 "We can't find the quote item.","Vi kan inte hitta offertobjektet.",module,Magento_Checkout
 "We cannot configure the product.","Vi kan inte anpassa produkten.",module,Magento_Checkout
@@ -3223,10 +3223,10 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "The coupon code ""%1"" is not valid.","Den kupongkoden ""%1"" är inte giltigt.",module,Magento_Checkout
 "You canceled the coupon code.","Du tog bort rabattkoden.",module,Magento_Checkout
 "We cannot apply the coupon code.","Vi kan inte använda rabattkoden.",module,Magento_Checkout
-"We can't remove the item.","We can't remove the item.",module,Magento_Checkout
+"We can't remove the item.","Vi kan inte ta bort artikeln.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 lades till i din kundvagn.",module,Magento_Checkout
 "We can't update the item right now.","We can't update the item right now.",module,Magento_Checkout
-"We can't update the shopping cart.","We can't update the shopping cart.",module,Magento_Checkout
+"We can't update the shopping cart.","Vi kan inte uppdatera varukorgen.",module,Magento_Checkout
 "One-page checkout is turned off.","Onepage kassan är avstängt.",module,Magento_Checkout
 "Guest checkout is disabled.","Köp för Gäster är inaktiverat.",module,Magento_Checkout
 "Checkout","Till Kassan",module,Magento_Checkout
@@ -3236,7 +3236,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Betalningsmetod",module,Magento_Checkout
 "Payment Page","Betalningssida",module,Magento_Checkout
-"We can't find the product.","We can't find the product.",module,Magento_Checkout
+"We can't find the product.","Vi kan inte hitta produkten.",module,Magento_Checkout
 "We found an invalid request for adding product to quote.","Vi upptäckte en ogiltig begäran för att lägga till produkten i offerten.",module,Magento_Checkout
 "The product does not exist.","Produkten finns inte.",module,Magento_Checkout
 "We don't have some of the products you want.","Vi har tyvärr inte några av produkterna du beställt.",module,Magento_Checkout
@@ -3383,7 +3383,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Unable to save address. Please, check input data.","Det gick inte att spara adress. Vänligen kontrollera indata.",module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","Unable to save shipping information. Please, check input data.",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Cart contains virtual product(s) only. Shipping address is not applicable.",module,Magento_Checkout
-"Wrong minimum amount.","Wrong minimum amount.",module,Magento_Checkout
+"Wrong minimum amount.","Felaktigt minsta belopp.",module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>",module,Magento_Checkout
 "Forgot Password","Glömt lösenord",module,Magento_Checkout
 "Close","Stäng",module,Magento_Checkout
@@ -3406,7 +3406,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "of","av",module,Magento_Checkout
 "Something went wrong while saving the page. Please refresh the page and try again.","Något gick fel när sidan sparades. Vänligen uppdatera sidan och försök igen.",module,Magento_Checkout
 "You added %1 to your <a href=""%2"">shopping cart</a>.","You added %1 to your <a href=""%2"">shopping cart</a>.",module,Magento_Checkout
-"Please select at least one product to add to cart","Please select at least one product to add to cart",module,Magento_Checkout
+"Please select at least one product to add to cart","Välj minst en produkt att lägga till i varukorgen",module,Magento_Checkout
 "The quote item isn't found. Verify the item and try again.","The quote item isn't found. Verify the item and try again.",module,Magento_Checkout
 "The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.",module,Magento_Checkout
 "The product wasn't found. Verify the product and try again.","The product wasn't found. Verify the product and try again.",module,Magento_Checkout
@@ -3507,7 +3507,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Go to Home Page","Gå till startsidan",module,Magento_Cms
 "CMS","CMS",module,Magento_Cms
 "You deleted the block.","Du har tagit bort blocket.",module,Magento_Cms
-"We can't find a block to delete.","We can't find a block to delete.",module,Magento_Cms
+"We can't find a block to delete.","Vi kan inte hitta ett block att ta bort.",module,Magento_Cms
 "This block no longer exists.","Det här blocket finns inte längre.",module,Magento_Cms
 "Edit Block","Redigera block",module,Magento_Cms
 "New Block","Nytt block",module,Magento_Cms
@@ -3523,34 +3523,34 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "New Page","Ny Sida",module,Magento_Cms
 "Pages","Sidor",module,Magento_Cms
 "Something went wrong while saving the page.","Något gick fel när sidan skulle sparas.",module,Magento_Cms
-"A total of %1 record(s) have been disabled.","A total of %1 record(s) have been disabled.",module,Magento_Cms
-"A total of %1 record(s) have been enabled.","A total of %1 record(s) have been enabled.",module,Magento_Cms
+"A total of %1 record(s) have been disabled.","Totalt %1 post(er) har inaktiverats.",module,Magento_Cms
+"A total of %1 record(s) have been enabled.","Totalt %1 post(er) har aktiverats.",module,Magento_Cms
 "Page Title","Sidrubrik",module,Magento_Cms
-"To apply changes you should fill in hidden required ""%1"" field","To apply changes you should fill in hidden required ""%1"" field",module,Magento_Cms
+"To apply changes you should fill in hidden required ""%1"" field","För att tillämpa ändringar bör du fylla i dolda obligatoriska ""%1"" fältet",module,Magento_Cms
 "You saved the page.","Du har sparat sidan.",module,Magento_Cms
-"Directory %1 is not under storage root path.","Directory %1 is not under storage root path.",module,Magento_Cms
-"The directory %1 is not writable by server.","The directory %1 is not writable by server.",module,Magento_Cms
-"Make sure that static block content does not reference the block itself.","Make sure that static block content does not reference the block itself.",module,Magento_Cms
-"CMS Block with id ""%1"" does not exist.","CMS Block with id ""%1"" does not exist.",module,Magento_Cms
+"Directory %1 is not under storage root path.","Katalogen ""%1"" är inte under lagringsutrymmets rotsökväg.",module,Magento_Cms
+"The directory %1 is not writable by server.","Katalogen ""%1"" är inte skrivbar på servern.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Se till att statiskt blockinnehåll inte refererar till själva blocket.",module,Magento_Cms
+"CMS Block with id ""%1"" does not exist.","CMS-block med id ""%1"" finns inte.",module,Magento_Cms
 "Enabled by Default","Aktiverad som standard",module,Magento_Cms
 "Disabled by Default","Avaktiverad som standard",module,Magento_Cms
-"Disabled Completely","Disabled Completely",module,Magento_Cms
-"This identifier is reserved for ""CMS No Route Page"" in configuration.","This identifier is reserved for ""CMS No Route Page"" in configuration.",module,Magento_Cms
-"This identifier is reserved for ""CMS Home Page"" in configuration.","This identifier is reserved for ""CMS Home Page"" in configuration.",module,Magento_Cms
-"This identifier is reserved for ""CMS No Cookies Page"" in configuration.","This identifier is reserved for ""CMS No Cookies Page"" in configuration.",module,Magento_Cms
+"Disabled Completely","Totalt inaktiverad",module,Magento_Cms
+"This identifier is reserved for ""CMS No Route Page"" in configuration.","Denna identifierare är reserverad för ""CMS No Route Page"" i konfigurationen.",module,Magento_Cms
+"This identifier is reserved for ""CMS Home Page"" in configuration.","Denna identifierare är reserverad för ""CMS Hemsida"" i konfiguration.",module,Magento_Cms
+"This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Denna identifierare är reserverad för ""CMS No Cookies Page"" i konfigurationen.",module,Magento_Cms
 "Could not save the page: %1","Kunde inte spara sida: %1",module,Magento_Cms
-"CMS Page with id ""%1"" does not exist.","CMS Page with id ""%1"" does not exist.",module,Magento_Cms
+"CMS Page with id ""%1"" does not exist.","CMS-sida med id ""%1"" finns inte.",module,Magento_Cms
 "Could not delete the page: %1","Kunde inte ta bort sida: %1",module,Magento_Cms
-"A block identifier with the same properties already exists in the selected store.","A block identifier with the same properties already exists in the selected store.",module,Magento_Cms
-"The page URL key contains capital letters or disallowed symbols.","The page URL key contains capital letters or disallowed symbols.",module,Magento_Cms
-"The page URL key cannot be made of only numbers.","The page URL key cannot be made of only numbers.",module,Magento_Cms
-"Please rename the folder using only letters, numbers, underscores and dashes.","Please rename the folder using only letters, numbers, underscores and dashes.",module,Magento_Cms
-"We found a directory with the same name. Please try another folder name.","We found a directory with the same name. Please try another folder name.",module,Magento_Cms
-"We cannot create a new directory.","We cannot create a new directory.",module,Magento_Cms
-"We cannot delete directory %1.","We cannot delete directory %1.",module,Magento_Cms
-"We can't upload the file right now.","We can't upload the file right now.",module,Magento_Cms
-"We can't delete root directory %1 right now.","We can't delete root directory %1 right now.",module,Magento_Cms
-"Privacy and Cookie Policy","Privacy and Cookie Policy",module,Magento_Cms
+"A block identifier with the same properties already exists in the selected store.","En block-identifierare med samma egenskaper finns redan i den valda butiken.",module,Magento_Cms
+"The page URL key contains capital letters or disallowed symbols.","Sidans URL-nyckel innehåller stora bokstäver eller otillåtna symboler/tecken.",module,Magento_Cms
+"The page URL key cannot be made of only numbers.","Sidans URL-nyckel får inte bestå av endast siffror.",module,Magento_Cms
+"Please rename the folder using only letters, numbers, underscores and dashes.","Vänligen döpa om mappen och använd endast bokstäver, siffror, understreck och bindestreck.",module,Magento_Cms
+"We found a directory with the same name. Please try another folder name.","Vi hittade en katalog med samma namn. Försök med ett annat mappnamn.",module,Magento_Cms
+"We cannot create a new directory.","Vi kan inte skapa en ny katalog.",module,Magento_Cms
+"We cannot delete directory %1.","Vi kan inte ta bort katalogen ""%1"".",module,Magento_Cms
+"We can't upload the file right now.","Vi kan inte ladda upp filen just nu.",module,Magento_Cms
+"We can't delete root directory %1 right now.","Vi kan inte ta bort rotkatalogen ""%1"" just nu.",module,Magento_Cms
+"Privacy and Cookie Policy","Integritets- och cookiepolicy",module,Magento_Cms
 "Error message","Felmeddelande",module,Magento_Cms
 "LocalizedException","LocalizedException",module,Magento_Cms
 "RuntimeException","RuntimeException",module,Magento_Cms
@@ -9248,7 +9248,7 @@ If field is empty default value localhost will be saved.",module,Magento_PageCac
 "An error occurred on the server. Please try to place the order again.","Ett fel uppstod på servern. Försök att lägga beställningen igen.",module,Magento_Payment
 "Payment Methods Section","Payment Methods Section",module,Magento_Payment
 "Payment Services","Payment Services",module,Magento_Payment
-"Payment Methods","Payment Methods",module,Magento_Payment
+"Payment Methods","Betalningsmetoder",module,Magento_Payment
 "Switch/Solo/Maestro Only","Switch/Solo/Maestro Only",module,Magento_Payment
 "Issue Number","Issue Number",module,Magento_Payment
 "Start Date","Startdatum",module,Magento_Payment
@@ -11772,7 +11772,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Credit Memos","Kreditnotor",module,Magento_Sales
 "Orders","Beställningar",module,Magento_Sales
 "Invoices","Fakturor",module,Magento_Sales
-"We can't get the order instance right now.","We can't get the order instance right now.",module,Magento_Sales
+"We can't get the order instance right now.","Vi kan hämta orderinstansen just nu.",module,Magento_Sales
 "Create New Order","Skapa ny beställning",module,Magento_Sales
 "Save Order Address","Spara beställningsadress",module,Magento_Sales
 "Shipping","Frakt",module,Magento_Sales
@@ -11839,7 +11839,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Refund Shipping (Incl. Tax)","Återbetala frakt (inkl moms)",module,Magento_Sales
 "Refund Shipping (Excl. Tax)","Återbetala frakt (exkl moms)",module,Magento_Sales
 "Refund Shipping","Återbetala frakt",module,Magento_Sales
-"Update Qty's","Update Qty's",module,Magento_Sales
+"Update Qty's","Uppdatera antal",module,Magento_Sales
 "Update Totals","Update Totals",module,Magento_Sales
 "Refund","Återbetala",module,Magento_Sales
 "Refund Offline","Återbetalning Offline",module,Magento_Sales
@@ -11855,7 +11855,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Void","Makulera",module,Magento_Sales
 "Print","Skriv ut",module,Magento_Sales
 "The credit memo email was sent.","E-brevet med kreditnotan har skickats.",module,Magento_Sales
-"The credit memo email wasn't sent.","The credit memo email wasn't sent.",module,Magento_Sales
+"The credit memo email wasn't sent.","E-postmeddelandet med kreditnotan skickades inte.",module,Magento_Sales
 "Credit Memo #%1 | %3 | %2 (%4)","Kreditnotan #%1 | %3 | %2 (%4)",module,Magento_Sales
 "Total Refund","Återbetala hela beloppet",module,Magento_Sales
 "New Invoice and Shipment for Order #%1","Ny faktura och leverans för beställning #%1",module,Magento_Sales
@@ -11866,7 +11866,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Credit Memo","Kreditmemo",module,Magento_Sales
 "Capture","Fakturera",module,Magento_Sales
 "The invoice email was sent.","Ett mejl med fakturan har skickats.",module,Magento_Sales
-"The invoice email wasn't sent.","The invoice email wasn't sent.",module,Magento_Sales
+"The invoice email wasn't sent.","E-postmeddelandet med faktura skickades inte.",module,Magento_Sales
 "Invoice #%1 | %2 | %4 (%3)","Faktura #%1 | %2 | %4 (%3)",module,Magento_Sales
 "Invalid parent block for this block","Ogiltig överordnat block för detta block",module,Magento_Sales
 "Order Statuses","Beställningsstatus",module,Magento_Sales
@@ -11934,8 +11934,8 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Cart Price Rule","Kundvagn Prisregel",module,Magento_Sales
 "Yes","Ja",module,Magento_Sales
 "No","Nej",module,Magento_Sales
-"Show Actual Values","Show Actual Values",module,Magento_Sales
-"New Order RSS","New Order RSS",module,Magento_Sales
+"Show Actual Values","Visa faktiska värden",module,Magento_Sales
+"New Order RSS","RSS för nya ordrar",module,Magento_Sales
 "Subtotal","Delsumma",module,Magento_Sales
 "Shipping & Handling","Frakt & hantering",module,Magento_Sales
 "Discount (%1)","Rabatt (%1)",module,Magento_Sales
@@ -11970,7 +11970,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "You have not canceled the item.","You have not canceled the item.",module,Magento_Sales
 "You canceled the order.","Du avbröt beställningen.",module,Magento_Sales
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","Rabattkod ”%1” tillämpades inte. Använd-inte-rabatten är valt för artiklarna",module,Magento_Sales
-"""%1"" coupon code is not valid.","""%1"" coupon code is not valid.",module,Magento_Sales
+"""%1"" coupon code is not valid.","Kupongkoden ""%1"" är inte giltig.",module,Magento_Sales
 "The coupon code has been accepted.","Rabattkoden har applicerats.",module,Magento_Sales
 "Quote item id is not received.","Den offererade artikelns id har inte tagits emot.",module,Magento_Sales
 "Quote item is not loaded.","Den offererade artikeln har inte lästs in.",module,Magento_Sales
@@ -12060,8 +12060,8 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Please specify order items.","Ange beställningens artiklar.",module,Magento_Sales
 "Please specify a shipping method.","Välj leveransmetod.",module,Magento_Sales
 "Please specify a payment method.","Vänligen välj ett betalsätt.",module,Magento_Sales
-"This payment method is not available.","This payment method is not available.",module,Magento_Sales
-"Validation is failed.","Validation is failed.",module,Magento_Sales
+"This payment method is not available.","Denna betalningsmetod är inte tillgänglig.",module,Magento_Sales
+"Validation is failed.","Validering misslyckades.",module,Magento_Sales
 "You did not email your customer. Please check your email settings.","You did not email your customer. Please check your email settings.",module,Magento_Sales
 "-- Please Select --","--Vänligen välj--",module,Magento_Sales
 "Path ""%1"" is not part of allowed directory ""%2""","Path ""%1"" is not part of allowed directory ""%2""",module,Magento_Sales
@@ -12071,7 +12071,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Could not save an invoice, see error log for details","Could not save an invoice, see error log for details",module,Magento_Sales
 "A hold action is not available.","A hold action is not available.",module,Magento_Sales
 "You cannot remove the hold.","You cannot remove the hold.",module,Magento_Sales
-"We cannot cancel this order.","We cannot cancel this order.",module,Magento_Sales
+"We cannot cancel this order.","Vi kan inte annullera denna beställning.",module,Magento_Sales
 "Guest","Gäst",module,Magento_Sales
 "Please enter the first name.","Ange förnamn.",module,Magento_Sales
 "Please enter the last name.","Ange efternamn.",module,Magento_Sales
@@ -12101,7 +12101,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Order Id is required for creditmemo document","Order Id is required for creditmemo document",module,Magento_Sales
 "The creditmemo contains product SKU ""%1"" that is not part of the original order.","The creditmemo contains product SKU ""%1"" that is not part of the original order.",module,Magento_Sales
 "The quantity to creditmemo must not be greater than the unrefunded quantity for product SKU ""%1"".","The quantity to creditmemo must not be greater than the unrefunded quantity for product SKU ""%1"".",module,Magento_Sales
-"You can't create a creditmemo without products.","You can't create a creditmemo without products.",module,Magento_Sales
+"You can't create a creditmemo without products.","Du kan inte skapa en kreditnota utan produkter.",module,Magento_Sales
 "The most money available to refund is %1.","The most money available to refund is %1.",module,Magento_Sales
 "Could not delete credit memo","Could not delete credit memo",module,Magento_Sales
 "Could not save credit memo","Could not save credit memo",module,Magento_Sales
@@ -16223,73 +16223,73 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Transaction has been canceled","Transaction has been canceled",module,Magento_Worldpay
 "Transaction has been declined","Transaction has been declined",module,Magento_Worldpay
 "The response type is incorrect. Verify the type and try again.","The response type is incorrect. Verify the type and try again.",module,Magento_Worldpay
-"Summary","Översikt",theme,frontend\Magento\blank
-"Account Dashboard","Konto översikt",theme,frontend\Magento\blank
-"Account Information","Kontoinformation",theme,frontend\Magento\blank
-"Address Book","Adressbok",theme,frontend\Magento\blank
-"Menu","Meny",theme,frontend\Magento\blank
-"Account","Konto",theme,frontend\Magento\blank
-"Settings","Inställningar",theme,frontend\Magento\blank
-"Now Shopping by","Handlar nu enligt",theme,frontend\Magento\luma
-"Previous","Föregående",theme,frontend\Magento\luma
-"Remove","Ta bort",theme,frontend\Magento\luma
-"Remove This Item","Ta bort Denna Artikel",theme,frontend\Magento\luma
-"Shop By","Handla enligt",theme,frontend\Magento\luma
-"Clear All","Rensa alla",theme,frontend\Magento\luma
-"Shopping Options","Shoppingalternativ",theme,frontend\Magento\luma
-"Welcome to %store_name","Välkommen till %store_name",theme,frontend\Magento\luma
-"%name,","%name",theme,frontend\Magento\luma
-"Welcome to %store_name.","Välkommen till %store_name.",theme,frontend\Magento\luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","För att logga in på vår webbsida, använd dessa uppgifter under utcheckningen på sidan <a href=""%customer_url"">Mitt konto </a>:",theme,frontend\Magento\luma
-"Email:","Epost:",theme,frontend\Magento\luma
-"Password:","Lösenord:",theme,frontend\Magento\luma
-"Password you set when creating account","Lösenord du valde när kontot skapades",theme,frontend\Magento\luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Glömt ditt lösenord? Klicka <a href=""%reset_url"">här</a> för att återställa det.",theme,frontend\Magento\luma
-"When you sign in to your account, you will be able to:","När du loggar in på ditt konto kommer du att kunna:",theme,frontend\Magento\luma
-"Quick Checkout","Snabbcheckout ",theme,frontend\Magento\luma
-"Proceed through checkout faster","Gå genom kassan snabbare",theme,frontend\Magento\luma
-"Order Status","Beställningsstatus",theme,frontend\Magento\luma
-"Check the status of orders","Se status på ordrar",theme,frontend\Magento\luma
-"Manage Addresses","Hantera adresser",theme,frontend\Magento\luma
-"Store alternative addresses","Alternativa adresser",theme,frontend\Magento\luma
-"For shipping to multiple family members and friends","För frakt till flera familjemedlemmar och kompisar ",theme,frontend\Magento\luma
-"Order History","Beställningshistorik",theme,frontend\Magento\luma
-"View past orders","Visa tidigare beställningar",theme,frontend\Magento\luma
-"Footer","Sidfot",theme,frontend\Magento\luma
-"<a href=%url_about_us>About Us</a>","<a href=%url_about_us>About Us</a>",theme,frontend\Magento\luma
-"<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Customer Service</a>",theme,frontend\Magento\luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>",theme,frontend\Magento\luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Öppettider: <br /><span class=""no-link"">%store_hours</span>.",theme,frontend\Magento\luma
-"Credit memo for your %store_name order","Kreditnota för beställningen %store_name",theme,frontend\Magento\luma
-"Thank you for your order from %store_name.","Tack för din beställning från %store_name.",theme,frontend\Magento\luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Du kan kolla statusen på din order genom att <a href=""%account_url"">logga in på ditt konto</a>.",theme,frontend\Magento\luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Om du har några frågor angående din order kan du mejla oss på <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend\Magento\luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Din kreditnota #%creditmemo_id för Order nr%order_id",theme,frontend\Magento\luma
-"Billing Info","Faktureringsinformation",theme,frontend\Magento\luma
-"Shipping Info","Leveransinformation",theme,frontend\Magento\luma
-"Payment Method","Betalningsmetod",theme,frontend\Magento\luma
-"Shipping Method","Leveransmetod",theme,frontend\Magento\luma
-"Update to your %store_name credit memo","Uppdatering för din kreditnota från %store_name",theme,frontend\Magento\luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Din beställning #%increment_id har uppdaterats med statusen <strong>%order_status</strong>.",theme,frontend\Magento\luma
-"Invoice for your %store_name order","Faktura för din beställning från %store_name",theme,frontend\Magento\luma
-"Your Invoice #%invoice_id for Order #%order_id","Din faktura #%invoice_id för beställning #%order_id",theme,frontend\Magento\luma
-"Update to your %store_name invoice","Uppdatering för din faktura från %store_name",theme,frontend\Magento\luma
-"Your %store_name order confirmation","Beställningsbekräftelse från %store_name",theme,frontend\Magento\luma
-"%customer_name,","%customer_name,",theme,frontend\Magento\luma
-"Once your package ships we will send you a tracking number.","När din order är behandlad och skickad kommer vi skicka dig ett trackning nummer som du kan spåra din beställning med.",theme,frontend\Magento\luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Din beställning <span class=""no-link"">#%increment_id</span>",theme,frontend\Magento\luma
-"Placed on <span class=""no-link"">%created_at</span>","Lagd <span class=""no-link"">%created_at</span>",theme,frontend\Magento\luma
-"Update to your %store_name order","Uppdatera din %store_name order",theme,frontend\Magento\luma
-"Your %store_name order has shipped","Din %store_name beställning har skickats",theme,frontend\Magento\luma
-"Your shipping confirmation is below. Thank you again for your business.","Din leveransbekräftelse finns nedan. Tack för att du handlar hos oss.",theme,frontend\Magento\luma
-"Your Shipment #%shipment_id for Order #%order_id","Din försändelse #%shipment_id för order nr #%order_id",theme,frontend\Magento\luma
-"Update to your %store_name shipment","Uppdatering för din försändelse från %store_name",theme,frontend\Magento\luma
-"Account Dashboard","Konto översikt",theme,frontend\Magento\luma
-"Address Book","Adressbok",theme,frontend\Magento\luma
-"Account Information","Kontoinformation",theme,frontend\Magento\luma
-"About Us","Om oss",theme,frontend\Magento\luma
-"Customer Service","Kundtjänst",theme,frontend\Magento\luma
-"My Account","Mitt konto",theme,frontend\Magento\luma
+"Summary","Översikt",theme,frontend/Magento/blank
+"Account Dashboard","Konto översikt",theme,frontend/Magento/blank
+"Account Information","Kontoinformation",theme,frontend/Magento/blank
+"Address Book","Adressbok",theme,frontend/Magento/blank
+"Menu","Meny",theme,frontend/Magento/blank
+"Account","Konto",theme,frontend/Magento/blank
+"Settings","Inställningar",theme,frontend/Magento/blank
+"Now Shopping by","Handlar nu enligt",theme,frontend/Magento/luma
+"Previous","Föregående",theme,frontend/Magento/luma
+"Remove","Ta bort",theme,frontend/Magento/luma
+"Remove This Item","Ta bort Denna Artikel",theme,frontend/Magento/luma
+"Shop By","Handla enligt",theme,frontend/Magento/luma
+"Clear All","Rensa alla",theme,frontend/Magento/luma
+"Shopping Options","Shoppingalternativ",theme,frontend/Magento/luma
+"Welcome to %store_name","Välkommen till %store_name",theme,frontend/Magento/luma
+"%name,","%name",theme,frontend/Magento/luma
+"Welcome to %store_name.","Välkommen till %store_name.",theme,frontend/Magento/luma
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","För att logga in på vår webbsida, använd dessa uppgifter under utcheckningen på sidan <a href=""%customer_url"">Mitt konto </a>:",theme,frontend/Magento/luma
+"Email:","Epost:",theme,frontend/Magento/luma
+"Password:","Lösenord:",theme,frontend/Magento/luma
+"Password you set when creating account","Lösenord du valde när kontot skapades",theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Glömt ditt lösenord? Klicka <a href=""%reset_url"">här</a> för att återställa det.",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","När du loggar in på ditt konto kommer du att kunna:",theme,frontend/Magento/luma
+"Quick Checkout","Snabbcheckout ",theme,frontend/Magento/luma
+"Proceed through checkout faster","Gå genom kassan snabbare",theme,frontend/Magento/luma
+"Order Status","Beställningsstatus",theme,frontend/Magento/luma
+"Check the status of orders","Se status på ordrar",theme,frontend/Magento/luma
+"Manage Addresses","Hantera adresser",theme,frontend/Magento/luma
+"Store alternative addresses","Alternativa adresser",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","För frakt till flera familjemedlemmar och kompisar ",theme,frontend/Magento/luma
+"Order History","Beställningshistorik",theme,frontend/Magento/luma
+"View past orders","Visa tidigare beställningar",theme,frontend/Magento/luma
+"Footer","Sidfot",theme,frontend/Magento/luma
+"<a href=%url_about_us>About Us</a>","<a href=%url_about_us>About Us</a>",theme,frontend/Magento/luma
+"<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Customer Service</a>",theme,frontend/Magento/luma
+"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Öppettider: <br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Credit memo for your %store_name order","Kreditnota för beställningen %store_name",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Tack för din beställning från %store_name.",theme,frontend/Magento/luma
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Du kan kolla statusen på din order genom att <a href=""%account_url"">logga in på ditt konto</a>.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Om du har några frågor angående din order kan du mejla oss på <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","Din kreditnota #%creditmemo_id för Order nr%order_id",theme,frontend/Magento/luma
+"Billing Info","Faktureringsinformation",theme,frontend/Magento/luma
+"Shipping Info","Leveransinformation",theme,frontend/Magento/luma
+"Payment Method","Betalningsmetod",theme,frontend/Magento/luma
+"Shipping Method","Leveransmetod",theme,frontend/Magento/luma
+"Update to your %store_name credit memo","Uppdatering för din kreditnota från %store_name",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Din beställning #%increment_id har uppdaterats med statusen <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Invoice for your %store_name order","Faktura för din beställning från %store_name",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","Din faktura #%invoice_id för beställning #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name invoice","Uppdatering för din faktura från %store_name",theme,frontend/Magento/luma
+"Your %store_name order confirmation","Beställningsbekräftelse från %store_name",theme,frontend/Magento/luma
+"%customer_name,","%customer_name,",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","När din order är behandlad och skickad kommer vi skicka dig ett trackning nummer som du kan spåra din beställning med.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Din beställning <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Lagd <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Update to your %store_name order","Uppdatera din %store_name order",theme,frontend/Magento/luma
+"Your %store_name order has shipped","Din %store_name beställning har skickats",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Din leveransbekräftelse finns nedan. Tack för att du handlar hos oss.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","Din försändelse #%shipment_id för order nr #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name shipment","Uppdatering för din försändelse från %store_name",theme,frontend/Magento/luma
+"Account Dashboard","Konto översikt",theme,frontend/Magento/luma
+"Address Book","Adressbok",theme,frontend/Magento/luma
+"Account Information","Kontoinformation",theme,frontend/Magento/luma
+"About Us","Om oss",theme,frontend/Magento/luma
+"Customer Service","Kundtjänst",theme,frontend/Magento/luma
+"My Account","Mitt konto",theme,frontend/Magento/luma
 "Backup options","Alternativ för säkerhetskopiering",lib,web
 "Warning","Varning",lib,web
 "Cancel","Avbryt",lib,web
