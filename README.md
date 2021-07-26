@@ -2,8 +2,6 @@
 
 For better assistance, Mageplaza makes an effort to create **Magento 2 Swedish Language Pack** for everyone who needs. The topic provides a package of free guides in order to apply the Swedish dictionary on your online store. Why do we want to recommend this topic? In fact, the approaching to other countries is the desired development of each shop. In case that you have the plan to do business in Sweden, it is appropriate to use the native language - Swedish for all transactions.
 
-By following Swedish Language Pack tutorial, there is no need to copy all CSV files or any manual activity. The translation is directly connected with the data of Magento 2 Translation Project at Crowdin and then automatically completed after selecting *Swedish (Sweden)* locale option.
-
 Read more [Magento 2 Swedish Language Pack](https://www.mageplaza.com/magento-2-swedish-language-pack.html)
 
 ![Mageplaza Swedish language pack](https://cdn3.mageplaza.com/media/general/qjWPj1W.png)
@@ -29,7 +27,7 @@ It is not fully translated? Feel free to contribute:
 - [On Github](https://github.com/mageplaza/magento-2-swedish-language-pack/blob/master/HOW-TO-CONTRIBUTE.md): It's faster, our team will approve it after you send pull request.
 
 
-Find other [language packs here](https://www.mageplaza.com/kb/magento-2-language-pack/)
+Find other [language packs here](https://www.mageplaza.com/magento-2-extensions/language-packs.html)
 
 ## 2. How to Install Swedish Language Pack
 
@@ -40,17 +38,17 @@ Install the Swedish language pack via composer is never easier.
 
 **Install Swedish pack**:
 
-With Social Proof (recommend):
+With Marketing Automation (recommend):
 
 ```
-composer require mageplaza/magento-2-swedish-language-pack:dev-master avada/module-proofo
+composer require mageplaza/magento-2-swedish-language-pack:dev-master mageplaza/module-smtp 
 php bin/magento setup:static-content:deploy sv_SE
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
 ```
 
-Without Social Proof:
+Without Marketing Automation:
 
 ```
 composer require mageplaza/magento-2-swedish-language-pack:dev-master
@@ -166,6 +164,7 @@ It supports all Magento 2 versions include [Magento 2 open-source](https://www.m
 - Magento v2.1.x
 - Magento v2.2.x
 - Magento v2.3.x
+- Magento v2.4.x
 
 
 
