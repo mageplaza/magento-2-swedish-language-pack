@@ -1471,7 +1471,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "The bundle product doesn't exist. Review your request and try again.","The bundle product doesn't exist. Review your request and try again.",module,Magento_Bundle
 "The option that was requested doesn't exist. Verify the entity and try again.","The option that was requested doesn't exist. Verify the entity and try again.",module,Magento_Bundle
 "The option couldn't be saved.","The option couldn't be saved.",module,Magento_Bundle
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Bundle
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_Bundle
 "The option with ""%1"" ID can't be deleted.","The option with ""%1"" ID can't be deleted.",module,Magento_Bundle
 "Price Range","Prisintervall",module,Magento_Bundle
 "As Low as","Så lågt som",module,Magento_Bundle
@@ -3580,7 +3580,7 @@ See Magento documentation for more information,module,Magento_CmsStaging
 "Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".",module,Magento_Company
 "There was an error saving custom attributes.","There was an error saving custom attributes.",module,Magento_Company
 "Invalid value of ""%value"" provided for the %fieldName field.","Ogiltigt värde för ""%value"" för fältet %fieldName.",module,Magento_Company
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Company
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_Company
 "No such entity with %fieldName = %fieldValue","No such entity with %fieldName = %fieldValue",module,Magento_Company
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.",module,Magento_Company
 "You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.","You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.",module,Magento_Company
@@ -3896,7 +3896,7 @@ for the following reason:",module,Magento_Company
 "Payment On Account cannot be used for this order because your order amount exceeds your credit amount.","Payment On Account cannot be used for this order because your order amount exceeds your credit amount.",module,Magento_CompanyCredit
 "Cannot process the request. Please check the operation type and try again.","Cannot process the request. Please check the operation type and try again.",module,Magento_CompanyCredit
 "Invalid attribute value. Row ID: %fieldName = %fieldValue.","Invalid attribute value. Row ID: %fieldName = %fieldValue.",module,Magento_CompanyCredit
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_CompanyCredit
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_CompanyCredit
 "The selected currency is not available. Please select a different currency.","The selected currency is not available. Please select a different currency.",module,Magento_CompanyCredit
 "Could not update history","Could not update history",module,Magento_CompanyCredit
 "Requested company is not found. Row ID: %fieldName = %fieldValue.","Requested company is not found. Row ID: %fieldName = %fieldValue.",module,Magento_CompanyCredit
@@ -4651,17 +4651,17 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "This account isn't confirmed. Verify and try again.","This account isn't confirmed. Verify and try again.",module,Magento_Customer
 "Invalid value of ""%value"" provided for the %fieldName field. Possible values: %template1 or %template2.","Invalid value of ""%value"" provided for the %fieldName field. Possible values: %template1 or %template2.",module,Magento_Customer
 "Please enter a password with at most %1 characters.","Ange ett lösenord med högst %1 tecken.",module,Magento_Customer
-"The password needs at least %1 characters. Create a new password and try again.","The password needs at least %1 characters. Create a new password and try again.",module,Magento_Customer
-"The password can't begin or end with a space. Verify the password and try again.","The password can't begin or end with a space. Verify the password and try again.",module,Magento_Customer
+"The password needs at least %1 characters. Create a new password and try again.","Lösenordet behöver %1 tecken. Skapa ett nytt lösenord och försök igen.",module,Magento_Customer
+"The password can't begin or end with a space. Verify the password and try again.","Lösenordet kan inte börja eller sluta med ett mellanslag. Verifiera lösenordet och försök igen.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Du måste minst ha %1 olika typer av tecken i lösenordet. Till teckentyper räknas: gemener, versaler, siffror och specialtecken.",module,Magento_Customer
-"The password can't be the same as the email address. Create a new password and try again.","The password can't be the same as the email address. Create a new password and try again.",module,Magento_Customer
+"The password can't be the same as the email address. Create a new password and try again.","Lösenordet kan inte vara detsamma som e-postadressen. Skapa ett nytt lösenord och försök igen.",module,Magento_Customer
 "This customer already exists in this store.","Denna kund finns redan i denna butik.",module,Magento_Customer
 "A customer with the same email address already exists in an associated website.","A customer with the same email address already exists in an associated website.",module,Magento_Customer
 "The store view is not in the associated website.","The store view is not in the associated website.",module,Magento_Customer
 "Invalid value of ""%value"" provided for the %fieldName field.","Ogiltigt värde för ""%value"" för fältet %fieldName.",module,Magento_Customer
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Customer
-"The password token is mismatched. Reset and try again.","The password token is mismatched. Reset and try again.",module,Magento_Customer
-"The password token is expired. Reset and try again.","The password token is expired. Reset and try again.",module,Magento_Customer
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_Customer
+"The password token is mismatched. Reset and try again.","Det valda lösenordet stämmer inte överens. Återställ och försök igen.",module,Magento_Customer
+"The password token is expired. Reset and try again.","Lösenordet har gått ut. Återställ och försök igen.",module,Magento_Customer
 "The transactional account email type is incorrect. Verify and try again.","The transactional account email type is incorrect. Verify and try again.",module,Magento_Customer
 """%1"" is a required value.","""%1"" är ett obligatoriskt värde.",module,Magento_Customer
 "Global","Global",module,Magento_Customer
@@ -7236,7 +7236,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "The tokens couldn't be revoked.","The tokens couldn't be revoked.",module,Magento_Integration
 "An error occurred during the attempt to grant permissions. For details, see the exceptions log.","An error occurred during the attempt to grant permissions. For details, see the exceptions log.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.",module,Magento_Integration
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Integration
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_Integration
 "This customer has no tokens.","This customer has no tokens.",module,Magento_Integration
 "Inactive","Inaktiv",module,Magento_Integration
 "Active","Aktiv",module,Magento_Integration
@@ -8134,7 +8134,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "%fileType is not an allowed file type. Please select a different file.","%fileType is not an allowed file type. Please select a different file.",module,Magento_NegotiableQuote
 "The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue","The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
 "Cannot attach the file %filename. The maximum allowed file size is %size Mb.","Cannot attach the file %filename. The maximum allowed file size is %size Mb.",module,Magento_NegotiableQuote
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_NegotiableQuote
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_NegotiableQuote
 "Invalid attribute value. Row ID: %fieldName = %fieldValue","Invalid attribute value. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
 "Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue","Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
 "You cannot update the quote status.","You cannot update the quote status.",module,Magento_NegotiableQuote
@@ -9631,7 +9631,7 @@ or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" 
 "Some item options or their combination are not currently available.","Vissa Objektalternativ eller deras kombinationer är inte tillgängliga.",module,Magento_Quote
 "The %1 Cart doesn't contain the %2 item.","The %1 Cart doesn't contain the %2 item.",module,Magento_Quote
 "The quote couldn't be saved.","The quote couldn't be saved.",module,Magento_Quote
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Quote
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_Quote
 "The item couldn't be removed from the quote.","The item couldn't be removed from the quote.",module,Magento_Quote
 "The qty value is required to update quote item.","The qty value is required to update quote item.",module,Magento_Quote
 "Minimum order amount is %1","Minimum order amount is %1",module,Magento_Quote
@@ -13467,7 +13467,7 @@ We back our approvals with 100% chargeback protection, reimbursing you the full 
 "The ZIP Code is invalid. Use numbers only.","The ZIP Code is invalid. Use numbers only.",module,Magento_Tax
 "Range To should be equal or greater than Range From.","Range To should be equal or greater than Range From.",module,Magento_Tax
 "The tax rate can't be removed because it exists in a tax rule.","The tax rate can't be removed because it exists in a tax rule.",module,Magento_Tax
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Tax
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" krävs. Gå in och försök igen.",module,Magento_Tax
 "Invalid value of ""%value"" provided for the %fieldName field.","Ogiltigt värde för ""%value"" för fältet %fieldName.",module,Magento_Tax
 "This class no longer exists.","Denna klass existerar inte längre.",module,Magento_Tax
 "You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",module,Magento_Tax
@@ -15295,7 +15295,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "The fewest you may purchase is %1.","The fewest you may purchase is %1.",lib,web
 "The maximum you may purchase is %1.","The maximum you may purchase is %1.",lib,web
 "You can buy this product only in quantities of %1 at a time.","You can buy this product only in quantities of %1 at a time.",lib,web
-"The password can't be the same as the email address. Create a new password and try again.","The password can't be the same as the email address. Create a new password and try again.",lib,web
+"The password can't be the same as the email address. Create a new password and try again.","Lösenordet kan inte vara detsamma som e-postadressen. Skapa ett nytt lösenord och försök igen.",lib,web
 "Please fix this field.","Please fix this field.",lib,web
 "Please enter a valid email address.","Vänligen ange en giltig e-postadress.",lib,web
 "Please enter a valid URL.","Please enter a valid URL.",lib,web
