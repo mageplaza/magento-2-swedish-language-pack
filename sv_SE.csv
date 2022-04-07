@@ -915,7 +915,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "You will have to sign in after you save your custom admin path.","Du kommer att behöva logga in när du har sparat din anpassade admin-sökväg.",module,Magento_Backend
 "Security","Säkerhet",module,Magento_Backend
 "Recovery Link Expiration Period (hours)","Recovery länk förfallotid (timmar)",module,Magento_Backend
-"Please enter a number 1 or greater in this field.","Skriv in ett nummer 1 eller större i detta fält.",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Vänligen välj 1 eller fler.",module,Magento_Backend
 "Add Secret Key to URLs","Lägga till hemlig nyckel i webbadresser",module,Magento_Backend
 "Login is Case Sensitive","Inloggning är skiftlägeskänslig",module,Magento_Backend
 "Admin Session Lifetime (seconds)","Admin Session livstid (sekunder)",module,Magento_Backend
@@ -1927,7 +1927,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Group price must be a number greater than 0.","Grupp priset måste vara ett nummer större än 0.",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","Media Gallery converter should be an instance of EntryConverterInterface.",module,Magento_Catalog
 "There is no MediaGalleryEntryConverter for given type","Det finns ingen MediaGalleryEntryConverter för den här typen",module,Magento_Catalog
-"Please enter a number 0 or greater in this field.","Skriv in en siffra, 0 eller större i detta fält.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Skriv in ett nummer 0 eller större i detta fält.",module,Magento_Catalog
 "The ""%1"" attribute value is empty. Set the attribute and try again.","The ""%1"" attribute value is empty. Set the attribute and try again.",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Artikelnumrets längd bör vara högst %1 tecken.",module,Magento_Catalog
 "Please enter a valid number in this field.","Vänligen ange ett giltigt nummer i fältet.",module,Magento_Catalog
@@ -2588,11 +2588,11 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "The fewest you may purchase is %1.","The fewest you may purchase is %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Please correct the quantity for some products.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","The most you may purchase is %1.",module,Magento_CatalogInventory
-"The requested qty is not available","The requested qty is not available",module,Magento_CatalogInventory
+"The requested qty is not available","Önskat antal finns ej tillgängligt i lager",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.",module,Magento_CatalogInventory
-"You can buy %1 only in quantities of %2 at a time.","You can buy %1 only in quantities of %2 at a time.",module,Magento_CatalogInventory
-"You can buy this product only in quantities of %1 at a time.","You can buy this product only in quantities of %1 at a time.",module,Magento_CatalogInventory
+"You can buy %1 only in quantities of %2 at a time.","Du kan endast köpa artikel %1 i intervaller av %2.",module,Magento_CatalogInventory
+"You can buy this product only in quantities of %1 at a time.","Du kan endast köpa artikeln i intervaller av %1.",module,Magento_CatalogInventory
 "Quantity increments can't use decimals. Enter a new increment and try again.","Quantity increments can't use decimals. Enter a new increment and try again.",module,Magento_CatalogInventory
 "Something went wrong while updating the product(s) attributes.","Something went wrong while updating the product(s) attributes.",module,Magento_CatalogInventory
 "Stock Status","Lagerstatus",module,Magento_CatalogInventory
@@ -3066,7 +3066,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Estimate Tax","Uppskatta Moms",module,Magento_Checkout
 "Estimate Shipping and Tax","Uppskatta Frakt och Moms",module,Magento_Checkout
 "Excl. Tax","-Exkl. Moms",module,Magento_Checkout
-"You added %1 to your <a href=""%2"">shopping cart</a>.","You added %1 to your <a href=""%2"">shopping cart</a>.",module,Magento_Checkout
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Du har lagt till %1 i din <a href=""%2"">kundvagn</a>.",module,Magento_Checkout
 "Loading...","Laddar...",module,Magento_Checkout
 "Order #","Beställning #",module,Magento_Checkout
 "Proceed to Checkout","Gå vidare till Kassan",module,Magento_Checkout
@@ -4881,8 +4881,8 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: e-post.",module,Magento_Customer
 "Reset your %store_name password","Återställ ditt %store_name lösenord",module,Magento_Customer
 "There was recently a request to change the password for your account.","There was recently a request to change the password for your account.",module,Magento_Customer
-"If you requested this change, set a new password here:","If you requested this change, set a new password here:",module,Magento_Customer
-"If you did not make this request, you can ignore this email and your password will remain the same.","If you did not make this request, you can ignore this email and your password will remain the same.",module,Magento_Customer
+"If you requested this change, set a new password here:","Om du begärde denna ändring skapar du ett nytt lösenord här:",module,Magento_Customer
+"If you did not make this request, you can ignore this email and your password will remain the same.","Om du inte gjorde denna begäran kan du ignorera det här e-postmeddelandet och ditt lösenord förblir detsamma.",module,Magento_Customer
 "Your %store_name password has been changed","Ditt %store_name lösenord har ändrats",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: lösenord.",module,Magento_Customer
 "Checkout as a new customer","Gå till Kassan som en ny kund",module,Magento_Customer
@@ -8332,7 +8332,7 @@ You can set a new expiration date if you wish.",module,Magento_NegotiableQuote
 "Update Catalog Prices","Update Catalog Prices",module,Magento_NegotiableQuote
 "If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.","If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.",module,Magento_NegotiableQuote
 "No ordered items","Inga beställda artiklar",module,Magento_NegotiableQuote
-"Please enter a number greater than 0 in this field","Please enter a number greater than 0 in this field",module,Magento_NegotiableQuote
+"Please enter a number greater than 0 in this field.","Vänligen välj minst 1",module,Magento_NegotiableQuote
 "This is a required field.","Detta är ett obligatoriskt fält.",module,Magento_NegotiableQuote
 "Please enter a non-decimal number please","Please enter a non-decimal number please",module,Magento_NegotiableQuote
 "This is a required option.","Detta är ett obligatoriskt alternativ.",module,Magento_NegotiableQuote
@@ -9634,7 +9634,7 @@ or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" 
 """%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Quote
 "The item couldn't be removed from the quote.","The item couldn't be removed from the quote.",module,Magento_Quote
 "The qty value is required to update quote item.","The qty value is required to update quote item.",module,Magento_Quote
-"Minimum order amount is %1","Minimum order amount is %1",module,Magento_Quote
+"Minimum order amount is %1","Minsta ordervärde är %1",module,Magento_Checkout
 "Invalid customer id %1","Invalid customer id %1",module,Magento_Quote
 "Invalid customer address id %1","Invalid customer address id %1",module,Magento_Quote
 "Invalid address id %1","Invalid address id %1",module,Magento_Quote
@@ -10102,7 +10102,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "We can't update your requisition list right now.","We can't update your requisition list right now.",module,Magento_RequisitionList
 "We can't add the item to the Requisition List right now: %1.","We can't add the item to the Requisition List right now: %1.",module,Magento_RequisitionList
 "We couldn't find the product you requested to add to your requisition list.","We couldn't find the product you requested to add to your requisition list.",module,Magento_RequisitionList
-"You added %1 item(s) to your shopping cart.","You added %1 item(s) to your shopping cart.",module,Magento_RequisitionList
+"You added %1 item(s) to your shopping cart.","Du har lagt till %1 i din kundvagn.",module,Magento_RequisitionList
 "Something went wrong.","Något gick fel.",module,Magento_RequisitionList
 "Invalid request, missing parameter list_id","Invalid request, missing parameter list_id",module,Magento_RequisitionList
 "Invalid request, please try again.","Invalid request, please try again.",module,Magento_RequisitionList
@@ -10129,7 +10129,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Product %1 has been added to the requisition list %2.","Product %1 has been added to the requisition list %2.",module,Magento_RequisitionList
 "Options were updated. Please review available configurations.","Options were updated. Please review available configurations.",module,Magento_RequisitionList
 "The SKU is out of stock.","The SKU is out of stock.",module,Magento_RequisitionList
-"The requested qty is not available","The requested qty is not available",module,Magento_RequisitionList
+"The requested qty is not available","Önskat antal finns ej tillgängligt i lager",module,Magento_CatalogInventory
 "Could not save Requisition List. Maximum number of requisition lists was exceeded.","Could not save Requisition List. Maximum number of requisition lists was exceeded.",module,Magento_RequisitionList
 "Could not save requisition list. Invalid data provided","Could not save requisition list. Invalid data provided",module,Magento_RequisitionList
 "Exception","Exception",module,Magento_RequisitionList
@@ -11622,6 +11622,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Your %store_name order confirmation","Beställningsbekräftelse från %store_name",module,Magento_Sales
 "%customer_name,","%customer_name,",module,Magento_Sales
 "Once your package ships we will send you a tracking number.","När din order är behandlad och skickad kommer vi skicka dig ett trackning nummer som du kan spåra din beställning med.",module,Magento_Sales
+"Once your order is processed, you will receive an order confirmation with information about the delivery date.","Så snart din order är behandlad så kommer du att få en orderbekräftelse med besked om leveransdatum.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Din beställning <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Lagd <span class=""no-link"">%created_at</span>",module,Magento_Sales
 "Once your package ships we will send an email with a link to track your order.","När ditt paket levereras skickar vi ett mail med en länk till spåra din beställning.",module,Magento_Sales
@@ -13950,7 +13951,7 @@ We back our approvals with 100% chargeback protection, reimbursing you the full 
 "Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.","Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.",module,Magento_Ui
 "Please enter a valid $ amount. For example $100.00.","Please enter a valid $ amount. For example $100.00.",module,Magento_Ui
 "Please enter a number 0 or greater in this field.","Skriv in en siffra, 0 eller större i detta fält.",module,Magento_Ui
-"Please enter a number greater than 0 in this field.","Please enter a number greater than 0 in this field.",module,Magento_Ui
+"Please enter a number greater than 0 in this field","Vänligen välj minst 1",module,Magento_Ui
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).",module,Magento_Ui
 "Please enter a valid number in this field.","Vänligen ange ett giltigt nummer i fältet.",module,Magento_Ui
 "Please enter a valid integer in this field.","Please enter a valid integer in this field.",module,Magento_Ui
@@ -13972,10 +13973,10 @@ We back our approvals with 100% chargeback protection, reimbursing you the full 
 "This is a required field.","Detta är ett obligatoriskt fält.",module,Magento_Ui
 "Please enter positive number in this field.","Please enter positive number in this field.",module,Magento_Ui
 "Please enter a valid value, ex: 10,20,30","Please enter a valid value, ex: 10,20,30",module,Magento_Ui
-"Please enter a quantity greater than 0.","Please enter a quantity greater than 0.",module,Magento_Ui
+"Please enter a quantity greater than 0.","Vänligen välj minst 1 st.",module,Magento_Ui
 "The fewest you may purchase is %1.","The fewest you may purchase is %1.",module,Magento_Ui
 "The maximum you may purchase is %1.","The maximum you may purchase is %1.",module,Magento_Ui
-"You can buy this product only in quantities of %1 at a time.","You can buy this product only in quantities of %1 at a time.",module,Magento_Ui
+"You can buy this product only in quantities of %1 at a time.","Du kan endast köpa artikeln i intervaller av %1.",module,Magento_Ui
 "We don't recognize or support this file extension type.","We don't recognize or support this file extension type.",module,Magento_Ui
 "File you are trying to upload exceeds maximum file size limit.","File you are trying to upload exceeds maximum file size limit.",module,Magento_Ui
 "Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.","Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.",module,Magento_Ui
@@ -14355,9 +14356,9 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Thanks,","Thanks,",module,Magento_User
 "Password Reset Confirmation for %name","Password Reset Confirmation for %name",module,Magento_User
 "%name,","%name",module,Magento_User
-"There was recently a request to change the password for your account.","There was recently a request to change the password for your account.",module,Magento_User
+"There was recently a request to change the password for your account.","En begäran om att ändra lösenordet för ditt konto gjordes nyligen vår webbplats.",module,Magento_User
 "If you requested this change, reset your password here:","If you requested this change, reset your password here:",module,Magento_User
-"If you did not make this request, you can ignore this email and your password will remain the same.","If you did not make this request, you can ignore this email and your password will remain the same.",module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.","Om du inte gjorde denna begäran kan du ignorera det här e-postmeddelandet och ditt lösenord förblir detsamma.",module,Magento_User
 "Thank you,","Tack,",module,Magento_User
 "New %changes for %user_name","New %changes for %user_name",module,Magento_User
 "We have received a request to change the following information associated with your account at %store_name: %changes.","We have received a request to change the following information associated with your account at %store_name: %changes.",module,Magento_User
@@ -15254,7 +15255,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please enter a valid zip code (Ex: 90602 or 90602-1234).","Please enter a valid zip code (Ex: 90602 or 90602-1234).",lib,web
 "Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.","Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.",lib,web
 "Please enter a valid $ amount. For example $100.00.","Please enter a valid $ amount. For example $100.00.",lib,web
-"Please enter a number 0 or greater in this field.","Skriv in en siffra, 0 eller större i detta fält.",lib,web
+"Please enter a number 0 or greater in this field.","Vänligen välj 0 eller fler.",lib,web
 "Please enter a number greater than 0 in this field.","Please enter a number greater than 0 in this field.",lib,web
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).",lib,web
 "Please enter a valid number in this field.","Vänligen ange ett giltigt nummer i fältet.",lib,web
@@ -15291,10 +15292,10 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please enter a valid number.","Please enter a valid number.",lib,web
 "This is required field","This is required field",lib,web
 "Admin is a required field in each row.","Admin is a required field in each row.",lib,web
-"Please enter a quantity greater than 0.","Please enter a quantity greater than 0.",lib,web
+"Please enter a quantity greater than 0.","Vänligen välj minst 1 st.",lib,web
 "The fewest you may purchase is %1.","The fewest you may purchase is %1.",lib,web
 "The maximum you may purchase is %1.","The maximum you may purchase is %1.",lib,web
-"You can buy this product only in quantities of %1 at a time.","You can buy this product only in quantities of %1 at a time.",lib,web
+"You can buy this product only in quantities of %1 at a time.","Du kan endast köpa artikeln i intervaller av %1.",lib,web
 "The password can't be the same as the email address. Create a new password and try again.","The password can't be the same as the email address. Create a new password and try again.",lib,web
 "Please fix this field.","Please fix this field.",lib,web
 "Please enter a valid email address.","Vänligen ange en giltig e-postadress.",lib,web
