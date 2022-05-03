@@ -4461,6 +4461,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Create Order","Skapa Order",module,Magento_Customer
 "Save Customer","Spara kund",module,Magento_Customer
 "Delete Customer","Radera kund",module,Magento_Customer
+"Show Password", "Visa lösenord",module,Magento_Customer
 "Reset Password","Återställ lösenord",module,Magento_Customer
 "Are you sure you want to revoke the customer's tokens?","Are you sure you want to revoke the customer's tokens?",module,Magento_Customer
 "Force Sign-In","Tvinga inloggning",module,Magento_Customer
@@ -4480,6 +4481,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Total","Summa",module,Magento_Customer
 "Action","Åtgärd",module,Magento_Customer
 "Configure","Konfigurera",module,Magento_Customer
+"Customer Login","Kundinloggning",module,Magento_Customer
 "Shopping Cart from %1","Kundvagn från %1",module,Magento_Customer
 "Newsletter","Nyhetsbrev",module,Magento_Customer
 "Newsletter Information","Nyhetsbrevsinformation",module,Magento_Customer
@@ -7587,7 +7589,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "System Configuration","System Configuration",module,Magento_Logging
 "Catalog Price Rules","Catalog Price Rules",module,Magento_Logging
 "Cart Price Rules","Varukorg pris regler",module,Magento_Logging
-"Admin My Account","Admin My Account",module,Magento_Logging
+"Admin My Account","Mitt adminkonto",module,Magento_Logging
 "Newsletter Queue","Newsletter Queue",module,Magento_Logging
 "Newsletter Templates","Nyhetsbrev mallar",module,Magento_Logging
 "Newsletter Subscribers","Newsletter Subscribers",module,Magento_Logging
@@ -8317,14 +8319,14 @@ You can set a new expiration date if you wish.",module,Magento_NegotiableQuote
 "Show All Quotes","Show All Quotes",module,Magento_NegotiableQuote
 "Show My Quotes","Show My Quotes",module,Magento_NegotiableQuote
 "Edit","Edit",module,Magento_NegotiableQuote
-"Ship Here","Ship Here",module,Magento_NegotiableQuote
+"Ship Here","Leverera Hit",module,Magento_NegotiableQuote
 "The shipping address specified on the quote was deleted from your Address Book.","The shipping address specified on the quote was deleted from your Address Book.",module,Magento_NegotiableQuote
 "To proceed with the checkout, go ","To proceed with the checkout, go ",module,Magento_NegotiableQuote
 "back to the quote","back to the quote",module,Magento_NegotiableQuote
 " and update the shipping address."," and update the shipping address.",module,Magento_NegotiableQuote
 "The shipping address specified on the quote was deleted from your Address Book. ","The shipping address specified on the quote was deleted from your Address Book. ",module,Magento_NegotiableQuote
 "To proceed with the checkout, update the shipping address.","To proceed with the checkout, update the shipping address.",module,Magento_NegotiableQuote
-"New Address","New Address",module,Magento_NegotiableQuote
+"New Address","Lägg till ny adress",module,Magento_NegotiableQuote
 "Your shipping address is locked. To change your shipping address, go ","Your shipping address is locked. To change your shipping address, go ",module,Magento_NegotiableQuote
 "Shipping Methods","Shipping Methods",module,Magento_NegotiableQuote
 "Next","Next",module,Magento_NegotiableQuote
@@ -14933,7 +14935,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Display a Link to Loading a Spreadsheet","Visa en länk till laddar ett kalkylblad",module,Magento_Widget
 "Defines whether a link to My Account","Defines whether a link to My Account",module,Magento_Widget
 "Link Text","Länktext",module,Magento_Widget
-"The text of the link to the My Account &gt; Order by SKU page","Texten i länken till Mittkonto &gt; beställning av SKU",module,Magento_Widget
+"The text of the link to the My Account &gt; Order by SKU page","Texten i länken till Mitt konto &gt; beställning av SKU",module,Magento_Widget
 "Load a list of SKUs","Läsa in en lista över SKU",module,Magento_Widget
 "Product","Produkt",module,Magento_Widget
 "Select Product...","Välj produkt...",module,Magento_Widget
@@ -15138,7 +15140,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Transaction has been canceled","Transaction has been canceled",module,Magento_Worldpay
 "Transaction has been declined","Transaction has been declined",module,Magento_Worldpay
 "The response type is incorrect. Verify the type and try again.","The response type is incorrect. Verify the type and try again.",module,Magento_Worldpay
-"My Account","My Account",theme,frontend/Magento/blank
+"My Account","Mitt konto",theme,frontend/Magento/blank
 "Now Shopping by","Handlar nu enligt",theme,frontend/Magento/luma
 "Previous","Föregående",theme,frontend/Magento/luma
 "Remove","Ta bort",theme,frontend/Magento/luma
