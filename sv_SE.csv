@@ -3104,7 +3104,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "of","of",module,Magento_Checkout
 "Items in Cart","Artiklar i kundvagnen",module,Magento_Checkout
 "Item in Cart","Artiklar i Kundvagn",module,Magento_Checkout
-"Recently added item(s)","Recently added item(s)",module,Magento_Checkout
+"Recently added item(s)","Nyligen tillagda produkter",module,Magento_Checkout
 "View and Edit Cart","Visa och Ändra Varukorgen",module,Magento_Checkout
 "See Details","Se detaljer",module,Magento_Checkout
 "Options Details","Detaljer för Alternativ",module,Magento_Checkout
