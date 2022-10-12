@@ -4806,9 +4806,9 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Street Address %1","Gatuadress %1",module,Magento_Customer
 "City","Stad",module,Magento_Customer
 "It's a default billing address.","It's a default billing address.",module,Magento_Customer
-"Use as my default billing address","Use as my default billing address",module,Magento_Customer
+"Use as my default billing address","Använd som faktureringsadress",module,Magento_Customer
 "It's a default shipping address.","It's a default shipping address.",module,Magento_Customer
-"Use as my default shipping address","Use as my default shipping address",module,Magento_Customer
+"Use as my default shipping address","Använd som leveransadress",module,Magento_Customer
 "Save Address","Spara Adress",module,Magento_Customer
 "Go back","Gå tillbaka",module,Magento_Customer
 "Additional Address Entries","Ytterligare adressfält",module,Magento_Customer
