@@ -15320,3 +15320,4 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please enter a date from the past.","Ange ett datum i det förflutna.",lib,web
 "custom.definition","custom.definition",lib,web
 "component.behaviours","component.behaviours",lib,web
+"Read More »","Läs hela"
